@@ -1,0 +1,25 @@
+// routes/quizRoutes.js
+const express = require("express");
+const router = express.Router();
+
+const { protect } = require("../middleware/authMiddleware");
+const {
+  addQuestion,
+  getQuestions,
+  submitQuiz,
+  getProgress,
+} = require("../controllers/quizController");
+
+// Add a question (you'll use Postman, not from app)
+router.post("/question", protect, addQuestion);
+
+// Get questions for subject & level (for LearnLoop quiz screen)
+router.get("/questions", protect, getQuestions);
+
+// Submit quiz
+router.post("/submit", protect, submitQuiz);
+
+// Get progress summary
+router.get("/progress", protect, getProgress);
+
+module.exports = router;
