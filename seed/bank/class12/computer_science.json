@@ -1,0 +1,702 @@
+[
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 1",
+    "questionText": "Computer Science question 1 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 1",
+    "questionText": "Computer Science question 2 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 1",
+    "questionText": "Computer Science question 3 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 1",
+    "questionText": "Computer Science question 4 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 1",
+    "questionText": "Computer Science question 5 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 1",
+    "questionText": "Computer Science question 6 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 1",
+    "questionText": "Computer Science question 7 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 1",
+    "questionText": "Computer Science question 8 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 1",
+    "questionText": "Computer Science question 9 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 1",
+    "questionText": "Computer Science question 10 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 2",
+    "questionText": "Computer Science question 11 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 2",
+    "questionText": "Computer Science question 12 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 2",
+    "questionText": "Computer Science question 13 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 2",
+    "questionText": "Computer Science question 14 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 2",
+    "questionText": "Computer Science question 15 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 2",
+    "questionText": "Computer Science question 16 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 2",
+    "questionText": "Computer Science question 17 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 2",
+    "questionText": "Computer Science question 18 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 2",
+    "questionText": "Computer Science question 19 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 2",
+    "questionText": "Computer Science question 20 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 3",
+    "questionText": "Computer Science question 21 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 3",
+    "questionText": "Computer Science question 22 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 3",
+    "questionText": "Computer Science question 23 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 3",
+    "questionText": "Computer Science question 24 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 3",
+    "questionText": "Computer Science question 25 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 3",
+    "questionText": "Computer Science question 26 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 3",
+    "questionText": "Computer Science question 27 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 3",
+    "questionText": "Computer Science question 28 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 3",
+    "questionText": "Computer Science question 29 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 3",
+    "questionText": "Computer Science question 30 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 4",
+    "questionText": "Computer Science question 31 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 4",
+    "questionText": "Computer Science question 32 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 4",
+    "questionText": "Computer Science question 33 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 4",
+    "questionText": "Computer Science question 34 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 4",
+    "questionText": "Computer Science question 35 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 4",
+    "questionText": "Computer Science question 36 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 4",
+    "questionText": "Computer Science question 37 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 4",
+    "questionText": "Computer Science question 38 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 4",
+    "questionText": "Computer Science question 39 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 4",
+    "questionText": "Computer Science question 40 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 5",
+    "questionText": "Computer Science question 41 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 5",
+    "questionText": "Computer Science question 42 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 5",
+    "questionText": "Computer Science question 43 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 5",
+    "questionText": "Computer Science question 44 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 5",
+    "questionText": "Computer Science question 45 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 5",
+    "questionText": "Computer Science question 46 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 5",
+    "questionText": "Computer Science question 47 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 5",
+    "questionText": "Computer Science question 48 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 5",
+    "questionText": "Computer Science question 49 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Computer Science",
+    "topic": "Topic 5",
+    "questionText": "Computer Science question 50 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  }
+]

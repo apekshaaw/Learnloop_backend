@@ -1,0 +1,702 @@
+[
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "questionText": "DNA replication is:",
+    "options": [
+      "Conservative",
+      "Semi-conservative",
+      "Dispersive",
+      "Random"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "questionText": "RNA has which sugar?",
+    "options": [
+      "Ribose",
+      "Deoxyribose",
+      "Glucose",
+      "Fructose"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "questionText": "Codon consists of:",
+    "options": [
+      "2 nucleotides",
+      "3 nucleotides",
+      "4 nucleotides",
+      "5 nucleotides"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "questionText": "Translation occurs in:",
+    "options": [
+      "Nucleus",
+      "Ribosome",
+      "Mitochondria",
+      "Golgi body"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "questionText": "Mutation is:",
+    "options": [
+      "Permanent change in DNA",
+      "Temporary change",
+      "No change",
+      "Replication"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "questionText": "Natural selection was proposed by:",
+    "options": [
+      "Mendel",
+      "Darwin",
+      "Lamarck",
+      "Wallace"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "questionText": "Fossils are evidence of:",
+    "options": [
+      "Present life",
+      "Past life",
+      "Future life",
+      "No life"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "questionText": "Analogous organs show:",
+    "options": [
+      "Divergent evolution",
+      "Convergent evolution",
+      "No evolution",
+      "Reverse evolution"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Human Reproduction",
+    "questionText": "Fertilization occurs in:",
+    "options": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Vagina"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Human Reproduction",
+    "questionText": "Gestation period in humans is:",
+    "options": [
+      "7 months",
+      "9 months",
+      "11 months",
+      "12 months"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Human Reproduction",
+    "questionText": "Placenta connects:",
+    "options": [
+      "Mother to father",
+      "Fetus to mother",
+      "Baby to environment",
+      "Ovary to uterus"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Reproduction",
+    "questionText": "Asexual reproduction produces:",
+    "options": [
+      "Genetically different offspring",
+      "Genetically identical offspring",
+      "No offspring",
+      "Mutated offspring"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "questionText": "PCR is used for:",
+    "options": [
+      "DNA replication",
+      "DNA amplification",
+      "DNA destruction",
+      "Protein synthesis"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "questionText": "Recombinant DNA technology involves:",
+    "options": [
+      "Only one organism",
+      "Combining DNA from different sources",
+      "Destroying DNA",
+      "No DNA"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "questionText": "Restriction enzymes cut DNA at:",
+    "options": [
+      "Random sites",
+      "Specific sequences",
+      "Everywhere",
+      "Never cut"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "questionText": "Plasmids are found in:",
+    "options": [
+      "Nucleus",
+      "Bacteria",
+      "Virus",
+      "Fungi"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Immunology",
+    "questionText": "Antibodies are produced by:",
+    "options": [
+      "Red blood cells",
+      "White blood cells",
+      "Platelets",
+      "Plasma"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Immunology",
+    "questionText": "Vaccine provides:",
+    "options": [
+      "Passive immunity",
+      "Active immunity",
+      "No immunity",
+      "Temporary immunity"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Immunology",
+    "questionText": "AIDS is caused by:",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Fungi",
+      "Protozoa"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Microbiology",
+    "questionText": "Bacteria are:",
+    "options": [
+      "Eukaryotic",
+      "Prokaryotic",
+      "Multicellular",
+      "Non-living"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Microbiology",
+    "questionText": "Antibiotics kill:",
+    "options": [
+      "Viruses",
+      "Bacteria",
+      "Both",
+      "Neither"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "questionText": "Ecosystem includes:",
+    "options": [
+      "Only plants",
+      "Only animals",
+      "Biotic and abiotic factors",
+      "Only soil"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "questionText": "Primary succession occurs on:",
+    "options": [
+      "Bare rock",
+      "Existing soil",
+      "Forest",
+      "Lake"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "questionText": "Trophic level represents:",
+    "options": [
+      "Feeding level",
+      "Species diversity",
+      "Population size",
+      "Habitat"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Environment",
+    "questionText": "Eutrophication is caused by:",
+    "options": [
+      "Oxygen",
+      "Nutrients",
+      "Salt",
+      "Sand"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Environment",
+    "questionText": "Ozone layer is in:",
+    "options": [
+      "Troposphere",
+      "Stratosphere",
+      "Mesosphere",
+      "Thermosphere"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Biodiversity",
+    "questionText": "Biodiversity means:",
+    "options": [
+      "One species",
+      "Variety of life",
+      "No species",
+      "Same species"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Biodiversity",
+    "questionText": "Hotspot is an area with:",
+    "options": [
+      "High biodiversity and threats",
+      "Low biodiversity",
+      "No life",
+      "Only plants"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Conservation",
+    "questionText": "Ex-situ conservation means:",
+    "options": [
+      "In natural habitat",
+      "Outside natural habitat",
+      "No conservation",
+      "Partial conservation"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Human Health",
+    "questionText": "Diabetes is due to:",
+    "options": [
+      "Excess insulin",
+      "Insulin deficiency",
+      "Excess glucose",
+      "No sugar"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Human Health",
+    "questionText": "Cancer cells are:",
+    "options": [
+      "Normal",
+      "Uncontrolled growth",
+      "Dead",
+      "Beneficial"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Nervous System",
+    "questionText": "Reflex action is controlled by:",
+    "options": [
+      "Brain",
+      "Spinal cord",
+      "Heart",
+      "Liver"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Hormones",
+    "questionText": "Growth hormone is secreted by:",
+    "options": [
+      "Thyroid",
+      "Pituitary",
+      "Adrenal",
+      "Pancreas"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Hormones",
+    "questionText": "Adrenaline is released during:",
+    "options": [
+      "Sleep",
+      "Stress",
+      "Digestion",
+      "Rest"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Enzymes",
+    "questionText": "Enzymes are:",
+    "options": [
+      "Carbohydrates",
+      "Proteins",
+      "Lipids",
+      "Nucleic acids"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Enzymes",
+    "questionText": "Optimum pH for pepsin is:",
+    "options": [
+      "Acidic",
+      "Basic",
+      "Neutral",
+      "Variable"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Respiration",
+    "questionText": "Aerobic respiration requires:",
+    "options": [
+      "Oxygen",
+      "No oxygen",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "questionText": "C4 plants have:",
+    "options": [
+      "Higher efficiency",
+      "Lower efficiency",
+      "No photosynthesis",
+      "Same as C3"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "questionText": "Auxin promotes:",
+    "options": [
+      "Root inhibition",
+      "Stem growth",
+      "Leaf fall",
+      "Flowering"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "questionText": "Gibberellins promote:",
+    "options": [
+      "Stem elongation",
+      "Root growth",
+      "Leaf senescence",
+      "Fruit ripening"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Animal Physiology",
+    "questionText": "Hemoglobin transports:",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Animal Physiology",
+    "questionText": "Nephron filters:",
+    "options": [
+      "Air",
+      "Blood",
+      "Food",
+      "Water"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Molecular Biology",
+    "questionText": "Gene expression involves:",
+    "options": [
+      "Transcription only",
+      "Translation only",
+      "Both transcription and translation",
+      "Neither"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Molecular Biology",
+    "questionText": "Operon concept was given for:",
+    "options": [
+      "Eukaryotes",
+      "Prokaryotes",
+      "Viruses",
+      "Fungi"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Population Biology",
+    "questionText": "Population density is:",
+    "options": [
+      "Number per unit area",
+      "Total population",
+      "Birth rate",
+      "Death rate"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Population Biology",
+    "questionText": "Carrying capacity is:",
+    "options": [
+      "Minimum population",
+      "Maximum sustainable population",
+      "Average population",
+      "Zero population"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Bioinformatics",
+    "questionText": "Genome sequencing determines:",
+    "options": [
+      "Protein structure",
+      "DNA sequence",
+      "Cell structure",
+      "Tissue type"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Stem Cells",
+    "questionText": "Stem cells can:",
+    "options": [
+      "Only divide",
+      "Differentiate into various cells",
+      "Die immediately",
+      "Never divide"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "Cloning",
+    "questionText": "Dolly the sheep was:",
+    "options": [
+      "First cloned mammal",
+      "Natural birth",
+      "Extinct species",
+      "Hybrid"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Biology",
+    "topic": "GMO",
+    "questionText": "GMO stands for:",
+    "options": [
+      "Genetically Modified Organism",
+      "Generally Modified Organism",
+      "Genetically Mutated Organism",
+      "General Mutation Organism"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  }
+]

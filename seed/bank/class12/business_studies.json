@@ -1,0 +1,702 @@
+[
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 1",
+    "questionText": "Business Studies question 1 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 1",
+    "questionText": "Business Studies question 2 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 1",
+    "questionText": "Business Studies question 3 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 1",
+    "questionText": "Business Studies question 4 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 1",
+    "questionText": "Business Studies question 5 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 1",
+    "questionText": "Business Studies question 6 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 1",
+    "questionText": "Business Studies question 7 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 1",
+    "questionText": "Business Studies question 8 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 1",
+    "questionText": "Business Studies question 9 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 1",
+    "questionText": "Business Studies question 10 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 2",
+    "questionText": "Business Studies question 11 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 2",
+    "questionText": "Business Studies question 12 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 2",
+    "questionText": "Business Studies question 13 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 2",
+    "questionText": "Business Studies question 14 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 2",
+    "questionText": "Business Studies question 15 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 2",
+    "questionText": "Business Studies question 16 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 2",
+    "questionText": "Business Studies question 17 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 2",
+    "questionText": "Business Studies question 18 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 2",
+    "questionText": "Business Studies question 19 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 2",
+    "questionText": "Business Studies question 20 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 3",
+    "questionText": "Business Studies question 21 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 3",
+    "questionText": "Business Studies question 22 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 3",
+    "questionText": "Business Studies question 23 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 3",
+    "questionText": "Business Studies question 24 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 3",
+    "questionText": "Business Studies question 25 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 3",
+    "questionText": "Business Studies question 26 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 3",
+    "questionText": "Business Studies question 27 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 3",
+    "questionText": "Business Studies question 28 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 3",
+    "questionText": "Business Studies question 29 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 3",
+    "questionText": "Business Studies question 30 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 4",
+    "questionText": "Business Studies question 31 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 4",
+    "questionText": "Business Studies question 32 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 4",
+    "questionText": "Business Studies question 33 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 4",
+    "questionText": "Business Studies question 34 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 4",
+    "questionText": "Business Studies question 35 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 4",
+    "questionText": "Business Studies question 36 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 4",
+    "questionText": "Business Studies question 37 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 4",
+    "questionText": "Business Studies question 38 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 4",
+    "questionText": "Business Studies question 39 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 4",
+    "questionText": "Business Studies question 40 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 5",
+    "questionText": "Business Studies question 41 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 5",
+    "questionText": "Business Studies question 42 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 5",
+    "questionText": "Business Studies question 43 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 5",
+    "questionText": "Business Studies question 44 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 5",
+    "questionText": "Business Studies question 45 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 5",
+    "questionText": "Business Studies question 46 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 5",
+    "questionText": "Business Studies question 47 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 5",
+    "questionText": "Business Studies question 48 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 5",
+    "questionText": "Business Studies question 49 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Business Studies",
+    "topic": "Topic 5",
+    "questionText": "Business Studies question 50 for Class 12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  }
+]

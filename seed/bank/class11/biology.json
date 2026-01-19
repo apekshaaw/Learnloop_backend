@@ -1,0 +1,702 @@
+[
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Botany - Biomolecules",
+    "questionText": "Which biomolecule is the primary source of energy?",
+    "options": [
+      "Proteins",
+      "Carbohydrates",
+      "Lipids",
+      "Nucleic acids"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Botany - Cell",
+    "questionText": "The powerhouse of the cell is:",
+    "options": [
+      "Nucleus",
+      "Ribosome",
+      "Mitochondria",
+      "Golgi body"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Botany - Cell Division",
+    "questionText": "Mitosis results in:",
+    "options": [
+      "Two diploid cells",
+      "Four haploid cells",
+      "Two haploid cells",
+      "Four diploid cells"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Botany - Plant Anatomy",
+    "questionText": "Xylem transports:",
+    "options": [
+      "Food",
+      "Water and minerals",
+      "Hormones",
+      "Oxygen"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Botany - Plant Physiology",
+    "questionText": "Photosynthesis occurs in:",
+    "options": [
+      "Mitochondria",
+      "Chloroplast",
+      "Nucleus",
+      "Ribosome"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Botany - Plant Taxonomy",
+    "questionText": "Binomial nomenclature was introduced by:",
+    "options": [
+      "Darwin",
+      "Linnaeus",
+      "Mendel",
+      "Lamarck"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Botany - Algae",
+    "questionText": "Spirogyra belongs to:",
+    "options": [
+      "Red algae",
+      "Brown algae",
+      "Green algae",
+      "Blue-green algae"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Botany - Fungi",
+    "questionText": "Mushroom is a:",
+    "options": [
+      "Algae",
+      "Fungus",
+      "Lichen",
+      "Moss"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Botany - Bryophytes",
+    "questionText": "Bryophytes are known as:",
+    "options": [
+      "Amphibians of plant kingdom",
+      "Reptiles of plant kingdom",
+      "Birds of plant kingdom",
+      "Mammals of plant kingdom"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Botany - Pteridophytes",
+    "questionText": "In ferns, the dominant generation is:",
+    "options": [
+      "Gametophyte",
+      "Sporophyte",
+      "Both equal",
+      "None"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Botany - Gymnosperms",
+    "questionText": "Seeds in gymnosperms are:",
+    "options": [
+      "Enclosed in fruit",
+      "Naked",
+      "Underground",
+      "Water dispersed"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Botany - Angiosperms",
+    "questionText": "Angiosperms are characterized by:",
+    "options": [
+      "Naked seeds",
+      "Covered seeds",
+      "No seeds",
+      "Spores"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Botany - Flower",
+    "questionText": "The male reproductive part of flower is:",
+    "options": [
+      "Carpel",
+      "Stamen",
+      "Sepal",
+      "Petal"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Botany - Fruit",
+    "questionText": "A fruit develops from:",
+    "options": [
+      "Ovule",
+      "Ovary",
+      "Stamen",
+      "Sepal"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Zoology - Animal Tissue",
+    "questionText": "Epithelial tissue covers:",
+    "options": [
+      "Muscles",
+      "Body surfaces",
+      "Bones",
+      "Nerves"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Zoology - Protozoa",
+    "questionText": "Amoeba moves by:",
+    "options": [
+      "Cilia",
+      "Flagella",
+      "Pseudopodia",
+      "Setae"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Zoology - Porifera",
+    "questionText": "Sponges belong to phylum:",
+    "options": [
+      "Coelenterata",
+      "Porifera",
+      "Platyhelminthes",
+      "Annelida"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Zoology - Coelenterata",
+    "questionText": "Hydra has which type of symmetry?",
+    "options": [
+      "Bilateral",
+      "Radial",
+      "Asymmetrical",
+      "Spherical"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Zoology - Platyhelminthes",
+    "questionText": "Flatworms are:",
+    "options": [
+      "Acoelomate",
+      "Pseudocoelomate",
+      "Coelomate",
+      "Hemocoelomate"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Zoology - Nematoda",
+    "questionText": "Roundworms have:",
+    "options": [
+      "No body cavity",
+      "Pseudocoelom",
+      "True coelom",
+      "Hemocoel"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Zoology - Annelida",
+    "questionText": "Earthworm belongs to:",
+    "options": [
+      "Nematoda",
+      "Annelida",
+      "Arthropoda",
+      "Mollusca"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Zoology - Arthropoda",
+    "questionText": "The largest phylum in animal kingdom is:",
+    "options": [
+      "Mollusca",
+      "Arthropoda",
+      "Chordata",
+      "Annelida"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Zoology - Mollusca",
+    "questionText": "Snails belong to:",
+    "options": [
+      "Arthropoda",
+      "Mollusca",
+      "Echinodermata",
+      "Chordata"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Zoology - Echinodermata",
+    "questionText": "Starfish has:",
+    "options": [
+      "Bilateral symmetry",
+      "Radial symmetry",
+      "No symmetry",
+      "Spherical symmetry"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Zoology - Chordata",
+    "questionText": "All chordates have:",
+    "options": [
+      "Backbone",
+      "Notochord at some stage",
+      "Scales",
+      "Wings"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Human Biology - Digestive System",
+    "questionText": "Digestion of proteins begins in:",
+    "options": [
+      "Mouth",
+      "Stomach",
+      "Small intestine",
+      "Large intestine"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Human Biology - Respiratory System",
+    "questionText": "Gas exchange in lungs occurs in:",
+    "options": [
+      "Bronchi",
+      "Trachea",
+      "Alveoli",
+      "Bronchioles"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Human Biology - Circulatory System",
+    "questionText": "The human heart has:",
+    "options": [
+      "Two chambers",
+      "Three chambers",
+      "Four chambers",
+      "Five chambers"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Human Biology - Blood",
+    "questionText": "Red blood cells are produced in:",
+    "options": [
+      "Liver",
+      "Spleen",
+      "Bone marrow",
+      "Kidney"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Human Biology - Excretory System",
+    "questionText": "The functional unit of kidney is:",
+    "options": [
+      "Neuron",
+      "Nephron",
+      "Alveolus",
+      "Villus"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Human Biology - Nervous System",
+    "questionText": "The basic unit of nervous system is:",
+    "options": [
+      "Nephron",
+      "Neuron",
+      "Axon",
+      "Dendrite"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Human Biology - Endocrine System",
+    "questionText": "Insulin is secreted by:",
+    "options": [
+      "Liver",
+      "Pancreas",
+      "Kidney",
+      "Thyroid"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Human Biology - Reproductive System",
+    "questionText": "Fertilization in humans normally occurs in:",
+    "options": [
+      "Ovary",
+      "Uterus",
+      "Fallopian tube",
+      "Cervix"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Genetics - Mendel",
+    "questionText": "Mendel worked on:",
+    "options": [
+      "Drosophila",
+      "Pea plant",
+      "Mouse",
+      "Human"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Genetics - Laws",
+    "questionText": "Law of segregation is Mendel's:",
+    "options": [
+      "First law",
+      "Second law",
+      "Third law",
+      "Fourth law"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Genetics - Chromosome",
+    "questionText": "Normal human somatic cells have:",
+    "options": [
+      "23 chromosomes",
+      "46 chromosomes",
+      "92 chromosomes",
+      "12 chromosomes"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Genetics - DNA",
+    "questionText": "DNA is a:",
+    "options": [
+      "Single-stranded molecule",
+      "Double-stranded molecule",
+      "Triple-stranded molecule",
+      "Circular molecule"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "questionText": "Theory of natural selection was proposed by:",
+    "options": [
+      "Mendel",
+      "Lamarck",
+      "Darwin",
+      "Watson"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Evolution",
+    "questionText": "Homologous organs indicate:",
+    "options": [
+      "Convergent evolution",
+      "Divergent evolution",
+      "Parallel evolution",
+      "Co-evolution"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "questionText": "Producers in an ecosystem are:",
+    "options": [
+      "Herbivores",
+      "Carnivores",
+      "Green plants",
+      "Decomposers"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "questionText": "The pyramid of energy is always:",
+    "options": [
+      "Inverted",
+      "Upright",
+      "Spindle-shaped",
+      "Irregular"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Ecology - Food Chain",
+    "questionText": "In a food chain, energy flows from:",
+    "options": [
+      "Consumers to producers",
+      "Producers to consumers",
+      "Decomposers to producers",
+      "Random direction"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Ecology - Ecosystem",
+    "questionText": "An ecosystem consists of:",
+    "options": [
+      "Only living organisms",
+      "Only non-living factors",
+      "Both living and non-living factors",
+      "Only plants"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Ecology - Biogeochemical Cycles",
+    "questionText": "Nitrogen fixation is carried out by:",
+    "options": [
+      "Plants",
+      "Animals",
+      "Bacteria",
+      "Fungi"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Environment",
+    "questionText": "Greenhouse effect is caused by:",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Hydrogen"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Environment - Pollution",
+    "questionText": "Ozone layer depletion is caused by:",
+    "options": [
+      "CFCs",
+      "Oxygen",
+      "Nitrogen",
+      "Helium"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Biodiversity",
+    "questionText": "Nepal is rich in:",
+    "options": [
+      "Minerals only",
+      "Biodiversity",
+      "Petroleum",
+      "Coal"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Biodiversity - Conservation",
+    "questionText": "National parks are established for:",
+    "options": [
+      "Tourism",
+      "Conservation",
+      "Mining",
+      "Agriculture"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Microbiology",
+    "questionText": "Bacteria reproduce mainly by:",
+    "options": [
+      "Budding",
+      "Binary fission",
+      "Fragmentation",
+      "Spore formation"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Biology",
+    "topic": "Microbiology - Virus",
+    "questionText": "Viruses are:",
+    "options": [
+      "Living organisms",
+      "Non-living",
+      "Obligate parasites",
+      "Free-living"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  }
+]

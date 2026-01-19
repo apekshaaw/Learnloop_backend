@@ -1,0 +1,702 @@
+[
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Introduction",
+    "questionText": "Economics studies:",
+    "options": [
+      "Money only",
+      "Human behavior and resources",
+      "Politics",
+      "Geography"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Basic Concepts",
+    "questionText": "Scarcity means:",
+    "options": [
+      "Abundance",
+      "Limited resources",
+      "Unlimited resources",
+      "No resources"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Microeconomics",
+    "questionText": "Microeconomics deals with:",
+    "options": [
+      "National economy",
+      "Individual units",
+      "International trade",
+      "Government budget"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Macroeconomics",
+    "questionText": "Macroeconomics studies:",
+    "options": [
+      "Individual firm",
+      "Whole economy",
+      "Single consumer",
+      "One market"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Demand",
+    "questionText": "Law of demand states price and quantity demanded are:",
+    "options": [
+      "Directly related",
+      "Inversely related",
+      "Not related",
+      "Equally related"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Supply",
+    "questionText": "Law of supply shows price and quantity supplied are:",
+    "options": [
+      "Inversely related",
+      "Directly related",
+      "Not related",
+      "Constant"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Market Equilibrium",
+    "questionText": "Equilibrium occurs when:",
+    "options": [
+      "Demand > Supply",
+      "Supply > Demand",
+      "Demand = Supply",
+      "Demand < Supply"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Elasticity",
+    "questionText": "Demand is elastic when:",
+    "options": [
+      "Quantity change < Price change",
+      "Quantity change > Price change",
+      "No change",
+      "Price increases"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Consumer Behavior",
+    "questionText": "Utility means:",
+    "options": [
+      "Cost",
+      "Satisfaction",
+      "Price",
+      "Supply"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Production",
+    "questionText": "Production function shows relationship between:",
+    "options": [
+      "Price and output",
+      "Input and output",
+      "Cost and revenue",
+      "Demand and supply"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Cost",
+    "questionText": "Fixed cost:",
+    "options": [
+      "Varies with output",
+      "Remains constant",
+      "Is zero",
+      "Increases always"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Revenue",
+    "questionText": "Total revenue equals:",
+    "options": [
+      "Price \u00d7 Quantity",
+      "Cost + Profit",
+      "Fixed cost + Variable cost",
+      "Quantity only"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Market Structure",
+    "questionText": "Perfect competition has:",
+    "options": [
+      "One seller",
+      "Few sellers",
+      "Many sellers",
+      "No sellers"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Monopoly",
+    "questionText": "In monopoly, there is:",
+    "options": [
+      "No barrier to entry",
+      "Complete barrier to entry",
+      "Easy entry",
+      "Free entry"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "National Income",
+    "questionText": "GDP stands for:",
+    "options": [
+      "Gross Domestic Product",
+      "Gross Demand Product",
+      "General Domestic Product",
+      "Government Domestic Product"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "National Income",
+    "questionText": "GNP includes:",
+    "options": [
+      "Only domestic production",
+      "Domestic + Net factor income abroad",
+      "Imports only",
+      "Exports only"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Money",
+    "questionText": "Money serves as:",
+    "options": [
+      "Medium of exchange",
+      "Final good",
+      "Capital good",
+      "Investment"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Banking",
+    "questionText": "Central bank of Nepal is:",
+    "options": [
+      "Nepal Rastra Bank",
+      "Commercial Bank",
+      "Development Bank",
+      "Agricultural Bank"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Inflation",
+    "questionText": "Inflation is:",
+    "options": [
+      "Constant prices",
+      "Falling prices",
+      "Rising prices",
+      "Zero prices"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Deflation",
+    "questionText": "Deflation is:",
+    "options": [
+      "Rising prices",
+      "Falling prices",
+      "Stable prices",
+      "High prices"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Unemployment",
+    "questionText": "Unemployment exists when:",
+    "options": [
+      "Everyone is working",
+      "People willing to work don't get jobs",
+      "No one wants to work",
+      "Full employment"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Fiscal Policy",
+    "questionText": "Fiscal policy deals with:",
+    "options": [
+      "Money supply",
+      "Government revenue and expenditure",
+      "Interest rates",
+      "Exchange rates"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Monetary Policy",
+    "questionText": "Monetary policy is controlled by:",
+    "options": [
+      "Commercial banks",
+      "Central bank",
+      "Government",
+      "Stock exchange"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Taxation",
+    "questionText": "Direct tax is paid:",
+    "options": [
+      "Through intermediary",
+      "Directly by taxpayer",
+      "By government",
+      "No one"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Public Finance",
+    "questionText": "Public finance deals with:",
+    "options": [
+      "Private sector finance",
+      "Government finance",
+      "Corporate finance",
+      "Personal finance"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "International Trade",
+    "questionText": "Exports mean:",
+    "options": [
+      "Buying from abroad",
+      "Selling to abroad",
+      "Domestic trade",
+      "No trade"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Imports",
+    "questionText": "Imports are:",
+    "options": [
+      "Goods sold abroad",
+      "Goods bought from abroad",
+      "Domestic products",
+      "Services only"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Balance of Payment",
+    "questionText": "BOP records:",
+    "options": [
+      "Domestic transactions",
+      "International transactions",
+      "Personal transactions",
+      "Government transactions"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Exchange Rate",
+    "questionText": "Exchange rate is:",
+    "options": [
+      "Interest rate",
+      "Rate of one currency in terms of another",
+      "Tax rate",
+      "Growth rate"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Development",
+    "questionText": "Economic development includes:",
+    "options": [
+      "Only GDP growth",
+      "GDP growth and welfare",
+      "Population growth",
+      "Inflation"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Poverty",
+    "questionText": "Poverty line indicates:",
+    "options": [
+      "Minimum income level",
+      "Maximum income",
+      "Average income",
+      "No income"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Inequality",
+    "questionText": "Lorenz curve shows:",
+    "options": [
+      "Economic growth",
+      "Income inequality",
+      "Inflation",
+      "Unemployment"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Population",
+    "questionText": "Optimum population theory suggests:",
+    "options": [
+      "Maximum population is best",
+      "Balanced population is ideal",
+      "Minimum population is best",
+      "No population"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Agriculture",
+    "questionText": "In Nepal, agriculture contributes:",
+    "options": [
+      "Nothing to GDP",
+      "Significant portion to GDP",
+      "All of GDP",
+      "Negative to GDP"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Industry",
+    "questionText": "Industrialization means:",
+    "options": [
+      "Decline in industry",
+      "Growth of industries",
+      "No industry",
+      "Agriculture only"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Economic Planning",
+    "questionText": "Five year plan is:",
+    "options": [
+      "Monthly plan",
+      "Short term development plan",
+      "Medium term development plan",
+      "No plan"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Economic System",
+    "questionText": "In capitalist economy, resources are owned by:",
+    "options": [
+      "Government",
+      "Private individuals",
+      "Community",
+      "No one"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Socialist Economy",
+    "questionText": "In socialist economy:",
+    "options": [
+      "Private ownership",
+      "State ownership",
+      "Mixed ownership",
+      "No ownership"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Mixed Economy",
+    "questionText": "Mixed economy has:",
+    "options": [
+      "Only private sector",
+      "Only public sector",
+      "Both private and public sectors",
+      "No sectors"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "WTO",
+    "questionText": "WTO promotes:",
+    "options": [
+      "Trade restrictions",
+      "Free trade",
+      "No trade",
+      "Barter system"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Globalization",
+    "questionText": "Globalization leads to:",
+    "options": [
+      "Isolation",
+      "Integration of economies",
+      "Closed economy",
+      "No trade"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Privatization",
+    "questionText": "Privatization means:",
+    "options": [
+      "Government ownership",
+      "Transfer to private sector",
+      "Nationalization",
+      "Socialization"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Liberalization",
+    "questionText": "Liberalization involves:",
+    "options": [
+      "More controls",
+      "Reducing government restrictions",
+      "Increasing regulations",
+      "Closing economy"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "FDI",
+    "questionText": "FDI stands for:",
+    "options": [
+      "Foreign Direct Investment",
+      "Financial Direct Investment",
+      "Foreign Domestic Investment",
+      "Full Direct Investment"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Trade Deficit",
+    "questionText": "Trade deficit occurs when:",
+    "options": [
+      "Exports > Imports",
+      "Imports > Exports",
+      "Exports = Imports",
+      "No trade"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Budget",
+    "questionText": "A budget shows:",
+    "options": [
+      "Past accounts",
+      "Estimated income and expenditure",
+      "Actual profit",
+      "Loss only"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Subsidy",
+    "questionText": "Subsidy is:",
+    "options": [
+      "Tax on consumers",
+      "Financial assistance by government",
+      "Loan",
+      "Fine"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Economic Growth",
+    "questionText": "Economic growth is measured by:",
+    "options": [
+      "Population",
+      "GDP growth rate",
+      "Inflation",
+      "Unemployment"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Capital Formation",
+    "questionText": "Capital formation means:",
+    "options": [
+      "Capital destruction",
+      "Creation of capital assets",
+      "Consumption",
+      "Saving only"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Economics",
+    "topic": "Sustainable Development",
+    "questionText": "Sustainable development balances:",
+    "options": [
+      "Present only",
+      "Future only",
+      "Present and future needs",
+      "Past needs"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  }
+]

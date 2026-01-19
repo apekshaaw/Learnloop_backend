@@ -1,0 +1,452 @@
+[
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Rotational Dynamics",
+    "questionText": "The moment of inertia depends on:",
+    "options": ["Mass and distribution of mass", "Mass only", "Shape only", "Angular velocity"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Rotational Dynamics",
+    "questionText": "The SI unit of angular momentum is:",
+    "options": ["kg·m/s", "kg·m²/s", "N·m", "J·s"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Rotational Dynamics",
+    "questionText": "Torque is the rotational analogue of:",
+    "options": ["Velocity", "Acceleration", "Force", "Momentum"],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Rotational Dynamics",
+    "questionText": "The radius of gyration of a body is:",
+    "options": ["Always equal to its radius", "Distance where entire mass can be concentrated", "Half of diameter", "Center of mass"],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Periodic Motion",
+    "questionText": "In simple harmonic motion, the acceleration is:",
+    "options": ["Constant", "Proportional to displacement", "Proportional to velocity", "Zero"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Periodic Motion",
+    "questionText": "The time period of a simple pendulum depends on:",
+    "options": ["Mass of bob", "Length and acceleration due to gravity", "Amplitude", "Initial velocity"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Periodic Motion",
+    "questionText": "The total energy in SHM is:",
+    "options": ["Constant", "Varying with time", "Maximum at mean position", "Zero at extreme position"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Fluid Statics",
+    "questionText": "Pascal's law is applicable to:",
+    "options": ["Solids only", "Liquids only", "Gases only", "Both liquids and gases"],
+    "correctOptionIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Fluid Statics",
+    "questionText": "Archimedes' principle states that buoyant force equals:",
+    "options": ["Weight of object", "Weight of fluid displaced", "Volume of object", "Density of fluid"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Fluid Statics",
+    "questionText": "A hydrometer is used to measure:",
+    "options": ["Viscosity", "Surface tension", "Relative density", "Pressure"],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Wave Motion",
+    "questionText": "Transverse waves can travel through:",
+    "options": ["Solids only", "Liquids only", "Gases only", "Solids and on liquid surfaces"],
+    "correctOptionIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Wave Motion",
+    "questionText": "The velocity of sound in air at 0°C is approximately:",
+    "options": ["331 m/s", "343 m/s", "300 m/s", "400 m/s"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Wave Motion",
+    "questionText": "Doppler effect is observed when there is relative motion between:",
+    "options": ["Source and observer", "Two sources", "Two observers", "Medium particles"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Interference",
+    "questionText": "In Young's double slit experiment, constructive interference occurs when path difference is:",
+    "options": ["nλ", "(n + 1/2)λ", "nλ/2", "(2n + 1)λ"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Interference",
+    "questionText": "The principle of superposition applies to:",
+    "options": ["Longitudinal waves only", "Transverse waves only", "All types of waves", "Sound waves only"],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Diffraction",
+    "questionText": "Diffraction is more pronounced when:",
+    "options": ["Wavelength is comparable to obstacle size", "Wavelength is much smaller than obstacle", "Frequency is high", "Amplitude is large"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Diffraction",
+    "questionText": "The central maximum in single slit diffraction is:",
+    "options": ["Narrower than secondary maxima", "Same width as secondary maxima", "Twice as wide as secondary maxima", "Four times intensity of secondary maxima"],
+    "correctOptionIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Polarization",
+    "questionText": "Polarization is possible only in:",
+    "options": ["Longitudinal waves", "Transverse waves", "Both types of waves", "Sound waves"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Polarization",
+    "questionText": "According to Malus' law, transmitted intensity is proportional to:",
+    "options": ["cos θ", "cos² θ", "sin θ", "sin² θ"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Electric Field",
+    "questionText": "The SI unit of electric field intensity is:",
+    "options": ["N/C", "C/N", "V/m", "Both N/C and V/m"],
+    "correctOptionIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Electric Field",
+    "questionText": "Electric field lines never:",
+    "options": ["Start from positive charge", "End on negative charge", "Cross each other", "Form closed loops"],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Gauss's Law",
+    "questionText": "According to Gauss's law, electric flux through a closed surface depends on:",
+    "options": ["Charge enclosed", "Surface area", "Shape of surface", "External charges"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Electric Potential",
+    "questionText": "The work done in moving a unit positive charge from infinity to a point is called:",
+    "options": ["Electric field", "Electric potential", "Electric flux", "Capacitance"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Capacitance",
+    "questionText": "The SI unit of capacitance is:",
+    "options": ["Farad", "Coulomb", "Volt", "Ohm"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Capacitance",
+    "questionText": "The capacitance of a parallel plate capacitor is increased by:",
+    "options": ["Decreasing area", "Increasing distance", "Introducing dielectric", "Increasing voltage"],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "DC Circuits",
+    "questionText": "Kirchhoff's current law is based on conservation of:",
+    "options": ["Energy", "Charge", "Momentum", "Mass"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "DC Circuits",
+    "questionText": "Wheatstone bridge is used to measure:",
+    "options": ["Current", "Voltage", "Unknown resistance", "Power"],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Thermoelectric Effect",
+    "questionText": "Seebeck effect is the basis of:",
+    "options": ["Electric heater", "Thermocouple", "Electric motor", "Generator"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Thermoelectric Effect",
+    "questionText": "Peltier effect is the reverse of:",
+    "options": ["Joule effect", "Seebeck effect", "Photoelectric effect", "Compton effect"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Magnetic Field",
+    "questionText": "The SI unit of magnetic field is:",
+    "options": ["Weber", "Tesla", "Gauss", "Henry"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Magnetic Field",
+    "questionText": "Magnetic field lines form:",
+    "options": ["Open loops", "Closed loops", "Straight lines", "Spirals"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Magnetic Force",
+    "questionText": "Force on a current-carrying conductor in a magnetic field is given by:",
+    "options": ["F = qvB", "F = BIL sin θ", "F = qE", "F = mv²/r"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Ampere's Law",
+    "questionText": "Magnetic field inside a long solenoid is:",
+    "options": ["Zero", "Uniform", "Non-uniform", "Infinite"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Electromagnetic Induction",
+    "questionText": "Faraday's law of electromagnetic induction relates induced emf to:",
+    "options": ["Current", "Rate of change of magnetic flux", "Resistance", "Capacitance"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Electromagnetic Induction",
+    "questionText": "Lenz's law is based on conservation of:",
+    "options": ["Charge", "Energy", "Momentum", "Flux"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "AC Circuits",
+    "questionText": "In a purely inductive AC circuit, current:",
+    "options": ["Leads voltage by 90°", "Lags voltage by 90°", "Is in phase with voltage", "Leads voltage by 45°"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "AC Circuits",
+    "questionText": "The unit of impedance is:",
+    "options": ["Ohm", "Henry", "Farad", "Weber"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Transformer",
+    "questionText": "A transformer works on the principle of:",
+    "options": ["Self induction", "Mutual induction", "Electromagnetic waves", "Resonance"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Transformer",
+    "questionText": "An ideal transformer has efficiency of:",
+    "options": ["50%", "75%", "90%", "100%"],
+    "correctOptionIndex": 3,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Electrons",
+    "questionText": "Cathode rays are:",
+    "options": ["Electromagnetic waves", "Stream of electrons", "Positive ions", "Neutrons"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Photoelectric Effect",
+    "questionText": "Einstein's photoelectric equation is:",
+    "options": ["E = mc²", "hν = φ + KEmax", "E = hν", "λ = h/p"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Photoelectric Effect",
+    "questionText": "The work function is the minimum energy required to:",
+    "options": ["Ionize an atom", "Eject an electron from metal surface", "Excite an electron", "Create a photon"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "X-rays",
+    "questionText": "X-rays are produced when high-speed electrons strike:",
+    "options": ["Anode", "Cathode", "Photographic plate", "Crystal"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Atomic Physics",
+    "questionText": "According to Bohr's model, angular momentum of electron is quantized as:",
+    "options": ["n·h", "n·h/2π", "n²·h", "h/2πn"],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Nuclear Physics",
+    "questionText": "The binding energy per nucleon is maximum for:",
+    "options": ["Hydrogen", "Helium", "Iron", "Uranium"],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Nuclear Physics",
+    "questionText": "Nuclear fission is the process of:",
+    "options": ["Joining light nuclei", "Splitting heavy nuclei", "Emitting alpha particles", "Beta decay"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Radioactivity",
+    "questionText": "The half-life of a radioactive substance is the time in which:",
+    "options": ["All nuclei decay", "Half nuclei decay", "One nucleus decays", "Activity becomes zero"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Semiconductors",
+    "questionText": "In an n-type semiconductor, majority charge carriers are:",
+    "options": ["Electrons", "Holes", "Protons", "Neutrons"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Semiconductors",
+    "questionText": "A p-n junction diode allows current flow when:",
+    "options": ["Forward biased", "Reverse biased", "Unbiased", "Always"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Physics",
+    "topic": "Logic Gates",
+    "questionText": "The output of an AND gate is 1 only when:",
+    "options": ["Any input is 1", "All inputs are 1", "Any input is 0", "All inputs are 0"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  }
+]

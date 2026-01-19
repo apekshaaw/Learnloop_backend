@@ -1,0 +1,702 @@
+[
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Company Accounting",
+    "questionText": "A company is governed by:",
+    "options": [
+      "Partnership Act",
+      "Company Act",
+      "Contract Act",
+      "Sale of Goods Act"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Share Capital",
+    "questionText": "Authorized capital is:",
+    "options": [
+      "Actually issued",
+      "Maximum capital company can issue",
+      "Paid up capital",
+      "Called up capital"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Share Capital",
+    "questionText": "Equity shares have:",
+    "options": [
+      "Fixed dividend",
+      "Variable dividend",
+      "No dividend",
+      "Guaranteed dividend"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Debentures",
+    "questionText": "Debenture holders are:",
+    "options": [
+      "Owners",
+      "Creditors",
+      "Managers",
+      "Directors"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Financial Statements",
+    "questionText": "Balance sheet shows:",
+    "options": [
+      "Profit or loss",
+      "Financial position",
+      "Cash flow",
+      "Income"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Cash Flow Statement",
+    "questionText": "Cash flow statement has activities:",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Ratio Analysis",
+    "questionText": "Current ratio measures:",
+    "options": [
+      "Profitability",
+      "Liquidity",
+      "Solvency",
+      "Efficiency"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Cost Accounting",
+    "questionText": "Cost accounting helps in:",
+    "options": [
+      "Tax calculation",
+      "Cost control",
+      "Audit",
+      "Financial reporting"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Material Cost",
+    "questionText": "FIFO method assumes:",
+    "options": [
+      "Last in first out",
+      "First in first out",
+      "Random issue",
+      "Average cost"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Labor Cost",
+    "questionText": "Direct labor cost is:",
+    "options": [
+      "Fixed cost",
+      "Variable cost",
+      "Semi-variable",
+      "Sunk cost"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Overhead",
+    "questionText": "Overhead includes:",
+    "options": [
+      "Direct material",
+      "Direct labor",
+      "Indirect expenses",
+      "Prime cost"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Cost Sheet",
+    "questionText": "Cost sheet shows:",
+    "options": [
+      "Only direct cost",
+      "Only indirect cost",
+      "Total cost of production",
+      "Sales price"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Amalgamation",
+    "questionText": "Amalgamation means:",
+    "options": [
+      "Dissolution",
+      "Combination of companies",
+      "Split up",
+      "Takeover"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Partnership",
+    "questionText": "Goodwill in partnership is:",
+    "options": [
+      "Tangible asset",
+      "Intangible asset",
+      "Liability",
+      "Capital"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Partnership Changes",
+    "questionText": "When partner retires, his capital is:",
+    "options": [
+      "Forfeited",
+      "Paid to him",
+      "Transferred to reserve",
+      "Donated"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Dissolution",
+    "questionText": "Dissolution of partnership means:",
+    "options": [
+      "End of business relationship",
+      "Bankruptcy",
+      "Merger",
+      "Expansion"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Computerized Accounting",
+    "questionText": "Tally is:",
+    "options": [
+      "Hardware",
+      "Accounting software",
+      "Programming language",
+      "Database"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Computerized Accounting",
+    "questionText": "Voucher in Tally is used for:",
+    "options": [
+      "Printing",
+      "Recording transactions",
+      "Calculation",
+      "Reporting"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Issue of Shares",
+    "questionText": "Shares issued at premium means:",
+    "options": [
+      "Below face value",
+      "At face value",
+      "Above face value",
+      "Free of cost"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Issue of Shares",
+    "questionText": "Shares issued at discount are issued:",
+    "options": [
+      "Above par",
+      "At par",
+      "Below par",
+      "Free"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Forfeiture",
+    "questionText": "Forfeiture means:",
+    "options": [
+      "Issue of shares",
+      "Cancellation of shares",
+      "Transfer of shares",
+      "Bonus shares"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Dividend",
+    "questionText": "Dividend is paid out of:",
+    "options": [
+      "Capital",
+      "Profit",
+      "Reserves",
+      "Liabilities"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Financial Statement Analysis",
+    "questionText": "Vertical analysis uses:",
+    "options": [
+      "Base year",
+      "Common size statement",
+      "Trend analysis",
+      "Ratio"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Working Capital",
+    "questionText": "Working capital is:",
+    "options": [
+      "Fixed assets",
+      "Current assets - Current liabilities",
+      "Total assets",
+      "Capital + Reserves"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Fund Flow Statement",
+    "questionText": "Fund flow statement shows:",
+    "options": [
+      "Cash changes",
+      "Working capital changes",
+      "Profit changes",
+      "Asset changes"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Management Accounting",
+    "questionText": "Management accounting provides information to:",
+    "options": [
+      "External users",
+      "Internal management",
+      "Government",
+      "Public"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Budget",
+    "questionText": "Budget is:",
+    "options": [
+      "Past statement",
+      "Future plan",
+      "Actual performance",
+      "Historical record"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Standard Costing",
+    "questionText": "Standard cost is:",
+    "options": [
+      "Actual cost",
+      "Predetermined cost",
+      "Historical cost",
+      "Variable cost"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Marginal Costing",
+    "questionText": "Marginal costing considers:",
+    "options": [
+      "All costs",
+      "Only variable costs",
+      "Only fixed costs",
+      "Sunk costs"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Break Even Analysis",
+    "questionText": "Break even point is where:",
+    "options": [
+      "Profit is maximum",
+      "No profit no loss",
+      "Loss occurs",
+      "Revenue is zero"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Job Costing",
+    "questionText": "Job costing is used for:",
+    "options": [
+      "Mass production",
+      "Specific orders",
+      "Continuous production",
+      "Service industry"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Process Costing",
+    "questionText": "Process costing is suitable for:",
+    "options": [
+      "Unique products",
+      "Continuous production",
+      "Custom orders",
+      "Services"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Operating Costing",
+    "questionText": "Operating costing is used in:",
+    "options": [
+      "Manufacturing",
+      "Service industry",
+      "Trading",
+      "Agriculture"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "EOQ",
+    "questionText": "EOQ stands for:",
+    "options": [
+      "Economic Order Quality",
+      "Economic Order Quantity",
+      "Efficient Order Quantity",
+      "Equal Order Quantity"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Variance Analysis",
+    "questionText": "Variance is:",
+    "options": [
+      "Actual = Standard",
+      "Actual - Standard",
+      "Actual + Standard",
+      "Standard only"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Reconciliation Statement",
+    "questionText": "Reconciliation statement reconciles:",
+    "options": [
+      "Cash book and ledger",
+      "Financial and cost accounts",
+      "Balance sheet items",
+      "Income items"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Contract Costing",
+    "questionText": "Contract costing is suitable for:",
+    "options": [
+      "Daily production",
+      "Long-term contracts",
+      "Retail business",
+      "Banking"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Valuation",
+    "questionText": "Goodwill is valued by:",
+    "options": [
+      "Book value method",
+      "Average profit method",
+      "Market value method",
+      "Replacement method"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Accounting Standards",
+    "questionText": "Accounting standards ensure:",
+    "options": [
+      "Tax compliance",
+      "Uniformity in accounting",
+      "Profit maximization",
+      "Cost reduction"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "NFRS",
+    "questionText": "NFRS are based on:",
+    "options": [
+      "GAAP",
+      "IFRS",
+      "IPSAS",
+      "IAS"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Audit",
+    "questionText": "Audit ensures:",
+    "options": [
+      "Profit increase",
+      "Accuracy of accounts",
+      "Tax evasion",
+      "Cost reduction"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Internal Control",
+    "questionText": "Internal control prevents:",
+    "options": [
+      "Profit",
+      "Fraud and errors",
+      "Growth",
+      "Expansion"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Inventory Valuation",
+    "questionText": "Inventory is valued at:",
+    "options": [
+      "Cost or market price whichever is higher",
+      "Cost or market price whichever is lower",
+      "Only cost",
+      "Only market price"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Provisions",
+    "questionText": "Provision for doubtful debts is:",
+    "options": [
+      "Asset",
+      "Liability",
+      "Charge against profit",
+      "Income"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Company Liquidation",
+    "questionText": "Liquidation means:",
+    "options": [
+      "Formation",
+      "Winding up",
+      "Expansion",
+      "Merger"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Holding Company",
+    "questionText": "A holding company:",
+    "options": [
+      "Is subsidiary",
+      "Controls other companies",
+      "Is independent",
+      "Is partnership"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Consolidated Accounts",
+    "questionText": "Consolidated accounts are prepared for:",
+    "options": [
+      "Single company",
+      "Group of companies",
+      "Partnership",
+      "Proprietorship"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Absorption Costing",
+    "questionText": "Absorption costing includes:",
+    "options": [
+      "Only variable costs",
+      "All manufacturing costs",
+      "Only fixed costs",
+      "Only direct costs"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Activity Based Costing",
+    "questionText": "ABC allocates overhead based on:",
+    "options": [
+      "Direct labor hours",
+      "Activities",
+      "Machine hours",
+      "Units produced"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Accountancy",
+    "topic": "Just in Time",
+    "questionText": "JIT focuses on:",
+    "options": [
+      "High inventory",
+      "Zero inventory",
+      "Moderate inventory",
+      "Unlimited inventory"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  }
+]

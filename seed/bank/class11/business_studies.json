@@ -1,0 +1,702 @@
+[
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Introduction",
+    "questionText": "Business is primarily concerned with:",
+    "options": [
+      "Social service",
+      "Profit making",
+      "Politics",
+      "Education"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Forms of Business",
+    "questionText": "Sole proprietorship is owned by:",
+    "options": [
+      "Two persons",
+      "One person",
+      "Government",
+      "Group of people"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Forms of Business",
+    "questionText": "Partnership requires minimum:",
+    "options": [
+      "One partner",
+      "Two partners",
+      "Three partners",
+      "Five partners"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Company",
+    "questionText": "A company is a:",
+    "options": [
+      "Natural person",
+      "Artificial person",
+      "Partnership",
+      "Proprietorship"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Cooperative",
+    "questionText": "Cooperatives work on the principle of:",
+    "options": [
+      "Profit maximization",
+      "Mutual help",
+      "Competition",
+      "Individual benefit"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Business Environment",
+    "questionText": "PEST analysis includes:",
+    "options": [
+      "Political factors only",
+      "Political, Economic, Social, Technological",
+      "Personal factors",
+      "Product factors"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Business Ethics",
+    "questionText": "Ethics in business means:",
+    "options": [
+      "Making maximum profit",
+      "Moral principles in business",
+      "Breaking rules",
+      "Competition"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Social Responsibility",
+    "questionText": "CSR stands for:",
+    "options": [
+      "Corporate Service Responsibility",
+      "Corporate Social Responsibility",
+      "Company Service Responsibility",
+      "Company Social Rights"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Entrepreneurship",
+    "questionText": "An entrepreneur is:",
+    "options": [
+      "Employee",
+      "Risk taker who starts business",
+      "Manager",
+      "Accountant"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Small Business",
+    "questionText": "Small business contributes to:",
+    "options": [
+      "Unemployment",
+      "Economic development",
+      "Inflation",
+      "Monopoly"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Management",
+    "questionText": "Management is:",
+    "options": [
+      "Art only",
+      "Science only",
+      "Both art and science",
+      "Neither art nor science"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Planning",
+    "questionText": "Planning is a:",
+    "options": [
+      "Physical function",
+      "Primary function",
+      "Last function",
+      "Optional function"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Organizing",
+    "questionText": "Organizing involves:",
+    "options": [
+      "Making policies",
+      "Arranging resources",
+      "Calculating profit",
+      "Selling products"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Staffing",
+    "questionText": "Staffing is concerned with:",
+    "options": [
+      "Finance",
+      "Human resources",
+      "Production",
+      "Marketing"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Directing",
+    "questionText": "Directing includes:",
+    "options": [
+      "Planning",
+      "Supervision and motivation",
+      "Budgeting",
+      "Accounting"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Controlling",
+    "questionText": "Controlling compares:",
+    "options": [
+      "Past and future",
+      "Actual with standard",
+      "Profit with loss",
+      "Asset with liability"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Marketing",
+    "questionText": "Marketing is:",
+    "options": [
+      "Selling only",
+      "Creating and delivering value",
+      "Advertising only",
+      "Production"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Marketing Mix",
+    "questionText": "4Ps of marketing include:",
+    "options": [
+      "Product, Price, Place, Promotion",
+      "Product, Person, Place, Promotion",
+      "Product, Price, People, Promotion",
+      "Plan, Price, Place, Promotion"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Product",
+    "questionText": "Product is:",
+    "options": [
+      "Tangible good only",
+      "Anything offered to market",
+      "Service only",
+      "Idea only"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Price",
+    "questionText": "Price is:",
+    "options": [
+      "Cost to customer",
+      "Value in exchange",
+      "Production cost",
+      "Market value"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Place",
+    "questionText": "Place in marketing means:",
+    "options": [
+      "Factory location",
+      "Distribution channel",
+      "Market area",
+      "Office location"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Promotion",
+    "questionText": "Promotion includes:",
+    "options": [
+      "Production",
+      "Advertising and sales promotion",
+      "Distribution",
+      "Pricing"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Finance",
+    "questionText": "Finance is needed for:",
+    "options": [
+      "Business operations",
+      "Social work",
+      "Entertainment",
+      "Tourism"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Capital",
+    "questionText": "Fixed capital is used for:",
+    "options": [
+      "Daily expenses",
+      "Long-term assets",
+      "Salaries",
+      "Raw materials"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Sources of Finance",
+    "questionText": "Equity shares are:",
+    "options": [
+      "Debt",
+      "Ownership capital",
+      "Loan",
+      "Debenture"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Banking",
+    "questionText": "Commercial banks accept:",
+    "options": [
+      "Only fixed deposits",
+      "Various types of deposits",
+      "No deposits",
+      "Only savings deposits"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Insurance",
+    "questionText": "Insurance provides:",
+    "options": [
+      "Profit",
+      "Protection against risk",
+      "Investment",
+      "Loan"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Stock Exchange",
+    "questionText": "Stock exchange is a:",
+    "options": [
+      "Primary market",
+      "Secondary market",
+      "Money market",
+      "Commodity market"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Consumer Protection",
+    "questionText": "Consumer has right to:",
+    "options": [
+      "Exploit seller",
+      "Be informed and choose",
+      "Return any product",
+      "Unlimited credit"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Consumer Rights",
+    "questionText": "Consumer protection act protects:",
+    "options": [
+      "Seller",
+      "Buyer",
+      "Manufacturer",
+      "Government"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Production",
+    "questionText": "Production creates:",
+    "options": [
+      "Utility",
+      "Disutility",
+      "Loss",
+      "Waste"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Quality Control",
+    "questionText": "Quality control ensures:",
+    "options": [
+      "High price",
+      "Standard quality",
+      "Maximum quantity",
+      "Low cost"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "HRM",
+    "questionText": "HRM deals with:",
+    "options": [
+      "Finance",
+      "People management",
+      "Production",
+      "Marketing"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Recruitment",
+    "questionText": "Recruitment is process of:",
+    "options": [
+      "Training",
+      "Attracting candidates",
+      "Controlling",
+      "Planning"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Training",
+    "questionText": "Training improves:",
+    "options": [
+      "Skills and knowledge",
+      "Salary",
+      "Position",
+      "Age"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Motivation",
+    "questionText": "Motivation:",
+    "options": [
+      "Decreases performance",
+      "Increases performance",
+      "Has no effect",
+      "Creates conflict"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Leadership",
+    "questionText": "A leader:",
+    "options": [
+      "Only gives orders",
+      "Influences and guides",
+      "Works alone",
+      "Avoids responsibility"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Communication",
+    "questionText": "Effective communication requires:",
+    "options": [
+      "One-way process",
+      "Two-way process",
+      "No feedback",
+      "Written form only"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Business Plan",
+    "questionText": "Business plan includes:",
+    "options": [
+      "Future strategies",
+      "Past records only",
+      "Personal matters",
+      "None"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "SWOT Analysis",
+    "questionText": "SWOT stands for:",
+    "options": [
+      "Strengths, Weaknesses, Opportunities, Threats",
+      "Sales, Work, Operations, Trade",
+      "System, Work, Operations, Technology",
+      "Strengths, Work, Operations, Threats"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Globalization",
+    "questionText": "Globalization means:",
+    "options": [
+      "Local business",
+      "Integration of economies worldwide",
+      "National trade",
+      "Rural development"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "E-Business",
+    "questionText": "E-business is conducted through:",
+    "options": [
+      "Post office",
+      "Internet",
+      "Telephone",
+      "Face to face"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Business Law",
+    "questionText": "Contract requires:",
+    "options": [
+      "One party",
+      "Agreement between parties",
+      "No consideration",
+      "Illegal purpose"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "IPR",
+    "questionText": "IPR stands for:",
+    "options": [
+      "International Property Rights",
+      "Intellectual Property Rights",
+      "Indian Property Rights",
+      "Internet Property Rights"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Trade",
+    "questionText": "International trade involves:",
+    "options": [
+      "Domestic buying",
+      "Cross-border exchange",
+      "Local market",
+      "Same country trade"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "WTO",
+    "questionText": "WTO promotes:",
+    "options": [
+      "Trade barriers",
+      "Free trade",
+      "War",
+      "Protectionism"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Business Cycle",
+    "questionText": "Business cycle has phases of:",
+    "options": [
+      "Prosperity and recession",
+      "Only prosperity",
+      "Only recession",
+      "Stability only"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Monopoly",
+    "questionText": "In monopoly there is:",
+    "options": [
+      "Many sellers",
+      "One seller",
+      "Two sellers",
+      "No seller"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Perfect Competition",
+    "questionText": "Perfect competition has:",
+    "options": [
+      "One seller",
+      "Few sellers",
+      "Many sellers",
+      "No sellers"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Business Studies",
+    "topic": "Inflation",
+    "questionText": "Inflation means:",
+    "options": [
+      "Stable prices",
+      "Rising prices",
+      "Falling prices",
+      "Constant prices"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  }
+]

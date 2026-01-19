@@ -1,0 +1,702 @@
+[
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "questionText": "A set with no elements is called:",
+    "options": [
+      "Empty set",
+      "Universal set",
+      "Infinite set",
+      "Finite set"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "questionText": "If A \u2286 B and B \u2286 A, then:",
+    "options": [
+      "A = B",
+      "A \u2260 B",
+      "A \u2282 B",
+      "B \u2282 A"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Real Numbers",
+    "questionText": "\u221a2 is a:",
+    "options": [
+      "Rational number",
+      "Irrational number",
+      "Integer",
+      "Whole number"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Functions",
+    "questionText": "A relation is a function if each input has:",
+    "options": [
+      "Multiple outputs",
+      "Exactly one output",
+      "No output",
+      "At least two outputs"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Trigonometry",
+    "questionText": "sin\u00b2\u03b8 + cos\u00b2\u03b8 =",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "\u03b8"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Trigonometry",
+    "questionText": "The value of sin 90\u00b0 is:",
+    "options": [
+      "0",
+      "1",
+      "1/2",
+      "\u221a3/2"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "questionText": "If a\u00b2 - b\u00b2 = (a+b)(a-b), this is:",
+    "options": [
+      "Sum formula",
+      "Product formula",
+      "Difference of squares",
+      "Square of sum"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Quadratic Equations",
+    "questionText": "The general form of a quadratic equation is:",
+    "options": [
+      "ax + b = 0",
+      "ax\u00b2 + bx + c = 0",
+      "ax\u00b3 + bx\u00b2 + cx + d = 0",
+      "ax\u00b2 + b = 0"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Sequences",
+    "questionText": "In an arithmetic sequence, the common difference is:",
+    "options": [
+      "Constant",
+      "Variable",
+      "Zero",
+      "Infinite"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Series",
+    "questionText": "The sum of first n natural numbers is:",
+    "options": [
+      "n(n+1)",
+      "n(n+1)/2",
+      "n\u00b2",
+      "2n"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Permutation",
+    "questionText": "The number of permutations of n objects is:",
+    "options": [
+      "n",
+      "n!",
+      "2n",
+      "n\u00b2"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Combination",
+    "questionText": "\u207fC\u1d63 represents:",
+    "options": [
+      "Permutation",
+      "Combination",
+      "Multiplication",
+      "Division"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Binomial Theorem",
+    "questionText": "The expansion of (a+b)\u00b2 is:",
+    "options": [
+      "a\u00b2 + b\u00b2",
+      "a\u00b2 + 2ab + b\u00b2",
+      "a\u00b2 - 2ab + b\u00b2",
+      "a\u00b2 + ab + b\u00b2"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Coordinate Geometry",
+    "questionText": "The distance between two points (x\u2081,y\u2081) and (x\u2082,y\u2082) is:",
+    "options": [
+      "\u221a((x\u2082-x\u2081)\u00b2 + (y\u2082-y\u2081)\u00b2)",
+      "(x\u2082-x\u2081)\u00b2 + (y\u2082-y\u2081)\u00b2",
+      "x\u2082-x\u2081 + y\u2082-y\u2081",
+      "(x\u2082+x\u2081)/2"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Straight Line",
+    "questionText": "The slope of a horizontal line is:",
+    "options": [
+      "0",
+      "1",
+      "\u221e",
+      "undefined"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Circle",
+    "questionText": "The equation of a circle with center (h,k) and radius r is:",
+    "options": [
+      "(x-h)\u00b2 + (y-k)\u00b2 = r",
+      "(x-h)\u00b2 + (y-k)\u00b2 = r\u00b2",
+      "x\u00b2 + y\u00b2 = r",
+      "x\u00b2 + y\u00b2 = r\u00b2"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Matrices",
+    "questionText": "A matrix with equal number of rows and columns is:",
+    "options": [
+      "Row matrix",
+      "Column matrix",
+      "Square matrix",
+      "Diagonal matrix"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Determinants",
+    "questionText": "The determinant of a 2\u00d72 matrix [[a,b],[c,d]] is:",
+    "options": [
+      "ad + bc",
+      "ad - bc",
+      "ac - bd",
+      "ab - cd"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Vectors",
+    "questionText": "A vector has:",
+    "options": [
+      "Only magnitude",
+      "Only direction",
+      "Both magnitude and direction",
+      "Neither magnitude nor direction"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Limits",
+    "questionText": "The limit of a constant function is:",
+    "options": [
+      "0",
+      "The constant itself",
+      "\u221e",
+      "Undefined"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Continuity",
+    "questionText": "A function is continuous if:",
+    "options": [
+      "It has no breaks",
+      "It has jumps",
+      "It's undefined",
+      "It's periodic"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Differentiation",
+    "questionText": "The derivative of x\u00b2 is:",
+    "options": [
+      "x",
+      "2x",
+      "x\u00b2",
+      "2"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Differentiation",
+    "questionText": "The derivative of a constant is:",
+    "options": [
+      "1",
+      "0",
+      "The constant",
+      "x"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Integration",
+    "questionText": "Integration is the reverse process of:",
+    "options": [
+      "Addition",
+      "Differentiation",
+      "Multiplication",
+      "Division"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Probability",
+    "questionText": "The probability of a certain event is:",
+    "options": [
+      "0",
+      "0.5",
+      "1",
+      "2"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Probability",
+    "questionText": "The probability of an impossible event is:",
+    "options": [
+      "0",
+      "0.5",
+      "1",
+      "-1"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Statistics",
+    "questionText": "The arithmetic mean of n numbers is:",
+    "options": [
+      "Sum of numbers",
+      "Sum/n",
+      "Product/n",
+      "Sum\u00d7n"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Statistics",
+    "questionText": "The median of a data set divides it into:",
+    "options": [
+      "Three equal parts",
+      "Two equal parts",
+      "Four equal parts",
+      "Many parts"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Complex Numbers",
+    "questionText": "i\u00b2 equals:",
+    "options": [
+      "1",
+      "-1",
+      "i",
+      "0"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Logarithms",
+    "questionText": "log\u2081\u2080 100 equals:",
+    "options": [
+      "1",
+      "2",
+      "10",
+      "100"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Exponents",
+    "questionText": "a\u2070 equals (for a \u2260 0):",
+    "options": [
+      "0",
+      "1",
+      "a",
+      "\u221e"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Polynomials",
+    "questionText": "A polynomial of degree 2 is called:",
+    "options": [
+      "Linear",
+      "Quadratic",
+      "Cubic",
+      "Quartic"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Inequalities",
+    "questionText": "If a > b and c > 0, then ac:",
+    "options": [
+      "< bc",
+      "> bc",
+      "= bc",
+      "\u2264 bc"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Linear Programming",
+    "questionText": "Linear programming is used for:",
+    "options": [
+      "Solving equations",
+      "Optimization",
+      "Finding derivatives",
+      "Integration"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Three Dimensional Geometry",
+    "questionText": "A point in 3D space is represented by:",
+    "options": [
+      "(x, y)",
+      "(x, y, z)",
+      "(x, y, z, w)",
+      "(r, \u03b8)"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Conic Sections",
+    "questionText": "The conic section formed by a plane parallel to the axis of a cone is:",
+    "options": [
+      "Circle",
+      "Ellipse",
+      "Parabola",
+      "Hyperbola"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Mathematical Induction",
+    "questionText": "Mathematical induction is used to prove statements for:",
+    "options": [
+      "Real numbers",
+      "Natural numbers",
+      "Complex numbers",
+      "Rational numbers"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Partial Fractions",
+    "questionText": "Partial fractions are used to decompose:",
+    "options": [
+      "Polynomials",
+      "Rational functions",
+      "Trigonometric functions",
+      "Exponential functions"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Inverse Trigonometric Functions",
+    "questionText": "The range of sin\u207b\u00b9x is:",
+    "options": [
+      "[-\u03c0/2, \u03c0/2]",
+      "[0, \u03c0]",
+      "[-\u03c0, \u03c0]",
+      "[0, 2\u03c0]"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Differential Equations",
+    "questionText": "dy/dx = f(x) is a:",
+    "options": [
+      "Algebraic equation",
+      "Differential equation",
+      "Integral equation",
+      "Polynomial equation"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Mean Value Theorem",
+    "questionText": "Rolle's theorem is a special case of:",
+    "options": [
+      "Fundamental theorem of calculus",
+      "Mean value theorem",
+      "Intermediate value theorem",
+      "Extreme value theorem"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Maxima and Minima",
+    "questionText": "At a point of local maximum, f'(x) is:",
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Undefined"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Area Under Curves",
+    "questionText": "The area under a curve is found using:",
+    "options": [
+      "Differentiation",
+      "Integration",
+      "Limits",
+      "Summation"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Differential Calculus Applications",
+    "questionText": "The slope of a tangent to a curve at a point is given by:",
+    "options": [
+      "f(x)",
+      "f'(x)",
+      "\u222bf(x)dx",
+      "f''(x)"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Integral Calculus",
+    "questionText": "\u222bx dx equals:",
+    "options": [
+      "x",
+      "x\u00b2",
+      "x\u00b2/2 + C",
+      "2x + C"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Definite Integrals",
+    "questionText": "A definite integral has:",
+    "options": [
+      "No limits",
+      "Upper and lower limits",
+      "Only upper limit",
+      "Only lower limit"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Indefinite Integrals",
+    "questionText": "An indefinite integral includes:",
+    "options": [
+      "Constant of integration",
+      "Limits",
+      "Derivative",
+      "Slope"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Number Systems",
+    "questionText": "Natural numbers start from:",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "\u221e"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Relations",
+    "questionText": "A relation R is symmetric if:",
+    "options": [
+      "(a,b) \u2208 R implies (b,a) \u2208 R",
+      "(a,a) \u2208 R for all a",
+      "(a,b) and (b,c) imply (a,c)",
+      "None of these"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Mathematics",
+    "topic": "Mathematical Logic",
+    "questionText": "The negation of 'p AND q' is:",
+    "options": [
+      "NOT p AND NOT q",
+      "NOT p OR NOT q",
+      "p OR q",
+      "p AND NOT q"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "General Chemistry",
+    "questionText": "The SI unit of amount of substance is:",
+    "options": [
+      "Kilogram",
+      "Mole",
+      "Liter",
+      "Gram"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "questionText": "The nucleus of an atom contains:",
+    "options": [
+      "Protons only",
+      "Neutrons only",
+      "Protons and neutrons",
+      "Electrons"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "questionText": "The atomic number is equal to:",
+    "options": [
+      "Number of neutrons",
+      "Number of protons",
+      "Number of electrons in negative ion",
+      "Mass number"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "questionText": "Elements in the same group have:",
+    "options": [
+      "Same atomic mass",
+      "Same number of electron shells",
+      "Same number of valence electrons",
+      "Same atomic number"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "questionText": "The most electronegative element is:",
+    "options": [
+      "Oxygen",
+      "Fluorine",
+      "Chlorine",
+      "Nitrogen"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "questionText": "Ionic bond is formed by:",
+    "options": [
+      "Sharing of electrons",
+      "Transfer of electrons",
+      "Sharing of protons",
+      "Transfer of neutrons"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "questionText": "Covalent bond is formed by:",
+    "options": [
+      "Transfer of electrons",
+      "Sharing of electrons",
+      "Transfer of protons",
+      "Metallic bonding"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "States of Matter",
+    "questionText": "At constant temperature, the volume of a gas is inversely proportional to pressure. This is:",
+    "options": [
+      "Charles's law",
+      "Boyle's law",
+      "Avogadro's law",
+      "Gay-Lussac's law"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Chemical Equilibrium",
+    "questionText": "For a reversible reaction at equilibrium:",
+    "options": [
+      "Forward reaction stops",
+      "Backward reaction stops",
+      "Rate of forward = Rate of backward",
+      "Both reactions stop"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Acid and Base",
+    "questionText": "pH of a neutral solution is:",
+    "options": [
+      "0",
+      "7",
+      "14",
+      "1"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Acid and Base",
+    "questionText": "According to Arrhenius theory, an acid produces:",
+    "options": [
+      "OH\u207b ions",
+      "H\u207a ions",
+      "O\u00b2\u207b ions",
+      "H\u2082 gas"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Oxidation-Reduction",
+    "questionText": "Oxidation involves:",
+    "options": [
+      "Gain of electrons",
+      "Loss of electrons",
+      "Gain of protons",
+      "Loss of neutrons"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Oxidation-Reduction",
+    "questionText": "A substance that gets reduced is called:",
+    "options": [
+      "Reducing agent",
+      "Oxidizing agent",
+      "Catalyst",
+      "Inhibitor"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "questionText": "Organic chemistry is the chemistry of:",
+    "options": [
+      "Living organisms",
+      "Carbon compounds",
+      "Metals",
+      "Non-metals"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "questionText": "Alkanes have the general formula:",
+    "options": [
+      "CnH2n",
+      "CnH2n+2",
+      "CnH2n-2",
+      "CnHn"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "questionText": "The simplest alkene is:",
+    "options": [
+      "Methane",
+      "Ethene",
+      "Propene",
+      "Butene"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Alcohols",
+    "questionText": "The functional group of alcohols is:",
+    "options": [
+      "-COOH",
+      "-CHO",
+      "-OH",
+      "-NH\u2082"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Carboxylic Acids",
+    "questionText": "Vinegar contains:",
+    "options": [
+      "Formic acid",
+      "Acetic acid",
+      "Oxalic acid",
+      "Citric acid"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Thermochemistry",
+    "questionText": "An exothermic reaction:",
+    "options": [
+      "Absorbs heat",
+      "Releases heat",
+      "No heat change",
+      "Requires light"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "questionText": "In a galvanic cell, chemical energy is converted to:",
+    "options": [
+      "Heat energy",
+      "Light energy",
+      "Electrical energy",
+      "Mechanical energy"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "questionText": "The rate of reaction increases with:",
+    "options": [
+      "Decrease in temperature",
+      "Increase in temperature",
+      "Decrease in concentration",
+      "Addition of inhibitor"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "questionText": "A solution that contains maximum amount of solute at given temperature is:",
+    "options": [
+      "Dilute",
+      "Concentrated",
+      "Saturated",
+      "Supersaturated"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Stoichiometry",
+    "questionText": "Avogadro's number is:",
+    "options": [
+      "6.022 \u00d7 10\u00b2\u00b3",
+      "6.022 \u00d7 10\u00b2\u00b2",
+      "6.022 \u00d7 10\u00b2\u2074",
+      "6.022 \u00d7 10\u00b2\u00b9"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "questionText": "One mole of any gas at STP occupies:",
+    "options": [
+      "11.2 L",
+      "22.4 L",
+      "33.6 L",
+      "44.8 L"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "questionText": "Acid rain is caused by:",
+    "options": [
+      "CO\u2082",
+      "SO\u2082 and NO\u2082",
+      "O\u2083",
+      "CH\u2084"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "s-Block Elements",
+    "questionText": "Alkali metals belong to:",
+    "options": [
+      "Group 1",
+      "Group 2",
+      "Group 17",
+      "Group 18"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "p-Block Elements",
+    "questionText": "Halogens belong to:",
+    "options": [
+      "Group 1",
+      "Group 2",
+      "Group 17",
+      "Group 18"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "d-Block Elements",
+    "questionText": "Transition elements are:",
+    "options": [
+      "s-block elements",
+      "p-block elements",
+      "d-block elements",
+      "f-block elements"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Hydrogen",
+    "questionText": "Water has maximum density at:",
+    "options": [
+      "0\u00b0C",
+      "4\u00b0C",
+      "100\u00b0C",
+      "25\u00b0C"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Coordination Chemistry",
+    "questionText": "In a coordination compound, the central atom is usually:",
+    "options": [
+      "Non-metal",
+      "Metal",
+      "Noble gas",
+      "Halogen"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Chemical Nomenclature",
+    "questionText": "IUPAC stands for:",
+    "options": [
+      "International Union of Pure and Applied Chemistry",
+      "International Unit of Pure and Applied Chemistry",
+      "International Union of Physical and Applied Chemistry",
+      "Indian Union of Pure and Applied Chemistry"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Isomerism",
+    "questionText": "Compounds having same molecular formula but different structures are:",
+    "options": [
+      "Isotopes",
+      "Isobars",
+      "Isomers",
+      "Isotones"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Polymers",
+    "questionText": "Nylon is a:",
+    "options": [
+      "Natural polymer",
+      "Synthetic polymer",
+      "Inorganic polymer",
+      "Biopolymer"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "questionText": "Glucose is a:",
+    "options": [
+      "Disaccharide",
+      "Monosaccharide",
+      "Polysaccharide",
+      "Oligosaccharide"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Surface Chemistry",
+    "questionText": "Adsorption is a:",
+    "options": [
+      "Bulk phenomenon",
+      "Surface phenomenon",
+      "Nuclear phenomenon",
+      "Quantum phenomenon"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Metallurgy",
+    "questionText": "The process of extracting metals from ores is called:",
+    "options": [
+      "Refining",
+      "Metallurgy",
+      "Smelting",
+      "Roasting"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Qualitative Analysis",
+    "questionText": "Flame test is used to identify:",
+    "options": [
+      "Anions",
+      "Cations",
+      "Both",
+      "Neither"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Aldehydes and Ketones",
+    "questionText": "The functional group of aldehydes is:",
+    "options": [
+      "-OH",
+      "-COOH",
+      "-CHO",
+      "-CO-"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "questionText": "Amines are derivatives of:",
+    "options": [
+      "Ammonia",
+      "Methane",
+      "Water",
+      "Alcohol"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Benzene",
+    "questionText": "Benzene has:",
+    "options": [
+      "Alternating single and double bonds",
+      "All single bonds",
+      "All double bonds",
+      "Delocalized electrons"
+    ],
+    "correctOptionIndex": 3,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes",
+    "questionText": "Chloroform has the formula:",
+    "options": [
+      "CHCl\u2083",
+      "CH\u2082Cl\u2082",
+      "CCl\u2084",
+      "CH\u2083Cl"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Practical Chemistry",
+    "questionText": "A burette is used for:",
+    "options": [
+      "Measuring fixed volume",
+      "Delivering variable volume",
+      "Stirring",
+      "Heating"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Redox Titration",
+    "questionText": "In permanganate titration, the endpoint is indicated by:",
+    "options": [
+      "Colorless to pink",
+      "Pink to colorless",
+      "Blue to red",
+      "Yellow to green"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Salt Analysis",
+    "questionText": "Brown ring test is used to detect:",
+    "options": [
+      "Chloride",
+      "Nitrate",
+      "Sulfate",
+      "Carbonate"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Volumetric Analysis",
+    "questionText": "Normality is defined as:",
+    "options": [
+      "Moles per liter",
+      "Gram equivalents per liter",
+      "Moles per kg solvent",
+      "Percentage by mass"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Chemical Safety",
+    "questionText": "Concentrated sulfuric acid should be diluted by:",
+    "options": [
+      "Adding water to acid",
+      "Adding acid to water",
+      "Adding both simultaneously",
+      "Not diluting"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Laboratory Techniques",
+    "questionText": "Filtration is used to separate:",
+    "options": [
+      "Soluble solids",
+      "Insoluble solids from liquids",
+      "Gases",
+      "Miscible liquids"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Distillation",
+    "questionText": "Simple distillation is used to separate liquids with:",
+    "options": [
+      "Same boiling points",
+      "Very different boiling points",
+      "No boiling points",
+      "Similar densities"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Crystallization",
+    "questionText": "Crystallization is used to:",
+    "options": [
+      "Purify solids",
+      "Mix liquids",
+      "Separate gases",
+      "Measure volume"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Chemistry",
+    "topic": "Green Chemistry",
+    "questionText": "Green chemistry focuses on:",
+    "options": [
+      "Color of chemicals",
+      "Environmental sustainability",
+      "Speed of reactions",
+      "Cost reduction"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  }
+]

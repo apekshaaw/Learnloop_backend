@@ -1,0 +1,702 @@
+[
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Solid State",
+    "questionText": "Crystalline solids have:",
+    "options": [
+      "Regular arrangement",
+      "Irregular arrangement",
+      "No arrangement",
+      "Gas-like structure"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Solid State",
+    "questionText": "Unit cell is:",
+    "options": [
+      "Smallest repeating unit",
+      "Largest unit",
+      "Random unit",
+      "No unit"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "questionText": "Molarity is:",
+    "options": [
+      "Moles per liter",
+      "Moles per kg",
+      "Grams per liter",
+      "Percentage"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "questionText": "Raoult's law deals with:",
+    "options": [
+      "Boiling point",
+      "Vapor pressure",
+      "Melting point",
+      "Density"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "questionText": "In galvanic cell:",
+    "options": [
+      "Electrical to chemical",
+      "Chemical to electrical",
+      "Heat to light",
+      "No conversion"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "questionText": "Anode is:",
+    "options": [
+      "Positive",
+      "Negative",
+      "Neutral",
+      "Variable"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "questionText": "Cathode undergoes:",
+    "options": [
+      "Oxidation",
+      "Reduction",
+      "Neutralization",
+      "Combustion"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "questionText": "Rate constant depends on:",
+    "options": [
+      "Concentration",
+      "Temperature",
+      "Pressure",
+      "Volume"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "questionText": "Order of reaction is:",
+    "options": [
+      "Always an integer",
+      "Can be fractional",
+      "Always zero",
+      "Always one"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Surface Chemistry",
+    "questionText": "Adsorption is:",
+    "options": [
+      "Bulk phenomenon",
+      "Surface phenomenon",
+      "No phenomenon",
+      "Nuclear phenomenon"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Surface Chemistry",
+    "questionText": "Catalyst increases:",
+    "options": [
+      "Activation energy",
+      "Reaction rate",
+      "Temperature",
+      "Pressure"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "questionText": "Ligands are:",
+    "options": [
+      "Electron donors",
+      "Electron acceptors",
+      "Neutral species",
+      "Ions only"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "questionText": "Coordination number is:",
+    "options": [
+      "Number of ligands",
+      "Number of atoms",
+      "Atomic number",
+      "Mass number"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Aldehydes and Ketones",
+    "questionText": "Aldehyde has -CHO at:",
+    "options": [
+      "Terminal",
+      "Middle",
+      "Anywhere",
+      "No specific position"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Aldehydes and Ketones",
+    "questionText": "Fehling's test is given by:",
+    "options": [
+      "Aldehydes",
+      "Ketones",
+      "Alcohols",
+      "Ethers"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Carboxylic Acids",
+    "questionText": "Carboxylic acid has:",
+    "options": [
+      "-OH",
+      "-CHO",
+      "-COOH",
+      "-CO-"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Carboxylic Acids",
+    "questionText": "Acetic acid is:",
+    "options": [
+      "Monobasic",
+      "Dibasic",
+      "Tribasic",
+      "Not an acid"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "questionText": "Amines are derivatives of:",
+    "options": [
+      "Methane",
+      "Ammonia",
+      "Water",
+      "Alcohol"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "questionText": "Primary amine has:",
+    "options": [
+      "One alkyl group",
+      "Two alkyl groups",
+      "Three alkyl groups",
+      "No alkyl group"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Alcohols and Phenols",
+    "questionText": "Lucas test distinguishes:",
+    "options": [
+      "1\u00b0, 2\u00b0, 3\u00b0 alcohols",
+      "Aldehydes and ketones",
+      "Acids and bases",
+      "Alkanes and alkenes"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Ethers",
+    "questionText": "Ethers are:",
+    "options": [
+      "Very reactive",
+      "Less reactive",
+      "Highly acidic",
+      "Highly basic"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "questionText": "Proteins are polymers of:",
+    "options": [
+      "Monosaccharides",
+      "Amino acids",
+      "Nucleotides",
+      "Fatty acids"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "questionText": "DNA has:",
+    "options": [
+      "Thymine",
+      "Uracil",
+      "Both",
+      "Neither"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "questionText": "RNA has:",
+    "options": [
+      "Thymine",
+      "Uracil",
+      "Both",
+      "Neither"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Polymers",
+    "questionText": "Natural polymer is:",
+    "options": [
+      "Nylon",
+      "Cellulose",
+      "PVC",
+      "Teflon"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Polymers",
+    "questionText": "Addition polymerization forms:",
+    "options": [
+      "No byproduct",
+      "Water as byproduct",
+      "HCl as byproduct",
+      "Ammonia"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Chemistry in Everyday Life",
+    "questionText": "Aspirin is:",
+    "options": [
+      "Antibiotic",
+      "Analgesic",
+      "Antiseptic",
+      "Antacid"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Chemistry in Everyday Life",
+    "questionText": "Penicillin is:",
+    "options": [
+      "Analgesic",
+      "Antibiotic",
+      "Antacid",
+      "Antiseptic"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "d-Block Elements",
+    "questionText": "Transition elements show:",
+    "options": [
+      "Fixed oxidation state",
+      "Variable oxidation states",
+      "No oxidation",
+      "Always +1"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "d-Block Elements",
+    "questionText": "Colored ions are due to:",
+    "options": [
+      "s-electrons",
+      "d-d transitions",
+      "p-electrons",
+      "No electrons"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "f-Block Elements",
+    "questionText": "Lanthanides are:",
+    "options": [
+      "4f series",
+      "5f series",
+      "3f series",
+      "No f-series"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Extractive Metallurgy",
+    "questionText": "Froth flotation is used for:",
+    "options": [
+      "Sulphide ores",
+      "Oxide ores",
+      "Carbonate ores",
+      "Halide ores"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Principles of Metallurgy",
+    "questionText": "Calcination involves:",
+    "options": [
+      "Heating with air",
+      "Heating without air",
+      "Cooling",
+      "Freezing"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Isolation of Elements",
+    "questionText": "Hall-Heroult process extracts:",
+    "options": [
+      "Iron",
+      "Copper",
+      "Aluminum",
+      "Zinc"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Nitrogen Compounds",
+    "questionText": "Ammonia is:",
+    "options": [
+      "Acidic",
+      "Basic",
+      "Neutral",
+      "Amphoteric"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Oxygen Compounds",
+    "questionText": "Water is:",
+    "options": [
+      "Linear",
+      "Bent",
+      "Tetrahedral",
+      "Octahedral"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Halogen Compounds",
+    "questionText": "Bleaching powder contains:",
+    "options": [
+      "Chlorine",
+      "Bromine",
+      "Iodine",
+      "Fluorine"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Noble Gases",
+    "questionText": "Noble gases are:",
+    "options": [
+      "Very reactive",
+      "Inert",
+      "Highly acidic",
+      "Highly basic"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Hydrogen",
+    "questionText": "Heavy water contains:",
+    "options": [
+      "H\u2082O",
+      "D\u2082O",
+      "T\u2082O",
+      "H\u2082O\u2082"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "questionText": "BOD stands for:",
+    "options": [
+      "Biological Oxygen Demand",
+      "Biochemical Oxygen Demand",
+      "Biotic Oxygen Demand",
+      "Basic Oxygen Demand"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Green Chemistry",
+    "questionText": "Green chemistry aims for:",
+    "options": [
+      "Maximum waste",
+      "Minimum environmental impact",
+      "High cost",
+      "Complex processes"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes",
+    "questionText": "SN2 reaction is:",
+    "options": [
+      "Unimolecular",
+      "Bimolecular",
+      "Termolecular",
+      "No molecular"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Haloarenes",
+    "questionText": "Benzene ring in chlorobenzene:",
+    "options": [
+      "Activates",
+      "Deactivates",
+      "No effect",
+      "Destroys"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Organometallic Compounds",
+    "questionText": "Grignard reagent contains:",
+    "options": [
+      "Mg",
+      "Al",
+      "Fe",
+      "Cu"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Qualitative Analysis",
+    "questionText": "Sodium fusion test detects:",
+    "options": [
+      "Metals",
+      "N, S, halogens",
+      "Oxygen",
+      "Hydrogen"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Quantitative Analysis",
+    "questionText": "Volumetric analysis uses:",
+    "options": [
+      "Balance",
+      "Burette",
+      "Thermometer",
+      "Barometer"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Spectroscopy",
+    "questionText": "UV spectroscopy detects:",
+    "options": [
+      "Electronic transitions",
+      "Vibrational transitions",
+      "Rotational transitions",
+      "Nuclear transitions"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Chromatography",
+    "questionText": "TLC stands for:",
+    "options": [
+      "Thin Layer Chromatography",
+      "Thick Layer Chromatography",
+      "Time Layer Chromatography",
+      "Total Layer Chromatography"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Colloids",
+    "questionText": "Tyndall effect is shown by:",
+    "options": [
+      "True solutions",
+      "Colloids",
+      "Suspensions",
+      "Gases"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Chemistry",
+    "topic": "Industrial Chemistry",
+    "questionText": "Contact process produces:",
+    "options": [
+      "HNO\u2083",
+      "H\u2082SO\u2084",
+      "HCl",
+      "NH\u2083"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  }
+]

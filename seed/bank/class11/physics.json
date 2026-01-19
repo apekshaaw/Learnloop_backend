@@ -1,0 +1,452 @@
+[
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Physical Quantities",
+    "questionText": "Which of the following is a fundamental unit in the SI system?",
+    "options": ["Newton", "Joule", "Kilogram", "Watt"],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Physical Quantities",
+    "questionText": "The dimensional formula for force is:",
+    "options": ["MLT⁻²", "MLT⁻¹", "ML²T⁻²", "ML²T⁻¹"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Physical Quantities",
+    "questionText": "How many significant figures are there in 0.00450?",
+    "options": ["2", "3", "4", "5"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Vectors",
+    "questionText": "Two vectors of magnitude 3 units and 4 units are perpendicular to each other. Their resultant is:",
+    "options": ["7 units", "5 units", "1 unit", "12 units"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Vectors",
+    "questionText": "The dot product of two perpendicular vectors is:",
+    "options": ["Maximum", "Minimum", "Zero", "One"],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Vectors",
+    "questionText": "If A × B = 0, then the angle between A and B is:",
+    "options": ["0° or 180°", "90°", "45°", "60°"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Kinematics",
+    "questionText": "A body moving with constant velocity has:",
+    "options": ["Constant speed and changing direction", "Zero acceleration", "Constant acceleration", "Increasing speed"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Kinematics",
+    "questionText": "The area under velocity-time graph represents:",
+    "options": ["Acceleration", "Displacement", "Force", "Momentum"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Kinematics",
+    "questionText": "For a projectile motion, the horizontal component of velocity:",
+    "options": ["Increases with time", "Decreases with time", "Remains constant", "Becomes zero at highest point"],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Kinematics",
+    "questionText": "The maximum height reached by a projectile is proportional to:",
+    "options": ["sin θ", "sin² θ", "cos θ", "tan θ"],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Dynamics",
+    "questionText": "Newton's first law of motion is also known as:",
+    "options": ["Law of inertia", "Law of momentum", "Law of force", "Law of acceleration"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Dynamics",
+    "questionText": "The rate of change of momentum equals:",
+    "options": ["Velocity", "Acceleration", "Applied force", "Impulse"],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Dynamics",
+    "questionText": "Impulse is measured in:",
+    "options": ["Newton", "Joule", "Newton-second", "Watt"],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Dynamics",
+    "questionText": "The coefficient of friction depends on:",
+    "options": ["Area of contact", "Nature of surfaces in contact", "Weight of the body", "Acceleration"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Work, Energy and Power",
+    "questionText": "Work done is maximum when the angle between force and displacement is:",
+    "options": ["0°", "45°", "90°", "180°"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Work, Energy and Power",
+    "questionText": "The kinetic energy of a body is directly proportional to:",
+    "options": ["Velocity", "Square of velocity", "Momentum", "Acceleration"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Work, Energy and Power",
+    "questionText": "Power is defined as:",
+    "options": ["Work × Time", "Work / Time", "Force × Time", "Energy × Time"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Work, Energy and Power",
+    "questionText": "A conservative force is one for which:",
+    "options": ["Work depends on path", "Work is always zero", "Work is independent of path", "Work is maximum"],
+    "correctOptionIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Circular Motion",
+    "questionText": "The direction of centripetal acceleration is:",
+    "options": ["Along the tangent", "Towards the center", "Away from center", "Perpendicular to plane of motion"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Circular Motion",
+    "questionText": "Angular velocity is measured in:",
+    "options": ["rad/s", "m/s", "m/s²", "rad/s²"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Circular Motion",
+    "questionText": "In uniform circular motion, which quantity remains constant?",
+    "options": ["Velocity", "Speed", "Acceleration", "Displacement"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Circular Motion",
+    "questionText": "The banking angle for a vehicle on a curved road depends on:",
+    "options": ["Mass of vehicle only", "Velocity and radius of curve", "Friction coefficient only", "Width of road"],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Gravitation",
+    "questionText": "The value of gravitational constant G is:",
+    "options": ["6.67 × 10⁻¹¹ Nm²/kg²", "9.8 m/s²", "3 × 10⁸ m/s", "6.02 × 10²³"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Gravitation",
+    "questionText": "Escape velocity from Earth's surface is approximately:",
+    "options": ["7.9 km/s", "11.2 km/s", "15 km/s", "20 km/s"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Gravitation",
+    "questionText": "The value of 'g' decreases with:",
+    "options": ["Increase in altitude only", "Increase in depth only", "Both altitude and depth", "Neither altitude nor depth"],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Gravitation",
+    "questionText": "A geostationary satellite revolves around Earth in:",
+    "options": ["12 hours", "24 hours", "48 hours", "6 hours"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Gravitation",
+    "questionText": "Gravitational potential energy is always:",
+    "options": ["Positive", "Negative", "Zero", "Infinite"],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Elasticity",
+    "questionText": "Hooke's law is valid within:",
+    "options": ["Plastic limit", "Elastic limit", "Breaking point", "All ranges"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Elasticity",
+    "questionText": "Young's modulus is defined for:",
+    "options": ["Longitudinal strain", "Shear strain", "Volume strain", "Angular strain"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Elasticity",
+    "questionText": "Poisson's ratio ranges between:",
+    "options": ["-1 to +1", "0 to 0.5", "0 to 1", "-0.5 to 0.5"],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "questionText": "The SI unit of temperature is:",
+    "options": ["Celsius", "Fahrenheit", "Kelvin", "Rankine"],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Heat and Temperature",
+    "questionText": "Absolute zero temperature is:",
+    "options": ["0°C", "-273.15°C", "-100°C", "-373°C"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Thermal Expansion",
+    "questionText": "The coefficient of linear expansion (α), superficial expansion (β), and cubical expansion (γ) are related as:",
+    "options": ["α = β = γ", "α : β : γ = 1 : 2 : 3", "α : β : γ = 3 : 2 : 1", "α : β : γ = 1 : 3 : 2"],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Thermal Expansion",
+    "questionText": "Railway tracks are laid with gaps to allow for:",
+    "options": ["Contraction in winter", "Expansion in summer", "Both expansion and contraction", "Bending"],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Heat Capacity",
+    "questionText": "Specific heat capacity of water is:",
+    "options": ["4200 J/kg°C", "2100 J/kg°C", "1000 J/kg°C", "420 J/kg°C"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Heat Capacity",
+    "questionText": "The principle of calorimetry is based on:",
+    "options": ["Conservation of energy", "Conservation of momentum", "Newton's law of cooling", "Law of conduction"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Heat Transfer",
+    "questionText": "Heat transfer by conduction requires:",
+    "options": ["Medium", "Vacuum", "Electromagnetic waves", "Fluid motion"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Heat Transfer",
+    "questionText": "The unit of thermal conductivity is:",
+    "options": ["W/m·K", "J/kg·K", "W/m²·K", "J/m·K"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "questionText": "The first law of thermodynamics is based on:",
+    "options": ["Conservation of momentum", "Conservation of energy", "Conservation of charge", "Conservation of mass"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "questionText": "In an adiabatic process:",
+    "options": ["ΔQ = 0", "ΔU = 0", "ΔW = 0", "ΔT = 0"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "questionText": "The efficiency of a Carnot engine depends on:",
+    "options": ["Working substance", "Source and sink temperatures", "Pressure", "Volume"],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Ray Optics",
+    "questionText": "The speed of light in vacuum is:",
+    "options": ["3 × 10⁸ m/s", "3 × 10⁶ m/s", "3 × 10¹⁰ m/s", "3 × 10⁵ m/s"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Ray Optics",
+    "questionText": "Total internal reflection occurs when light travels from:",
+    "options": ["Denser to rarer medium", "Rarer to denser medium", "Same medium", "Any medium"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Ray Optics",
+    "questionText": "The refractive index of a medium is defined as the ratio of:",
+    "options": ["Speed of light in medium to speed in vacuum", "Speed of light in vacuum to speed in medium", "Wavelength in medium to wavelength in vacuum", "Frequency in medium to frequency in vacuum"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Reflection",
+    "questionText": "For a plane mirror, the magnification is:",
+    "options": ["+1", "-1", "0", "∞"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Refraction",
+    "questionText": "A convex lens of focal length 20 cm forms a real image at 60 cm. The object distance is:",
+    "options": ["15 cm", "30 cm", "40 cm", "10 cm"],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Dispersion",
+    "questionText": "White light is dispersed by a prism because different colors have:",
+    "options": ["Different speeds in glass", "Different frequencies", "Different wavelengths", "All of the above"],
+    "correctOptionIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "questionText": "The SI unit of electric current is:",
+    "options": ["Coulomb", "Ampere", "Volt", "Ohm"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "questionText": "Ohm's law states that V is proportional to I when:",
+    "options": ["Temperature varies", "Resistance is constant", "Current varies", "Voltage changes"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "questionText": "In a series circuit, the total resistance is:",
+    "options": ["Sum of individual resistances", "Product of individual resistances", "Average of individual resistances", "Reciprocal sum"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Computer System",
+    "questionText": "The ALU performs:",
+    "options": [
+      "Input operations",
+      "Arithmetic and logical operations",
+      "Output operations",
+      "Storage operations"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Computer System",
+    "questionText": "RAM stands for:",
+    "options": [
+      "Read Access Memory",
+      "Random Access Memory",
+      "Rapid Access Memory",
+      "Remote Access Memory"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Number System",
+    "questionText": "Binary number system has base:",
+    "options": [
+      "2",
+      "8",
+      "10",
+      "16"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Number System",
+    "questionText": "Hexadecimal number system uses digits:",
+    "options": [
+      "0-9",
+      "0-7",
+      "0-9 and A-F",
+      "0-15"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Computer Software",
+    "questionText": "System software includes:",
+    "options": [
+      "MS Word",
+      "Operating System",
+      "Games",
+      "Web Browser"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Computer Software",
+    "questionText": "Application software is used for:",
+    "options": [
+      "Managing hardware",
+      "Specific user tasks",
+      "Booting computer",
+      "Controlling CPU"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Operating System",
+    "questionText": "The main function of OS is to:",
+    "options": [
+      "Create documents",
+      "Manage hardware and software resources",
+      "Browse internet",
+      "Edit photos"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Operating System",
+    "questionText": "Linux is an example of:",
+    "options": [
+      "Closed source OS",
+      "Open source OS",
+      "Application software",
+      "Utility software"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Programming Concepts",
+    "questionText": "Algorithm is:",
+    "options": [
+      "Programming language",
+      "Step-by-step procedure",
+      "Computer hardware",
+      "Software"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Programming Concepts",
+    "questionText": "Flowchart uses:",
+    "options": [
+      "Only text",
+      "Symbols and arrows",
+      "Only numbers",
+      "Code statements"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "C Programming",
+    "questionText": "C is a:",
+    "options": [
+      "Low-level language",
+      "High-level language",
+      "Assembly language",
+      "Machine language"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "C Programming",
+    "questionText": "The extension of C source file is:",
+    "options": [
+      ".exe",
+      ".c",
+      ".cpp",
+      ".h"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "C Data Types",
+    "questionText": "int is used to store:",
+    "options": [
+      "Characters",
+      "Integer numbers",
+      "Decimal numbers",
+      "Strings"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "C Data Types",
+    "questionText": "float is used for:",
+    "options": [
+      "Whole numbers",
+      "Decimal numbers",
+      "Characters",
+      "Text"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "C Operators",
+    "questionText": "++ is:",
+    "options": [
+      "Assignment operator",
+      "Increment operator",
+      "Relational operator",
+      "Logical operator"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "C Control Statements",
+    "questionText": "if statement is used for:",
+    "options": [
+      "Looping",
+      "Decision making",
+      "Function declaration",
+      "Input"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "C Loops",
+    "questionText": "for loop is used for:",
+    "options": [
+      "Decision making",
+      "Repeated execution",
+      "Input/Output",
+      "Declaration"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "C Loops",
+    "questionText": "while loop checks condition:",
+    "options": [
+      "After execution",
+      "Before execution",
+      "Never",
+      "Randomly"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "C Arrays",
+    "questionText": "Array stores:",
+    "options": [
+      "Single value",
+      "Multiple values of same type",
+      "Different data types",
+      "Functions"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "C Functions",
+    "questionText": "Function is:",
+    "options": [
+      "Reusable block of code",
+      "Variable",
+      "Operator",
+      "Loop"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "C Pointers",
+    "questionText": "Pointer stores:",
+    "options": [
+      "Value",
+      "Address of variable",
+      "Function",
+      "Array"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Database",
+    "questionText": "DBMS stands for:",
+    "options": [
+      "Data Base Memory System",
+      "Database Management System",
+      "Data Binary Management System",
+      "Digital Base Management System"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Database",
+    "questionText": "Primary key is:",
+    "options": [
+      "Duplicate value",
+      "Unique identifier",
+      "Foreign key",
+      "Index"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "SQL",
+    "questionText": "SQL stands for:",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "Standard Query Language",
+      "System Query Language"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "SQL",
+    "questionText": "SELECT statement is used to:",
+    "options": [
+      "Delete data",
+      "Retrieve data",
+      "Update data",
+      "Create table"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Networking",
+    "questionText": "LAN stands for:",
+    "options": [
+      "Large Area Network",
+      "Local Area Network",
+      "Long Area Network",
+      "Limited Area Network"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Networking",
+    "questionText": "IP address is used for:",
+    "options": [
+      "Identifying devices on network",
+      "Storing data",
+      "Processing data",
+      "Printing"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Internet",
+    "questionText": "WWW stands for:",
+    "options": [
+      "World Wide Web",
+      "World Wide Work",
+      "World Wide Wire",
+      "World Web Wide"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Internet",
+    "questionText": "HTTP is a:",
+    "options": [
+      "Programming language",
+      "Protocol",
+      "Operating system",
+      "Browser"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Web Technology",
+    "questionText": "HTML is used for:",
+    "options": [
+      "Programming",
+      "Creating web pages",
+      "Database management",
+      "Network security"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Web Technology",
+    "questionText": "CSS is used for:",
+    "options": [
+      "Creating content",
+      "Styling web pages",
+      "Server programming",
+      "Database"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Cybersecurity",
+    "questionText": "Firewall is used for:",
+    "options": [
+      "Increasing speed",
+      "Network security",
+      "Data storage",
+      "Programming"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Cybersecurity",
+    "questionText": "Antivirus software protects from:",
+    "options": [
+      "Hardware failure",
+      "Malware",
+      "Power failure",
+      "Network issues"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "E-commerce",
+    "questionText": "Online shopping is an example of:",
+    "options": [
+      "E-commerce",
+      "E-learning",
+      "E-government",
+      "E-mail"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Multimedia",
+    "questionText": "Multimedia includes:",
+    "options": [
+      "Only text",
+      "Text, audio, video, images",
+      "Only audio",
+      "Only video"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Computer Graphics",
+    "questionText": "Pixel stands for:",
+    "options": [
+      "Picture element",
+      "Picture extra light",
+      "Point element",
+      "Photo element"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Computer Ethics",
+    "questionText": "Hacking is:",
+    "options": [
+      "Legal activity",
+      "Illegal unauthorized access",
+      "Data backup",
+      "Software installation"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Computer Ethics",
+    "questionText": "Piracy refers to:",
+    "options": [
+      "Legal software use",
+      "Illegal copying of software",
+      "Hardware theft",
+      "Data backup"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Social Impact",
+    "questionText": "ICT stands for:",
+    "options": [
+      "Information Computer Technology",
+      "Information and Communication Technology",
+      "Internet Communication Technology",
+      "International Computer Technology"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Digital Divide",
+    "questionText": "Digital divide refers to:",
+    "options": [
+      "Hardware division",
+      "Gap in technology access",
+      "Software types",
+      "Network protocols"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "MS Office",
+    "questionText": "MS Word is used for:",
+    "options": [
+      "Spreadsheet",
+      "Word processing",
+      "Presentation",
+      "Database"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "MS Office",
+    "questionText": "MS Excel is used for:",
+    "options": [
+      "Word processing",
+      "Spreadsheet calculations",
+      "Presentation",
+      "Drawing"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "MS Office",
+    "questionText": "MS PowerPoint is used for:",
+    "options": [
+      "Word processing",
+      "Spreadsheet",
+      "Presentations",
+      "Email"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Logic Gates",
+    "questionText": "AND gate outputs 1 when:",
+    "options": [
+      "Any input is 1",
+      "All inputs are 1",
+      "No input is 1",
+      "One input is 0"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Boolean Algebra",
+    "questionText": "In Boolean algebra, 1 represents:",
+    "options": [
+      "False",
+      "True",
+      "Maybe",
+      "None"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Computer Virus",
+    "questionText": "Virus is a:",
+    "options": [
+      "Hardware component",
+      "Malicious software",
+      "Operating system",
+      "Application"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "File Management",
+    "questionText": "File extension .txt indicates:",
+    "options": [
+      "Image file",
+      "Text file",
+      "Video file",
+      "Audio file"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Computer History",
+    "questionText": "First generation computers used:",
+    "options": [
+      "Transistors",
+      "Vacuum tubes",
+      "IC",
+      "Microprocessors"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "Computer Architecture",
+    "questionText": "CPU stands for:",
+    "options": [
+      "Central Power Unit",
+      "Central Processing Unit",
+      "Computer Processing Unit",
+      "Central Program Unit"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Computer Science",
+    "topic": "IT Career",
+    "questionText": "A person who writes software code is called:",
+    "options": [
+      "User",
+      "Programmer",
+      "Operator",
+      "Analyst"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  }
+]

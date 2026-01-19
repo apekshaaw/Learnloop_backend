@@ -1,0 +1,452 @@
+[
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Introduction to Accounting",
+    "questionText": "Accounting is called the language of:",
+    "options": ["Business", "Economics", "Finance", "Management"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Introduction to Accounting",
+    "questionText": "The primary objective of accounting is to:",
+    "options": ["Maximize profit", "Provide financial information", "Reduce expenses", "Increase sales"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Accounting Equation",
+    "questionText": "The accounting equation is:",
+    "options": ["Assets = Liabilities + Capital", "Assets + Liabilities = Capital", "Assets = Capital - Liabilities", "Assets + Capital = Liabilities"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Double Entry System",
+    "questionText": "According to double entry system, every transaction has:",
+    "options": ["One debit aspect", "One credit aspect", "Two aspects: debit and credit", "No aspect"],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Journal",
+    "questionText": "Journal is a book of:",
+    "options": ["Final entry", "Original entry", "Closing entry", "Adjustment entry"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Journal",
+    "questionText": "Narration in journal entry explains:",
+    "options": ["Date of transaction", "Nature of transaction", "Amount of transaction", "Parties involved"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Ledger",
+    "questionText": "Ledger is called the:",
+    "options": ["Book of original entry", "Book of secondary entry", "Book of prime entry", "Book of final entry"],
+    "correctOptionIndex": 3,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Ledger",
+    "questionText": "The process of transferring entries from journal to ledger is called:",
+    "options": ["Journalizing", "Posting", "Balancing", "Recording"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Cash Book",
+    "questionText": "Cash book records transactions related to:",
+    "options": ["Credit only", "Cash and bank", "Bank only", "Credit purchases"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Cash Book",
+    "questionText": "A three-column cash book has columns for:",
+    "options": ["Cash, Bank, Discount", "Cash, Credit, Bank", "Debit, Credit, Balance", "Purchase, Sales, Cash"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Subsidiary Books",
+    "questionText": "Purchase book records:",
+    "options": ["All purchases", "Credit purchases of goods", "Cash purchases", "Purchase of assets"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Subsidiary Books",
+    "questionText": "Sales return book is also known as:",
+    "options": ["Sales book", "Return outward book", "Return inward book", "Purchase book"],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Trial Balance",
+    "questionText": "Trial balance is prepared to check:",
+    "options": ["Profit or loss", "Arithmetical accuracy", "Financial position", "Cash balance"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Trial Balance",
+    "questionText": "If trial balance agrees, it means:",
+    "options": ["All entries are correct", "No errors exist", "Arithmetical accuracy is there", "Profit is correct"],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Bank Reconciliation",
+    "questionText": "Bank reconciliation statement reconciles:",
+    "options": ["Cash book and ledger", "Cash book and bank statement", "Journal and ledger", "Trial balance and balance sheet"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Bank Reconciliation",
+    "questionText": "Cheque issued but not presented in bank is:",
+    "options": ["Added to bank balance", "Deducted from bank balance", "Added to cash book balance", "Ignored"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Depreciation",
+    "questionText": "Depreciation is charged on:",
+    "options": ["Current assets", "Fixed assets", "Fictitious assets", "Liquid assets"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Depreciation",
+    "questionText": "Under straight line method, depreciation:",
+    "options": ["Increases every year", "Decreases every year", "Remains constant", "Varies randomly"],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Depreciation",
+    "questionText": "Written down value method is also known as:",
+    "options": ["Straight line method", "Reducing balance method", "Sum of years method", "Annuity method"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Errors",
+    "questionText": "Error of omission occurs when:",
+    "options": ["Transaction is wrongly recorded", "Transaction is not recorded", "Amount is wrong", "Account is wrong"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Errors",
+    "questionText": "Compensating errors are:",
+    "options": ["Errors that cancel each other", "Errors in one account", "Errors affecting trial balance", "Intentional errors"],
+    "correctOptionIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Capital and Revenue",
+    "questionText": "Purchase of machinery is:",
+    "options": ["Revenue expenditure", "Capital expenditure", "Deferred expenditure", "Revenue receipt"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Capital and Revenue",
+    "questionText": "Salary paid to employees is:",
+    "options": ["Capital expenditure", "Revenue expenditure", "Capital receipt", "Deferred expenditure"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Reserve and Provision",
+    "questionText": "Provision is created for:",
+    "options": ["Future expansion", "Known liability", "Dividend distribution", "Bonus to employees"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Reserve and Provision",
+    "questionText": "Reserve is created out of:",
+    "options": ["Loss", "Profit", "Capital", "Liabilities"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Final Accounts",
+    "questionText": "Trading account shows:",
+    "options": ["Net profit", "Gross profit", "Financial position", "Capital balance"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Final Accounts",
+    "questionText": "Profit and loss account is prepared to find:",
+    "options": ["Gross profit", "Net profit or loss", "Gross loss", "Cash balance"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Final Accounts",
+    "questionText": "Balance sheet shows:",
+    "options": ["Profitability", "Financial position", "Cash flow", "Revenue"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Final Accounts",
+    "questionText": "Closing stock appears in:",
+    "options": ["Trading account only", "Balance sheet only", "Both trading account and balance sheet", "Profit and loss account"],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Adjustments",
+    "questionText": "Outstanding expenses are:",
+    "options": ["Assets", "Liabilities", "Income", "Loss"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Adjustments",
+    "questionText": "Prepaid expenses are shown in balance sheet as:",
+    "options": ["Liability", "Asset", "Income", "Expense"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Adjustments",
+    "questionText": "Accrued income is:",
+    "options": ["Already received", "Due but not received", "Not earned", "Advance received"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Single Entry System",
+    "questionText": "Single entry system is:",
+    "options": ["Complete system", "Incomplete system", "Scientific system", "Modern system"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Single Entry System",
+    "questionText": "Statement of affairs is similar to:",
+    "options": ["Trading account", "Profit and loss account", "Balance sheet", "Cash book"],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Non-Trading Concerns",
+    "questionText": "Non-trading concerns prepare:",
+    "options": ["Trading account", "Manufacturing account", "Income and expenditure account", "Cost sheet"],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Non-Trading Concerns",
+    "questionText": "Receipts and payments account is a summary of:",
+    "options": ["Income and expenses", "Cash and bank transactions", "Assets and liabilities", "Reserves and provisions"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Non-Trading Concerns",
+    "questionText": "Subscription received in advance is treated as:",
+    "options": ["Income", "Asset", "Liability", "Expense"],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Bills of Exchange",
+    "questionText": "The person who draws a bill is called:",
+    "options": ["Drawer", "Drawee", "Payee", "Endorsee"],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Bills of Exchange",
+    "questionText": "Promissory note is a:",
+    "options": ["Two-party instrument", "Three-party instrument", "Four-party instrument", "One-party instrument"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Consignment",
+    "questionText": "In consignment, goods are sent on:",
+    "options": ["Sale basis", "Approval or return basis", "Credit basis", "Cash basis"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Consignment",
+    "questionText": "The person who sends goods on consignment is called:",
+    "options": ["Consignee", "Consignor", "Agent", "Broker"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Joint Venture",
+    "questionText": "Joint venture is a:",
+    "options": ["Permanent partnership", "Temporary partnership", "Company", "Sole proprietorship"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Partnership",
+    "questionText": "Minimum number of partners in a partnership is:",
+    "options": ["One", "Two", "Three", "Five"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Partnership",
+    "questionText": "In absence of partnership deed, profits are shared:",
+    "options": ["Equally", "In capital ratio", "In agreed ratio", "As per law"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Partnership",
+    "questionText": "Interest on capital is allowed only when:",
+    "options": ["There is profit", "Partnership deed allows", "Both profit exists and deed allows", "Partners agree"],
+    "correctOptionIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Government Accounting",
+    "questionText": "Government accounting follows:",
+    "options": ["Cash basis", "Accrual basis", "Mixed basis", "Mercantile basis"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Government Accounting",
+    "questionText": "Budget in government accounting shows:",
+    "options": ["Past performance", "Estimated revenue and expenditure", "Actual revenue", "Final accounts"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Computerized Accounting",
+    "questionText": "Accounting software helps in:",
+    "options": ["Manual recording", "Automated recording and reporting", "Physical verification", "Cash handling"],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Financial Statements",
+    "questionText": "NFRS stands for:",
+    "options": ["Nepal Financial Reporting Standards", "National Financial Recording System", "Nepal Financial Recording Standards", "New Financial Reporting System"],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 11",
+    "subject": "Accountancy",
+    "topic": "Accounting Concepts",
+    "questionText": "Going concern concept assumes that business will:",
+    "options": ["Close soon", "Continue indefinitely", "Merge with another", "Sell all assets"],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  }
+]

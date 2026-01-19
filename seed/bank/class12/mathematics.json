@@ -1,0 +1,702 @@
+[
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Derivatives",
+    "questionText": "Derivative of sin x is:",
+    "options": [
+      "cos x",
+      "-cos x",
+      "sin x",
+      "-sin x"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Derivatives",
+    "questionText": "Derivative of e\u02e3 is:",
+    "options": [
+      "e\u02e3",
+      "xe\u02e3\u207b\u00b9",
+      "ln x",
+      "1/x"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Integration",
+    "questionText": "\u222bcos x dx equals:",
+    "options": [
+      "sin x + C",
+      "-sin x + C",
+      "cos x + C",
+      "-cos x + C"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Matrices",
+    "questionText": "Transpose of (AB)\u1d40 is:",
+    "options": [
+      "A\u1d40B\u1d40",
+      "B\u1d40A\u1d40",
+      "AB",
+      "BA"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Determinants",
+    "questionText": "|AB| equals:",
+    "options": [
+      "|A| + |B|",
+      "|A| \u00d7 |B|",
+      "|A| - |B|",
+      "|A| / |B|"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Continuity",
+    "questionText": "A function is continuous if:",
+    "options": [
+      "It has breaks",
+      "No breaks or jumps",
+      "It's undefined",
+      "It's periodic"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Limits",
+    "questionText": "lim(x\u21920) (sin x)/x equals:",
+    "options": [
+      "0",
+      "1",
+      "\u221e",
+      "undefined"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Differential Equations",
+    "questionText": "dy/dx = ky is:",
+    "options": [
+      "First order linear",
+      "Second order",
+      "Non-linear",
+      "Partial"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Vectors",
+    "questionText": "Dot product of perpendicular vectors is:",
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "Maximum"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Vectors",
+    "questionText": "Cross product A \u00d7 B is:",
+    "options": [
+      "Scalar",
+      "Vector",
+      "Matrix",
+      "Number"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Three Dimensional Geometry",
+    "questionText": "Distance from point to plane is found using:",
+    "options": [
+      "Dot product",
+      "Cross product",
+      "Perpendicular distance formula",
+      "Pythagoras"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Probability",
+    "questionText": "P(A \u222a B) equals:",
+    "options": [
+      "P(A) + P(B)",
+      "P(A) + P(B) - P(A \u2229 B)",
+      "P(A) \u00d7 P(B)",
+      "P(A) - P(B)"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Probability",
+    "questionText": "For independent events P(A \u2229 B) equals:",
+    "options": [
+      "P(A) + P(B)",
+      "P(A) \u00d7 P(B)",
+      "P(A) - P(B)",
+      "P(A) / P(B)"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Statistics",
+    "questionText": "Variance is:",
+    "options": [
+      "Square root of SD",
+      "Square of SD",
+      "Mean",
+      "Mode"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Linear Programming",
+    "questionText": "Feasible region is:",
+    "options": [
+      "Outside constraints",
+      "Inside constraints",
+      "On constraints",
+      "Nowhere"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Applications of Derivatives",
+    "questionText": "At maxima, f'(x) is:",
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Undefined"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Applications of Derivatives",
+    "questionText": "Second derivative test checks for:",
+    "options": [
+      "Continuity",
+      "Maxima and minima",
+      "Limits",
+      "Integration"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Definite Integrals",
+    "questionText": "\u222b(a to b) f(x)dx represents:",
+    "options": [
+      "Derivative",
+      "Area under curve",
+      "Slope",
+      "Maximum value"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Applications of Integrals",
+    "questionText": "Volume of solid of revolution uses:",
+    "options": [
+      "Differentiation",
+      "Integration",
+      "Limits",
+      "Matrices"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Differential Equations",
+    "questionText": "General solution contains:",
+    "options": [
+      "No constants",
+      "Arbitrary constants",
+      "Only variables",
+      "Numbers"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Inverse Trigonometric Functions",
+    "questionText": "Domain of sin\u207b\u00b9x is:",
+    "options": [
+      "[-1, 1]",
+      "All real numbers",
+      "[0, \u03c0]",
+      "[-\u03c0, \u03c0]"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Relations and Functions",
+    "questionText": "One-one function is also called:",
+    "options": [
+      "Surjective",
+      "Injective",
+      "Bijective",
+      "None"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Binary Operations",
+    "questionText": "Associative property is:",
+    "options": [
+      "a*b = b*a",
+      "(a*b)*c = a*(b*c)",
+      "a*(b+c) = a*b + a*c",
+      "a*e = a"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Matrices",
+    "questionText": "Identity matrix has:",
+    "options": [
+      "All zeros",
+      "All ones",
+      "Diagonal ones, rest zeros",
+      "Random values"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Matrices",
+    "questionText": "Singular matrix has determinant:",
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "Positive"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Inverse of Matrix",
+    "questionText": "A\u207b\u00b9 exists if:",
+    "options": [
+      "|A| = 0",
+      "|A| \u2260 0",
+      "A is singular",
+      "A is rectangular"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Continuity and Differentiability",
+    "questionText": "Every differentiable function is:",
+    "options": [
+      "Discontinuous",
+      "Continuous",
+      "Neither",
+      "Both"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Mean Value Theorem",
+    "questionText": "MVT requires function to be:",
+    "options": [
+      "Discontinuous",
+      "Continuous on [a,b] and differentiable on (a,b)",
+      "Only continuous",
+      "Only differentiable"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Tangent and Normal",
+    "questionText": "Slope of tangent at point is:",
+    "options": [
+      "f(x)",
+      "f'(x)",
+      "\u222bf(x)dx",
+      "f''(x)"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Rate of Change",
+    "questionText": "Instantaneous rate of change is:",
+    "options": [
+      "Average rate",
+      "Derivative",
+      "Integral",
+      "Limit"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Increasing and Decreasing Functions",
+    "questionText": "If f'(x) > 0, function is:",
+    "options": [
+      "Decreasing",
+      "Increasing",
+      "Constant",
+      "Undefined"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Approximation",
+    "questionText": "Linear approximation uses:",
+    "options": [
+      "Second derivative",
+      "First derivative",
+      "Integral",
+      "Limit"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Indefinite Integrals",
+    "questionText": "\u222b1 dx equals:",
+    "options": [
+      "0",
+      "1",
+      "x + C",
+      "C"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Integration by Parts",
+    "questionText": "\u222bu dv equals:",
+    "options": [
+      "uv - \u222bv du",
+      "uv + \u222bv du",
+      "\u222bu du + \u222bv dv",
+      "u + v"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Integration by Substitution",
+    "questionText": "Substitution method simplifies:",
+    "options": [
+      "Differentiation",
+      "Complex integrals",
+      "Limits",
+      "Matrices"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Properties of Definite Integrals",
+    "questionText": "\u222b(a to b) f(x)dx = -\u222b(b to a) f(x)dx is:",
+    "options": [
+      "False",
+      "True",
+      "Sometimes",
+      "Never"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Differential Equations Applications",
+    "questionText": "Differential equations model:",
+    "options": [
+      "Static systems",
+      "Dynamic systems",
+      "No systems",
+      "Only geometry"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Vector Algebra",
+    "questionText": "Unit vector has magnitude:",
+    "options": [
+      "0",
+      "1",
+      "Variable",
+      "Infinite"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Scalar Triple Product",
+    "questionText": "[A B C] represents:",
+    "options": [
+      "Dot product",
+      "Cross product",
+      "Scalar triple product",
+      "Vector triple product"
+    ],
+    "correctOptionIndex": 2,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Plane in 3D",
+    "questionText": "Equation of plane is:",
+    "options": [
+      "Linear in x, y, z",
+      "Quadratic",
+      "Cubic",
+      "Exponential"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Line in 3D",
+    "questionText": "Line in 3D requires:",
+    "options": [
+      "One point",
+      "Two points or point and direction",
+      "Three points",
+      "No points"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Bayes Theorem",
+    "questionText": "Bayes theorem relates:",
+    "options": [
+      "Conditional probabilities",
+      "Independent events",
+      "Derivatives",
+      "Integrals"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "hard"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Random Variables",
+    "questionText": "Discrete random variable takes:",
+    "options": [
+      "Continuous values",
+      "Countable values",
+      "Infinite values",
+      "No values"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Binomial Distribution",
+    "questionText": "Binomial distribution requires:",
+    "options": [
+      "Continuous data",
+      "Fixed number of trials",
+      "Infinite trials",
+      "No trials"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Normal Distribution",
+    "questionText": "Normal distribution is:",
+    "options": [
+      "Skewed",
+      "Symmetric bell-shaped",
+      "Uniform",
+      "Exponential"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "easy"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "Correlation",
+    "questionText": "Correlation coefficient ranges from:",
+    "options": [
+      "0 to 1",
+      "-1 to 1",
+      "0 to \u221e",
+      "-\u221e to \u221e"
+    ],
+    "correctOptionIndex": 1,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "General",
+    "questionText": "Mathematics question 47?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "General",
+    "questionText": "Mathematics question 48?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "General",
+    "questionText": "Mathematics question 49?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  },
+  {
+    "level": "Class 12",
+    "subject": "Mathematics",
+    "topic": "General",
+    "questionText": "Mathematics question 50?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctOptionIndex": 0,
+    "difficulty": "medium"
+  }
+]
