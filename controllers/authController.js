@@ -10,18 +10,33 @@ const generateToken = (id) => {
 };
 
 // Shape user data sent to frontend
-const buildUserResponse = (user) => ({
+  const buildUserResponse = (user) => ({
   _id: user._id,
   name: user.name,
   email: user.email,
+
+  // content filtering
   level: user.level,
+
+  // gamification
   points: user.points,
   streak: user.streak,
   profileImage: user.profileImage,
+  gameLevel: Math.floor((user.points || 0) / 500) + 1,
+
+  // onboarding
+  onboardingCompleted: user.onboardingCompleted,
+  academicProfile: user.academicProfile,
+  learningPreferences: user.learningPreferences,
+
+  // AI fields (optional)
+  faculty: user.faculty,
+  preferredLearningTime: user.preferredLearningTime,
+  learningStyle: user.learningStyle,
 });
 
+
 // -------------------- REGISTER --------------------
-// @desc    Register a new user
 // @route   POST /api/auth/register
 // @access  Public
 const registerUser = async (req, res) => {
@@ -29,9 +44,7 @@ const registerUser = async (req, res) => {
     const { name, email, password, confirmPassword, level } = req.body;
 
     if (!name || !email || !password || !confirmPassword) {
-      return res
-        .status(400)
-        .json({ message: "Please fill all required fields" });
+      return res.status(400).json({ message: "Please fill all required fields" });
     }
 
     if (password.length < 6) {
@@ -46,17 +59,16 @@ const registerUser = async (req, res) => {
         .json({ message: "Password and confirm password do not match" });
     }
 
-    const existingUser = await User.findOne({ email });
+    const existingUser = await User.findOne({ email: email.toLowerCase().trim() });
     if (existingUser) {
       return res.status(400).json({ message: "User already exists" });
     }
 
     const user = await User.create({
-      name,
-      email,
+      name: name.trim(),
+      email: email.toLowerCase().trim(),
       password,
-      level,
-      // profileImage will be null/undefined by default
+      level: typeof level === "string" && level.trim() !== "" ? level.trim() : null,
     });
 
     return res.status(201).json({
@@ -71,7 +83,6 @@ const registerUser = async (req, res) => {
 };
 
 // -------------------- LOGIN --------------------
-// @desc    Login user
 // @route   POST /api/auth/login
 // @access  Public
 const loginUser = async (req, res) => {
@@ -79,21 +90,15 @@ const loginUser = async (req, res) => {
     const { email, password } = req.body;
 
     if (!email || !password) {
-      return res
-        .status(400)
-        .json({ message: "Please provide email and password" });
+      return res.status(400).json({ message: "Please provide email and password" });
     }
 
-    const user = await User.findOne({ email });
+    const user = await User.findOne({ email: email.toLowerCase().trim() });
 
-    if (!user) {
-      return res.status(401).json({ message: "Invalid credentials" });
-    }
+    if (!user) return res.status(401).json({ message: "Invalid credentials" });
 
     const isMatch = await user.matchPassword(password);
-    if (!isMatch) {
-      return res.status(401).json({ message: "Invalid credentials" });
-    }
+    if (!isMatch) return res.status(401).json({ message: "Invalid credentials" });
 
     return res.json({
       message: "Login successful",
@@ -107,7 +112,6 @@ const loginUser = async (req, res) => {
 };
 
 // -------------------- GET ME --------------------
-// @desc    Get current user profile
 // @route   GET /api/auth/me
 // @access  Private
 const getMe = async (req, res) => {
@@ -115,9 +119,7 @@ const getMe = async (req, res) => {
     const userId = req.user.id || req.user._id;
     const user = await User.findById(userId);
 
-    if (!user) {
-      return res.status(404).json({ message: "User not found" });
-    }
+    if (!user) return res.status(404).json({ message: "User not found" });
 
     return res.json({ user: buildUserResponse(user) });
   } catch (error) {
@@ -126,29 +128,36 @@ const getMe = async (req, res) => {
   }
 };
 
-// -------------------- UPDATE PROFILE --------------------
-// @desc    Update profile (name, email, level, profileImage)
-// @route   PUT /api/auth/profile
-// @access  Private
+
 const updateProfile = async (req, res) => {
   try {
     const userId = req.user.id || req.user._id;
-    const { name, email, level, profileImage } = req.body;
+
+    const {
+      name,
+      email,
+      level,
+      profileImage,
+
+      onboardingCompleted,
+      academicProfile,
+      learningPreferences,
+
+      // optional AI-alignment fields
+      faculty,
+      preferredLearningTime,
+      learningStyle,
+    } = req.body;
 
     const user = await User.findById(userId);
-    if (!user) {
-      return res.status(404).json({ message: "User not found" });
-    }
+    if (!user) return res.status(404).json({ message: "User not found" });
 
     // Name
-    if (typeof name === "string" && name.trim() !== "") {
-      user.name = name.trim();
-    }
+    if (typeof name === "string" && name.trim() !== "") user.name = name.trim();
 
-    // Email (check uniqueness)
+    // Email uniqueness
     if (typeof email === "string" && email.trim() !== "") {
       const normalizedEmail = email.toLowerCase().trim();
-
       if (normalizedEmail !== user.email) {
         const emailExists = await User.findOne({ email: normalizedEmail });
         if (emailExists && emailExists._id.toString() !== userId.toString()) {
@@ -158,15 +167,57 @@ const updateProfile = async (req, res) => {
       }
     }
 
-    // Level (Class 11 / Class 12 etc.)
-    if (typeof level === "string" && level.trim() !== "") {
-      user.level = level.trim();
+    // Profile image (allow clear)
+    if (profileImage !== undefined) user.profileImage = profileImage;
+
+    // Onboarding completed
+    if (typeof onboardingCompleted === "boolean") {
+      user.onboardingCompleted = onboardingCompleted;
     }
 
-    // Profile image (base64 or URL); allow clearing
-    if (profileImage !== undefined) {
-      user.profileImage = profileImage;
+    // Academic Profile
+    if (academicProfile && typeof academicProfile === "object") {
+      if (academicProfile.grade) user.academicProfile.grade = academicProfile.grade;
+      if (academicProfile.faculty) user.academicProfile.faculty = academicProfile.faculty;
+      if (academicProfile.board) user.academicProfile.board = academicProfile.board;
+      if (typeof academicProfile.schoolName === "string") {
+        user.academicProfile.schoolName = academicProfile.schoolName;
+      }
+
+      // Keep top-level fields aligned for quiz filtering + AI dashboard
+      if (academicProfile.grade) user.level = `Class ${academicProfile.grade}`;
+      if (academicProfile.faculty) user.faculty = academicProfile.faculty;
     }
+
+    // Learning Preferences
+    if (learningPreferences && typeof learningPreferences === "object") {
+      if (learningPreferences.studyPreference)
+        user.learningPreferences.studyPreference = learningPreferences.studyPreference;
+
+      if (learningPreferences.studyTime)
+        user.learningPreferences.studyTime = learningPreferences.studyTime;
+
+      if (learningPreferences.challenge)
+        user.learningPreferences.challenge = learningPreferences.challenge;
+
+      // Align with AI fields (optional)
+      if (learningPreferences.studyTime) user.preferredLearningTime = learningPreferences.studyTime;
+
+      if (learningPreferences.studyPreference) {
+        user.learningStyle =
+          learningPreferences.studyPreference === "Practice"
+            ? "Kinesthetic"
+            : learningPreferences.studyPreference; // Visual / Reading/Writing
+      }
+    }
+
+    // Allow direct overrides too (optional)
+    if (typeof level === "string" && level.trim() !== "") user.level = level.trim();
+    if (typeof faculty === "string" && faculty.trim() !== "") user.faculty = faculty.trim();
+    if (typeof preferredLearningTime === "string" && preferredLearningTime.trim() !== "")
+      user.preferredLearningTime = preferredLearningTime.trim();
+    if (typeof learningStyle === "string" && learningStyle.trim() !== "")
+      user.learningStyle = learningStyle.trim();
 
     await user.save();
 
@@ -181,7 +232,6 @@ const updateProfile = async (req, res) => {
 };
 
 // -------------------- CHANGE PASSWORD --------------------
-// @desc    Change password
 // @route   PUT /api/auth/change-password
 // @access  Private
 const updatePassword = async (req, res) => {
@@ -190,9 +240,7 @@ const updatePassword = async (req, res) => {
     const { currentPassword, newPassword, confirmNewPassword } = req.body;
 
     if (!currentPassword || !newPassword || !confirmNewPassword) {
-      return res
-        .status(400)
-        .json({ message: "Please fill all password fields" });
+      return res.status(400).json({ message: "Please fill all password fields" });
     }
 
     if (newPassword.length < 6) {
@@ -208,18 +256,13 @@ const updatePassword = async (req, res) => {
     }
 
     const user = await User.findById(userId);
-    if (!user) {
-      return res.status(404).json({ message: "User not found" });
-    }
+    if (!user) return res.status(404).json({ message: "User not found" });
 
     const isMatch = await user.matchPassword(currentPassword);
     if (!isMatch) {
-      return res
-        .status(401)
-        .json({ message: "Current password is incorrect" });
+      return res.status(401).json({ message: "Current password is incorrect" });
     }
 
-    // This will be hashed by userSchema.pre("save")
     user.password = newPassword;
     await user.save();
 

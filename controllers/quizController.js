@@ -10,23 +10,51 @@ const calculatePoints = (scorePercentage) => {
   return 5;
 };
 
+// ------------------------------
+// CONFIG (tweak anytime)
+// ------------------------------
+const ALLOWED_LIMITS = new Set([5, 10, 15]);
+const DEFAULT_LIMIT = 10;
+
+// How many recent attempts to look back to avoid repeats
+const RECENT_ATTEMPTS_LOOKBACK = 10;
+
+// Hard cap: how many recent question IDs we keep in memory to exclude
+const RECENT_QUESTION_ID_CAP = 200;
+
 // @desc    Add a question (for now, we will use Postman to seed)
 // @route   POST /api/quiz/question
 // @access  Private (logged-in)
 const addQuestion = async (req, res) => {
   try {
-    const { level, subject, topic, questionText, options, correctOptionIndex, difficulty } =
-      req.body;
+    const {
+      level,
+      subject,
+      topic,
+      questionText,
+      options,
+      correctOptionIndex,
+      difficulty,
+    } = req.body;
 
     if (
       !level ||
       !subject ||
       !questionText ||
       !options ||
+      !Array.isArray(options) ||
       options.length < 2 ||
       correctOptionIndex === undefined
     ) {
       return res.status(400).json({ message: "Please fill all required fields" });
+    }
+
+    if (
+      typeof correctOptionIndex !== "number" ||
+      correctOptionIndex < 0 ||
+      correctOptionIndex >= options.length
+    ) {
+      return res.status(400).json({ message: "correctOptionIndex is invalid" });
     }
 
     const question = await Question.create({
@@ -46,10 +74,11 @@ const addQuestion = async (req, res) => {
   }
 };
 
-// @desc    Get questions for a subject & level (basic "recommended" quiz)
+// @desc    Get randomized questions for a subject & level
+//          Avoid repeating recently served questions for the same user+subject+level
 // @route   GET /api/quiz/questions
 // @access  Private
-// Example: /api/quiz/questions?subject=Math&level=Class%2011&limit=10
+// Example: /api/quiz/questions?subject=Physics&level=Class%2011&limit=10
 const getQuestions = async (req, res) => {
   try {
     const { subject, level } = req.query;
@@ -61,15 +90,109 @@ const getQuestions = async (req, res) => {
         .json({ message: "Subject and level are required in query" });
     }
 
-    limit = parseInt(limit) || 10;
+    // limit hygiene: only allow 5/10/15 (default 10)
+    const parsed = parseInt(limit, 10);
+    limit = ALLOWED_LIMITS.has(parsed) ? parsed : DEFAULT_LIMIT;
 
-    // For now, simple random selection
-    const questions = await Question.aggregate([
-      { $match: { subject, level } },
-      { $sample: { size: limit } },
-    ]);
+    // Total available in the bank
+    const availableTotal = await Question.countDocuments({ subject, level });
 
-    return res.json({ questions });
+    if (availableTotal === 0) {
+      return res.json({
+        questions: [],
+        meta: {
+          subject,
+          level,
+          requested: limit,
+          returned: 0,
+          availableTotal: 0,
+          note: "No questions exist for this subject+level yet. Seed the bank.",
+        },
+      });
+    }
+
+    // 1) Build a set of recently served question IDs for THIS user+subject+level
+    // We look back at recent attempts and collect question IDs
+    const recentAttempts = await QuizAttempt.find({
+      user: req.user._id,
+      subject,
+      level,
+    })
+      .sort({ createdAt: -1 })
+      .limit(RECENT_ATTEMPTS_LOOKBACK)
+      .select("questions.question")
+      .lean();
+
+    const recentIds = [];
+    for (const attempt of recentAttempts) {
+      if (!attempt?.questions?.length) continue;
+      for (const q of attempt.questions) {
+        if (q?.question) recentIds.push(String(q.question));
+        if (recentIds.length >= RECENT_QUESTION_ID_CAP) break;
+      }
+      if (recentIds.length >= RECENT_QUESTION_ID_CAP) break;
+    }
+
+    const mongoose = require("mongoose");
+const recentObjectIds = recentIds
+  .map((id) => new mongoose.Types.ObjectId(id));
+
+
+    // 2) First try: sample from questions NOT in recent list
+    let freshQuestions = [];
+    if (recentObjectIds.length > 0) {
+      freshQuestions = await Question.aggregate([
+        { $match: { subject, level, _id: { $nin: recentObjectIds } } },
+        { $sample: { size: limit } },
+      ]);
+    } else {
+      freshQuestions = await Question.aggregate([
+        { $match: { subject, level } },
+        { $sample: { size: limit } },
+      ]);
+    }
+
+    // 3) If we couldn't get enough fresh (bank too small), fill the rest by sampling from ALL
+    let questions = freshQuestions;
+    if (questions.length < limit) {
+      const remaining = limit - questions.length;
+
+      const alreadyPicked = new Set(questions.map((q) => String(q._id)));
+
+      const filler = await Question.aggregate([
+        { $match: { subject, level } },
+        { $sample: { size: Math.min(remaining * 3, limit * 3) } }, // oversample then dedupe locally
+      ]);
+
+      for (const q of filler) {
+        const id = String(q._id);
+        if (alreadyPicked.has(id)) continue;
+        questions.push(q);
+        alreadyPicked.add(id);
+        if (questions.length === limit) break;
+      }
+    }
+
+    // Final note for UI/debug
+    let note = "OK";
+    if (availableTotal < limit) {
+      note = `Only ${availableTotal} questions exist in the bank for this subject+level, so we returned ${questions.length}. Seed more to unlock ${limit}.`;
+    } else if (recentSet.size > 0 && questions.length > 0) {
+      // If we had recent questions, we attempted to avoid them
+      note = "Returned randomized questions (avoiding recently seen when possible).";
+    }
+
+    return res.json({
+      questions,
+      meta: {
+        subject,
+        level,
+        requested: limit,
+        returned: questions.length,
+        availableTotal,
+        note,
+      },
+    });
   } catch (error) {
     console.error("getQuestions error:", error.message);
     return res.status(500).json({ message: "Server error" });
@@ -79,18 +202,6 @@ const getQuestions = async (req, res) => {
 // @desc    Submit quiz, calculate score, save attempt, update user points & streak
 // @route   POST /api/quiz/submit
 // @access  Private
-/*
-Body example:
-{
-  "level": "Class 11",
-  "subject": "Math",
-  "topic": "Algebra",
-  "answers": [
-    { "questionId": "......", "selectedOptionIndex": 1 },
-    { "questionId": "......", "selectedOptionIndex": 2 }
-  ]
-}
-*/
 const submitQuiz = async (req, res) => {
   try {
     const { level, subject, topic, answers } = req.body;
@@ -142,8 +253,6 @@ const submitQuiz = async (req, res) => {
 
     const pointsToAdd = calculatePoints(scorePercentage);
 
-    // Streak logic: if they answered at least one quiz today, we maintain streak,
-    // if lastActiveDate is yesterday, increment streak, else reset to 1.
     const today = new Date();
     const last = user.lastActiveDate ? new Date(user.lastActiveDate) : null;
 
@@ -152,16 +261,9 @@ const submitQuiz = async (req, res) => {
       const diffDays = Math.floor(
         (today.setHours(0, 0, 0, 0) - last.setHours(0, 0, 0, 0)) / (1000 * 60 * 60 * 24)
       );
-      if (diffDays === 0) {
-        // same day, keep current streak
-        newStreak = user.streak || 1;
-      } else if (diffDays === 1) {
-        // yesterday, increase streak
-        newStreak = (user.streak || 0) + 1;
-      } else {
-        // gap, reset streak
-        newStreak = 1;
-      }
+      if (diffDays === 0) newStreak = user.streak || 1;
+      else if (diffDays === 1) newStreak = (user.streak || 0) + 1;
+      else newStreak = 1;
     }
 
     user.points = (user.points || 0) + pointsToAdd;
@@ -196,7 +298,6 @@ const getProgress = async (req, res) => {
 
     const attempts = await QuizAttempt.find({ user: userId }).sort("-createdAt");
 
-    // Simple summary
     const totalQuizzes = attempts.length;
     const avgScore =
       totalQuizzes === 0
@@ -205,7 +306,6 @@ const getProgress = async (req, res) => {
             attempts.reduce((sum, a) => sum + a.scorePercentage, 0) / totalQuizzes
           );
 
-    // Subject-wise average
     const subjectStats = {};
     attempts.forEach((a) => {
       if (!subjectStats[a.subject]) {
@@ -232,9 +332,61 @@ const getProgress = async (req, res) => {
   }
 };
 
+// @desc    Get quiz history (latest attempts)
+// @route   GET /api/quiz/history
+// @access  Private
+const getHistory = async (req, res) => {
+  try {
+    const { limit = 20 } = req.query;
+
+    const attempts = await QuizAttempt.find({ user: req.user._id })
+      .sort({ createdAt: -1 })
+      .limit(Math.min(parseInt(limit, 10) || 20, 100))
+      .select("level subject topic scorePercentage totalQuestions correctCount incorrectCount createdAt")
+      .lean();
+
+    return res.json({ attempts });
+  } catch (error) {
+    console.error("getHistory error:", error.message);
+    return res.status(500).json({ message: "Server error" });
+  }
+};
+
+// @desc    Reset user's quiz progress (attempts + points/streak)
+// @route   POST /api/quiz/reset
+// @access  Private
+const resetProgress = async (req, res) => {
+  try {
+    const userId = req.user._id;
+
+    const del = await QuizAttempt.deleteMany({ user: userId });
+
+    const user = await User.findById(userId);
+    if (user) {
+      user.points = 0;
+      user.streak = 0;
+      user.lastActiveDate = null;
+      await user.save();
+    }
+
+    return res.json({
+      message: "Progress reset",
+      deletedAttempts: del.deletedCount,
+      points: user?.points ?? 0,
+      streak: user?.streak ?? 0,
+    });
+  } catch (error) {
+    console.error("resetProgress error:", error.message);
+    return res.status(500).json({ message: "Server error" });
+  }
+};
+
+
 module.exports = {
   addQuestion,
   getQuestions,
   submitQuiz,
   getProgress,
+  getHistory,
+  resetProgress,
 };
