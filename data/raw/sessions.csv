@@ -1,0 +1,301 @@
+student_id,session_date,session_time,duration_minutes,topic,quiz_score,questions_attempted,hints_used,device_used
+S001,2025-12-11,06:54,180,Physics,84,23,2,Laptop
+S001,2025-12-12,06:54,112,Biology,95,26,3,Smartphone
+S001,2025-12-13,06:54,10,Mathematics,87,24,2,Laptop
+S001,2025-12-14,06:54,176,Mathematics,67,47,2,Laptop
+S001,2025-12-15,06:54,96,Biology,74,49,4,Smartphone
+S001,2025-12-16,06:54,141,Physics,81,22,2,Laptop
+S001,2025-12-17,06:54,146,Chemistry,73,34,3,Laptop
+S001,2025-12-18,06:54,147,Biology,86,18,2,Laptop
+S001,2025-12-19,06:54,180,Physics,93,11,1,Smartphone
+S001,2025-12-20,06:54,122,Biology,86,27,1,Laptop
+S001,2025-12-21,06:54,101,Mathematics,92,28,0,Smartphone
+S001,2025-12-22,06:54,100,Mathematics,92,42,1,Smartphone
+S001,2025-12-23,06:54,180,Chemistry,94,32,0,Laptop
+S001,2025-12-24,06:54,180,Chemistry,72,18,0,Smartphone
+S001,2025-12-25,06:54,173,Chemistry,85,45,3,Smartphone
+S001,2025-12-26,06:54,151,Biology,88,18,1,Laptop
+S001,2025-12-27,06:54,144,Biology,97,49,0,Smartphone
+S001,2025-12-28,06:54,111,Biology,99,40,2,Smartphone
+S001,2025-12-29,06:54,113,Biology,96,46,2,Laptop
+S001,2025-12-30,06:54,161,Biology,78,43,2,Smartphone
+S001,2025-12-31,06:54,180,Biology,83,11,1,Laptop
+S001,2026-01-01,06:54,180,Mathematics,90,26,4,Smartphone
+S001,2026-01-02,06:54,155,Chemistry,78,19,3,Smartphone
+S001,2026-01-03,06:54,122,Mathematics,92,23,0,Smartphone
+S001,2026-01-04,06:54,10,Mathematics,78,34,0,Smartphone
+S001,2026-01-05,06:54,180,Chemistry,83,47,2,Laptop
+S001,2026-01-06,06:54,74,Chemistry,99,47,4,Smartphone
+S001,2026-01-07,06:54,180,Biology,73,11,2,Laptop
+S001,2026-01-08,06:54,67,Chemistry,84,34,0,Laptop
+S001,2026-01-09,06:54,180,Physics,84,12,1,Smartphone
+S002,2025-12-11,06:54,180,Economics,93,29,4,Laptop
+S002,2025-12-12,06:54,119,Business Studies,75,36,0,Laptop
+S002,2025-12-13,06:54,180,Mathematics,71,14,1,Laptop
+S002,2025-12-14,06:54,180,Mathematics,65,29,1,Laptop
+S002,2025-12-15,06:54,180,Accounting,70,42,0,Laptop
+S002,2025-12-16,06:54,106,Mathematics,66,36,1,Laptop
+S002,2025-12-17,06:54,69,Mathematics,66,37,4,Laptop
+S002,2025-12-18,06:54,180,Mathematics,69,49,4,Laptop
+S002,2025-12-19,06:54,131,Accounting,97,30,4,Laptop
+S002,2025-12-20,06:54,100,Mathematics,63,42,2,Laptop
+S002,2025-12-21,06:54,68,Economics,78,41,4,Laptop
+S002,2025-12-22,06:54,33,Mathematics,94,24,1,Laptop
+S002,2025-12-23,06:54,125,Business Studies,81,46,3,Laptop
+S002,2025-12-24,06:54,24,Economics,72,46,4,Laptop
+S002,2025-12-25,06:54,180,Accounting,83,26,2,Laptop
+S002,2025-12-26,06:54,178,Economics,84,36,0,Laptop
+S002,2025-12-27,06:54,118,Economics,72,11,3,Laptop
+S002,2025-12-28,06:54,66,Accounting,93,42,2,Laptop
+S002,2025-12-29,06:54,106,Accounting,83,24,0,Laptop
+S002,2025-12-30,06:54,180,Business Studies,100,21,4,Laptop
+S002,2025-12-31,06:54,180,Accounting,86,36,3,Laptop
+S002,2026-01-01,06:54,10,Economics,71,10,4,Laptop
+S002,2026-01-02,06:54,30,Business Studies,82,26,0,Laptop
+S002,2026-01-03,06:54,180,Accounting,84,17,3,Laptop
+S002,2026-01-04,06:54,180,Accounting,100,11,1,Laptop
+S002,2026-01-05,06:54,45,Economics,92,37,3,Laptop
+S002,2026-01-06,06:54,167,Accounting,88,16,2,Laptop
+S002,2026-01-07,06:54,180,Economics,76,37,2,Laptop
+S002,2026-01-08,06:54,30,Economics,85,22,0,Laptop
+S002,2026-01-09,06:54,180,Accounting,71,33,3,Laptop
+S003,2025-12-11,06:54,92,Sociology,82,30,4,Smartphone
+S003,2025-12-12,06:54,36,Political Science,44,44,1,Smartphone
+S003,2025-12-13,06:54,113,Political Science,59,24,1,Smartphone
+S003,2025-12-14,06:54,40,Political Science,68,32,0,Smartphone
+S003,2025-12-15,06:54,58,English,80,21,1,Smartphone
+S003,2025-12-16,06:54,154,Political Science,61,34,1,Smartphone
+S003,2025-12-17,06:54,67,Political Science,80,30,3,Smartphone
+S003,2025-12-18,06:54,39,History,76,17,1,Smartphone
+S003,2025-12-19,06:54,69,Political Science,50,36,0,Smartphone
+S003,2025-12-20,06:54,34,Political Science,58,37,0,Smartphone
+S003,2025-12-21,06:54,115,English,63,24,3,Smartphone
+S003,2025-12-22,06:54,10,History,68,31,1,Smartphone
+S003,2025-12-23,06:54,109,Political Science,47,29,2,Smartphone
+S003,2025-12-24,06:54,10,Political Science,58,34,3,Smartphone
+S003,2025-12-25,06:54,83,Political Science,92,46,3,Smartphone
+S003,2025-12-26,06:54,137,Political Science,67,19,4,Smartphone
+S003,2025-12-27,06:54,107,History,64,36,3,Smartphone
+S003,2025-12-28,06:54,37,English,69,23,4,Smartphone
+S003,2025-12-29,06:54,126,Sociology,78,29,2,Smartphone
+S003,2025-12-30,06:54,138,Political Science,59,17,2,Smartphone
+S003,2025-12-31,06:54,104,English,74,13,4,Smartphone
+S003,2026-01-01,06:54,121,Sociology,80,14,0,Smartphone
+S003,2026-01-02,06:54,70,Political Science,67,12,1,Smartphone
+S003,2026-01-03,06:54,102,Political Science,64,20,3,Smartphone
+S003,2026-01-04,06:54,34,English,82,14,4,Smartphone
+S003,2026-01-05,06:54,50,Sociology,80,17,0,Smartphone
+S003,2026-01-06,06:54,129,English,61,40,4,Smartphone
+S003,2026-01-07,06:54,97,Political Science,70,38,3,Smartphone
+S003,2026-01-08,06:54,36,English,66,21,3,Smartphone
+S003,2026-01-09,06:54,138,Sociology,66,32,0,Smartphone
+S004,2025-12-11,06:54,134,Physics,79,39,2,Tablet
+S004,2025-12-12,06:54,180,Physics,91,38,0,Laptop
+S004,2025-12-13,06:54,71,Chemistry,90,29,3,Laptop
+S004,2025-12-14,06:54,180,Mathematics,69,10,2,Tablet
+S004,2025-12-15,06:54,102,Biology,86,36,2,Tablet
+S004,2025-12-16,06:54,180,Chemistry,75,31,1,Tablet
+S004,2025-12-17,06:54,87,Mathematics,77,49,4,Laptop
+S004,2025-12-18,06:54,180,Mathematics,80,13,3,Laptop
+S004,2025-12-19,06:54,180,Biology,94,48,3,Tablet
+S004,2025-12-20,06:54,180,Mathematics,100,13,4,Tablet
+S004,2025-12-21,06:54,180,Physics,84,36,4,Laptop
+S004,2025-12-22,06:54,180,Biology,67,22,1,Tablet
+S004,2025-12-23,06:54,180,Biology,94,30,2,Tablet
+S004,2025-12-24,06:54,180,Biology,85,31,2,Tablet
+S004,2025-12-25,06:54,67,Biology,95,35,1,Tablet
+S004,2025-12-26,06:54,99,Physics,87,45,1,Laptop
+S004,2025-12-27,06:54,86,Biology,84,30,2,Laptop
+S004,2025-12-28,06:54,84,Chemistry,80,40,4,Tablet
+S004,2025-12-29,06:54,169,Chemistry,82,47,0,Laptop
+S004,2025-12-30,06:54,51,Physics,93,37,4,Laptop
+S004,2025-12-31,06:54,177,Biology,90,18,4,Tablet
+S004,2026-01-01,06:54,180,Mathematics,90,13,2,Laptop
+S004,2026-01-02,06:54,99,Biology,69,22,3,Laptop
+S004,2026-01-03,06:54,180,Physics,74,43,3,Tablet
+S004,2026-01-04,06:54,180,Physics,84,15,2,Tablet
+S004,2026-01-05,06:54,149,Mathematics,81,21,0,Laptop
+S004,2026-01-06,06:54,180,Mathematics,99,34,0,Tablet
+S004,2026-01-07,06:54,180,Chemistry,66,18,2,Laptop
+S004,2026-01-08,06:54,180,Chemistry,81,21,0,Laptop
+S004,2026-01-09,06:54,180,Physics,71,22,3,Laptop
+S005,2025-12-11,06:54,180,Physics,50,39,2,Smartphone
+S005,2025-12-12,06:54,178,Chemistry,73,43,4,Smartphone
+S005,2025-12-13,06:54,115,Chemistry,66,45,4,Smartphone
+S005,2025-12-14,06:54,34,Chemistry,67,25,4,Smartphone
+S005,2025-12-15,06:54,123,Biology,54,19,0,Smartphone
+S005,2025-12-16,06:54,168,Mathematics,69,46,3,Smartphone
+S005,2025-12-17,06:54,89,Mathematics,79,25,4,Smartphone
+S005,2025-12-18,06:54,94,Mathematics,73,21,4,Smartphone
+S005,2025-12-19,06:54,62,Chemistry,58,35,1,Smartphone
+S005,2025-12-20,06:54,118,Mathematics,68,27,2,Smartphone
+S005,2025-12-21,06:54,180,Chemistry,79,16,4,Smartphone
+S005,2025-12-22,06:54,172,Chemistry,57,23,2,Smartphone
+S005,2025-12-23,06:54,147,Chemistry,73,11,4,Smartphone
+S005,2025-12-24,06:54,127,Chemistry,73,31,3,Smartphone
+S005,2025-12-25,06:54,174,Chemistry,76,13,1,Smartphone
+S005,2025-12-26,06:54,58,Mathematics,61,47,4,Smartphone
+S005,2025-12-27,06:54,10,Chemistry,71,42,0,Smartphone
+S005,2025-12-28,06:54,110,Physics,76,46,2,Smartphone
+S005,2025-12-29,06:54,159,Biology,73,17,3,Smartphone
+S005,2025-12-30,06:54,180,Mathematics,65,28,0,Smartphone
+S005,2025-12-31,06:54,85,Physics,63,16,3,Smartphone
+S005,2026-01-01,06:54,180,Chemistry,81,24,4,Smartphone
+S005,2026-01-02,06:54,116,Biology,66,15,0,Smartphone
+S005,2026-01-03,06:54,70,Physics,79,20,2,Smartphone
+S005,2026-01-04,06:54,180,Chemistry,92,17,4,Smartphone
+S005,2026-01-05,06:54,99,Physics,49,22,1,Smartphone
+S005,2026-01-06,06:54,111,Physics,80,46,0,Smartphone
+S005,2026-01-07,06:54,172,Physics,76,28,1,Smartphone
+S005,2026-01-08,06:54,173,Chemistry,71,17,1,Smartphone
+S005,2026-01-09,06:54,180,Biology,70,22,2,Smartphone
+S006,2025-12-11,06:54,180,Mathematics,54,23,3,Laptop
+S006,2025-12-12,06:54,106,Business Studies,89,10,1,Laptop
+S006,2025-12-13,06:54,85,Economics,92,12,1,Laptop
+S006,2025-12-14,06:54,87,Economics,74,28,1,Laptop
+S006,2025-12-15,06:54,54,Business Studies,51,20,0,Laptop
+S006,2025-12-16,06:54,119,Accounting,81,23,0,Laptop
+S006,2025-12-17,06:54,127,Economics,100,33,0,Laptop
+S006,2025-12-18,06:54,116,Business Studies,61,27,2,Laptop
+S006,2025-12-19,06:54,89,Business Studies,77,49,1,Laptop
+S006,2025-12-20,06:54,109,Accounting,89,15,3,Laptop
+S006,2025-12-21,06:54,178,Mathematics,60,29,0,Laptop
+S006,2025-12-22,06:54,117,Mathematics,41,16,1,Laptop
+S006,2025-12-23,06:54,68,Economics,80,45,2,Laptop
+S006,2025-12-24,06:54,180,Business Studies,74,20,3,Laptop
+S006,2025-12-25,06:54,72,Business Studies,85,13,2,Laptop
+S006,2025-12-26,06:54,159,Economics,83,23,4,Laptop
+S006,2025-12-27,06:54,55,Accounting,87,39,3,Laptop
+S006,2025-12-28,06:54,153,Business Studies,87,18,0,Laptop
+S006,2025-12-29,06:54,32,Accounting,92,11,4,Laptop
+S006,2025-12-30,06:54,99,Mathematics,39,45,4,Laptop
+S006,2025-12-31,06:54,180,Economics,78,36,4,Laptop
+S006,2026-01-01,06:54,180,Accounting,86,37,4,Laptop
+S006,2026-01-02,06:54,103,Accounting,91,38,0,Laptop
+S006,2026-01-03,06:54,15,Economics,90,44,3,Laptop
+S006,2026-01-04,06:54,42,Mathematics,63,35,4,Laptop
+S006,2026-01-05,06:54,91,Accounting,76,14,0,Laptop
+S006,2026-01-06,06:54,106,Economics,100,41,0,Laptop
+S006,2026-01-07,06:54,86,Business Studies,82,28,0,Laptop
+S006,2026-01-08,06:54,26,Accounting,81,23,3,Laptop
+S006,2026-01-09,06:54,180,Mathematics,32,19,3,Laptop
+S007,2025-12-11,06:54,38,English,47,20,1,Smartphone
+S007,2025-12-12,06:54,73,English,37,48,2,Smartphone
+S007,2025-12-13,06:54,67,Sociology,54,42,0,Smartphone
+S007,2025-12-14,06:54,48,English,31,46,2,Smartphone
+S007,2025-12-15,06:54,10,Sociology,53,17,1,Smartphone
+S007,2025-12-16,06:54,43,History,53,22,2,Smartphone
+S007,2025-12-17,06:54,82,History,51,21,3,Smartphone
+S007,2025-12-18,06:54,34,History,51,18,4,Smartphone
+S007,2025-12-19,06:54,36,History,28,34,3,Smartphone
+S007,2025-12-20,06:54,117,History,44,48,2,Smartphone
+S007,2025-12-21,06:54,69,English,60,45,4,Smartphone
+S007,2025-12-22,06:54,70,Sociology,55,16,0,Smartphone
+S007,2025-12-23,06:54,62,Sociology,51,22,3,Smartphone
+S007,2025-12-24,06:54,117,History,58,14,4,Smartphone
+S007,2025-12-25,06:54,47,History,57,15,1,Smartphone
+S007,2025-12-26,06:54,19,English,64,24,1,Smartphone
+S007,2025-12-27,06:54,66,English,65,14,0,Smartphone
+S007,2025-12-28,06:54,21,History,45,49,4,Smartphone
+S007,2025-12-29,06:54,74,English,34,13,1,Smartphone
+S007,2025-12-30,06:54,59,History,17,37,4,Smartphone
+S007,2025-12-31,06:54,74,English,40,29,3,Smartphone
+S007,2026-01-01,06:54,67,Sociology,40,46,4,Smartphone
+S007,2026-01-02,06:54,90,Political Science,54,18,0,Smartphone
+S007,2026-01-03,06:54,65,Sociology,49,30,4,Smartphone
+S007,2026-01-04,06:54,86,History,48,34,4,Smartphone
+S007,2026-01-05,06:54,56,Sociology,37,46,3,Smartphone
+S007,2026-01-06,06:54,46,Sociology,65,39,3,Smartphone
+S007,2026-01-07,06:54,101,History,37,28,4,Smartphone
+S007,2026-01-08,06:54,53,History,39,37,2,Smartphone
+S007,2026-01-09,06:54,43,History,50,19,1,Smartphone
+S008,2025-12-11,06:54,137,Biology,91,27,1,Tablet
+S008,2025-12-12,06:54,180,Mathematics,91,36,4,Laptop
+S008,2025-12-13,06:54,180,Physics,70,17,0,Laptop
+S008,2025-12-14,06:54,180,Chemistry,96,32,3,Laptop
+S008,2025-12-15,06:54,52,Mathematics,100,41,3,Tablet
+S008,2025-12-16,06:54,180,Mathematics,81,27,2,Laptop
+S008,2025-12-17,06:54,135,Physics,97,16,2,Laptop
+S008,2025-12-18,06:54,180,Mathematics,83,30,2,Tablet
+S008,2025-12-19,06:54,115,Biology,100,42,0,Tablet
+S008,2025-12-20,06:54,180,Mathematics,85,14,1,Tablet
+S008,2025-12-21,06:54,163,Physics,77,23,2,Laptop
+S008,2025-12-22,06:54,180,Mathematics,82,10,2,Tablet
+S008,2025-12-23,06:54,176,Biology,98,44,2,Laptop
+S008,2025-12-24,06:54,180,Chemistry,69,22,3,Tablet
+S008,2025-12-25,06:54,180,Physics,76,44,1,Laptop
+S008,2025-12-26,06:54,167,Chemistry,85,13,1,Tablet
+S008,2025-12-27,06:54,180,Biology,94,15,0,Tablet
+S008,2025-12-28,06:54,180,Physics,90,13,1,Laptop
+S008,2025-12-29,06:54,176,Physics,72,37,3,Laptop
+S008,2025-12-30,06:54,47,Chemistry,83,27,4,Laptop
+S008,2025-12-31,06:54,180,Chemistry,60,39,0,Laptop
+S008,2026-01-01,06:54,180,Chemistry,70,35,2,Tablet
+S008,2026-01-02,06:54,180,Mathematics,83,27,2,Laptop
+S008,2026-01-03,06:54,180,Chemistry,83,22,1,Laptop
+S008,2026-01-04,06:54,15,Mathematics,89,17,4,Laptop
+S008,2026-01-05,06:54,180,Chemistry,93,20,4,Tablet
+S008,2026-01-06,06:54,180,Chemistry,81,31,0,Laptop
+S008,2026-01-07,06:54,180,Physics,81,17,4,Laptop
+S008,2026-01-08,06:54,122,Physics,77,32,1,Laptop
+S008,2026-01-09,06:54,23,Chemistry,80,42,2,Laptop
+S009,2025-12-11,06:54,64,Chemistry,73,29,0,Smartphone
+S009,2025-12-12,06:54,40,Biology,73,45,4,Smartphone
+S009,2025-12-13,06:54,62,Mathematics,74,11,0,Smartphone
+S009,2025-12-14,06:54,144,Chemistry,57,19,4,Smartphone
+S009,2025-12-15,06:54,105,Biology,80,28,2,Smartphone
+S009,2025-12-16,06:54,119,Mathematics,63,23,4,Smartphone
+S009,2025-12-17,06:54,125,Chemistry,82,49,1,Smartphone
+S009,2025-12-18,06:54,57,Physics,87,37,4,Smartphone
+S009,2025-12-19,06:54,127,Mathematics,59,10,0,Smartphone
+S009,2025-12-20,06:54,87,Mathematics,69,27,0,Smartphone
+S009,2025-12-21,06:54,47,Mathematics,62,26,2,Smartphone
+S009,2025-12-22,06:54,150,Mathematics,78,17,0,Smartphone
+S009,2025-12-23,06:54,114,Chemistry,84,27,1,Smartphone
+S009,2025-12-24,06:54,53,Chemistry,44,32,0,Smartphone
+S009,2025-12-25,06:54,75,Physics,88,49,0,Smartphone
+S009,2025-12-26,06:54,30,Mathematics,65,41,1,Smartphone
+S009,2025-12-27,06:54,43,Mathematics,62,34,3,Smartphone
+S009,2025-12-28,06:54,173,Biology,74,43,2,Smartphone
+S009,2025-12-29,06:54,111,Chemistry,77,30,4,Smartphone
+S009,2025-12-30,06:54,27,Chemistry,82,43,2,Smartphone
+S009,2025-12-31,06:54,113,Chemistry,75,29,2,Smartphone
+S009,2026-01-01,06:54,88,Chemistry,59,35,4,Smartphone
+S009,2026-01-02,06:54,52,Biology,63,40,4,Smartphone
+S009,2026-01-03,06:54,84,Physics,62,35,4,Smartphone
+S009,2026-01-04,06:54,65,Mathematics,87,26,3,Smartphone
+S009,2026-01-05,06:54,28,Physics,81,35,0,Smartphone
+S009,2026-01-06,06:54,75,Biology,82,46,4,Smartphone
+S009,2026-01-07,06:54,147,Mathematics,61,32,3,Smartphone
+S009,2026-01-08,06:54,10,Mathematics,67,14,0,Smartphone
+S009,2026-01-09,06:54,43,Physics,59,41,0,Smartphone
+S010,2025-12-11,06:54,73,Business Studies,85,16,3,Smartphone
+S010,2025-12-12,06:54,59,Mathematics,45,49,4,Smartphone
+S010,2025-12-13,06:54,131,Accounting,68,11,1,Smartphone
+S010,2025-12-14,06:54,73,Accounting,76,36,2,Smartphone
+S010,2025-12-15,06:54,81,Economics,66,18,0,Smartphone
+S010,2025-12-16,06:54,102,Economics,66,12,0,Smartphone
+S010,2025-12-17,06:54,100,Accounting,70,44,2,Smartphone
+S010,2025-12-18,06:54,104,Mathematics,70,24,2,Smartphone
+S010,2025-12-19,06:54,129,Mathematics,66,33,4,Smartphone
+S010,2025-12-20,06:54,10,Economics,78,18,3,Smartphone
+S010,2025-12-21,06:54,75,Accounting,71,34,3,Smartphone
+S010,2025-12-22,06:54,74,Business Studies,69,44,4,Smartphone
+S010,2025-12-23,06:54,65,Accounting,70,49,4,Smartphone
+S010,2025-12-24,06:54,89,Business Studies,62,19,1,Smartphone
+S010,2025-12-25,06:54,65,Mathematics,45,48,1,Smartphone
+S010,2025-12-26,06:54,162,Economics,77,25,1,Smartphone
+S010,2025-12-27,06:54,168,Accounting,70,47,2,Smartphone
+S010,2025-12-28,06:54,147,Economics,66,26,1,Smartphone
+S010,2025-12-29,06:54,61,Accounting,63,28,4,Smartphone
+S010,2025-12-30,06:54,123,Business Studies,61,32,4,Smartphone
+S010,2025-12-31,06:54,103,Accounting,53,28,4,Smartphone
+S010,2026-01-01,06:54,10,Accounting,84,32,4,Smartphone
+S010,2026-01-02,06:54,135,Mathematics,80,25,2,Smartphone
+S010,2026-01-03,06:54,157,Mathematics,48,24,1,Smartphone
+S010,2026-01-04,06:54,90,Business Studies,73,28,2,Smartphone
+S010,2026-01-05,06:54,69,Mathematics,48,23,4,Smartphone
+S010,2026-01-06,06:54,65,Economics,56,13,4,Smartphone
+S010,2026-01-07,06:54,79,Business Studies,56,28,3,Smartphone
+S010,2026-01-08,06:54,27,Business Studies,66,41,2,Smartphone
+S010,2026-01-09,06:54,38,Mathematics,51,48,1,Smartphone
