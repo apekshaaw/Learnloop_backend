@@ -8,6 +8,8 @@ const {
   getQuestions,
   submitQuiz,
   getProgress,
+  getHistory,
+  resetProgress,
 } = require("../controllers/quizController");
 
 // Add a question (you'll use Postman, not from app)
@@ -21,5 +23,8 @@ router.post("/submit", protect, submitQuiz);
 
 // Get progress summary
 router.get("/progress", protect, getProgress);
+
+router.get("/history", protect, getHistory);
+router.post("/reset", protect, resetProgress);
 
 module.exports = router;
