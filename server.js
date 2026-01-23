@@ -1,69 +1,80 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const cors = require('cors');
-require('dotenv').config();
+console.log("🔥 SERVER FILE EXECUTING");
 
-const authRoutes = require('./routes/authRoutes');
-const quizRoutes = require('./routes/quizRoutes');
-const aiRoutes = require('./routes/aiRoutes');
+const express = require("express");
+const mongoose = require("mongoose");
+const cors = require("cors");
+require("dotenv").config();
+
+const debugRoutes = require("./routes/debugRoutes");
+
+const authRoutes = require("./routes/authRoutes");
+const quizRoutes = require("./routes/quizRoutes");
+const aiRoutes = require("./routes/aiRoutes");
 const onboardingRoutes = require("./routes/onboardingRoutes");
 const dashboardRoutes = require("./routes/dashboardRoutes");
 
-
 const app = express();
 
+// ✅ Debug env check (temporary)
+console.log("GEMINI_API_KEY present?", Boolean(process.env.GEMINI_API_KEY));
+console.log("GEMINI_MODEL =", process.env.GEMINI_MODEL);
+
 // CORS Configuration - Allow frontend to connect
-app.use(cors({
-  origin: 'http://localhost:5173', // Vite frontend URL
-  credentials: true,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization']
-}));
+app.use(
+  cors({
+    origin: "http://localhost:5173", // Vite frontend URL
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  })
+);
 
 // Body parser middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Routes
-app.use('/api/auth', authRoutes);
-app.use('/api/quiz', quizRoutes);
-app.use('/api/ai', aiRoutes);
+// ✅ Routes (IMPORTANT: mount ALL routes BEFORE error + 404)
+app.use("/api/debug", require("./routes/debugRoutes"));
+
+app.use("/api/auth", authRoutes);
+app.use("/api/quiz", quizRoutes);
+app.use("/api/ai", aiRoutes);
 app.use("/api/onboarding", onboardingRoutes);
 app.use("/api/dashboard", dashboardRoutes);
 
-
 // Root route
-app.get('/', (req, res) => {
-  res.json({ 
-    message: 'LearnLoop API is running',
+app.get("/", (req, res) => {
+  res.json({
+    message: "LearnLoop API is running",
     endpoints: {
-      auth: '/api/auth',
-      quiz: '/api/quiz',
-      ai: '/api/ai'
-    }
+      auth: "/api/auth",
+      quiz: "/api/quiz",
+      ai: "/api/ai",
+      debug: "/api/debug",
+    },
   });
 });
 
 // MongoDB connection
-mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log('✓ MongoDB Connected'))
-  .catch(err => console.error('MongoDB error:', err));
+mongoose
+  .connect(process.env.MONGO_URI)
+  .then(() => console.log("✓ MongoDB Connected"))
+  .catch((err) => console.error("MongoDB error:", err));
 
-// Error handling middleware
-app.use((err, req, res, next) => {
-  console.error(err.stack);
-  res.status(500).json({ 
+// ✅ 404 handler (must come AFTER routes)
+app.use((req, res) => {
+  res.status(404).json({
     success: false,
-    message: 'Something went wrong!',
-    error: process.env.NODE_ENV === 'development' ? err.message : 'Internal server error'
+    message: "Route not found",
   });
 });
 
-// 404 handler
-app.use((req, res) => {
-  res.status(404).json({ 
+// ✅ Error handling middleware (must be LAST)
+app.use((err, req, res, next) => {
+  console.error(err.stack || err);
+  res.status(err.status || 500).json({
     success: false,
-    message: 'Route not found' 
+    message: err.message || "Something went wrong!",
   });
 });
 
