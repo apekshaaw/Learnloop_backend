@@ -1,11 +1,14 @@
-const express = require('express');
+// routes/aiRoutes.js
+const express = require("express");
 const router = express.Router();
-const aiController = require('../controllers/aiController');
 
-// Public routes (no authentication required for testing)
-router.get('/health', aiController.aiHealthCheck);
-router.get('/dashboard', aiController.getStudentDashboard);
-router.post('/study-plan', aiController.getStudyPlan);
-router.post('/recommendations', aiController.getDailyRecommendations);
+const aiController = require("../controllers/aiController");
+const { protect } = require("../middleware/authMiddleware");
+
+// keep health public if you want
+router.get("/health", aiController.aiHealthCheck);
+
+// ✅ coach must be protected (uses user data)
+router.post("/coach", protect, aiController.aiCoach);
 
 module.exports = router;
