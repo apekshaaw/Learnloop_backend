@@ -112,6 +112,22 @@ const userSchema = new mongoose.Schema(
       },
     },
 
+        // =========================
+    // Gamification (Phase 1 polish)
+    // =========================
+    achievements: [
+      {
+        key: { type: String, required: true }, // e.g. "FIRST_QUIZ"
+        unlockedAt: { type: Date, default: Date.now },
+      },
+    ],
+
+    streakSave: {
+      lastUsedAt: { type: Date, default: null },
+      totalUsed: { type: Number, default: 0 },
+    },
+
+
     // Academic Performance
     grade11Percentage: {
       type: Number,
