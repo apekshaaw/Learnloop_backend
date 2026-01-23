@@ -1,4 +1,3 @@
-// routes/quizRoutes.js
 const express = require("express");
 const router = express.Router();
 
@@ -10,21 +9,34 @@ const {
   getProgress,
   getHistory,
   resetProgress,
+  getStreakStatus,
+
+  // AI
+  generateAIQuiz,
+  getAIQuiz,
+  submitAIQuiz,
 } = require("../controllers/quizController");
 
-// Add a question (you'll use Postman, not from app)
+// -------------------
+// Seeded Question Bank
+// -------------------
 router.post("/question", protect, addQuestion);
-
-// Get questions for subject & level (for LearnLoop quiz screen)
 router.get("/questions", protect, getQuestions);
-
-// Submit quiz
 router.post("/submit", protect, submitQuiz);
 
-// Get progress summary
+// -------------------
+// Progress
+// -------------------
 router.get("/progress", protect, getProgress);
-
 router.get("/history", protect, getHistory);
 router.post("/reset", protect, resetProgress);
+router.get("/streak-status", protect, getStreakStatus);
+
+// -------------------
+// AI Quiz (NEW, separate)
+// -------------------
+router.post("/ai/generate", protect, generateAIQuiz);
+router.get("/ai/:quizId", protect, getAIQuiz);
+router.post("/ai/submit", protect, submitAIQuiz);
 
 module.exports = router;
