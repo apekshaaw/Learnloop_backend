@@ -9,8 +9,7 @@ const generateToken = (id) => {
   });
 };
 
-// Shape user data sent to frontend
-  const buildUserResponse = (user) => ({
+const buildUserResponse = (user) => ({
   _id: user._id,
   name: user.name,
   email: user.email,
@@ -21,8 +20,12 @@ const generateToken = (id) => {
   // gamification
   points: user.points,
   streak: user.streak,
+  lastActiveDate: user.lastActiveDate,
   profileImage: user.profileImage,
   gameLevel: Math.floor((user.points || 0) / 500) + 1,
+
+  achievements: user.achievements || [],
+  streakSave: user.streakSave || { lastUsedAt: null, totalUsed: 0 },
 
   // onboarding
   onboardingCompleted: user.onboardingCompleted,
