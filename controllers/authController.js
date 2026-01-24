@@ -22,7 +22,7 @@ const buildUserResponse = (user) => ({
   streak: user.streak,
   lastActiveDate: user.lastActiveDate,
   profileImage: user.profileImage,
-  gameLevel: Math.floor((user.points || 0) / 500) + 1,
+  gameLevel: user.calculateGameLevel(),
 
   achievements: user.achievements || [],
   streakSave: user.streakSave || { lastUsedAt: null, totalUsed: 0 },
@@ -276,10 +276,41 @@ const updatePassword = async (req, res) => {
   }
 };
 
+// -------------------- DELETE ACCOUNT (ME) --------------------
+// @route   DELETE /api/auth/me
+// @access  Private
+const deleteMe = async (req, res) => {
+  try {
+    const userId = req.user.id || req.user._id;
+    const { password } = req.body;
+
+    if (!password) {
+      return res.status(400).json({ message: "Password is required to delete account" });
+    }
+
+    const user = await User.findById(userId);
+    if (!user) return res.status(404).json({ message: "User not found" });
+
+    const isMatch = await user.matchPassword(password);
+    if (!isMatch) {
+      return res.status(401).json({ message: "Password is incorrect" });
+    }
+
+    await User.deleteOne({ _id: userId });
+
+    return res.json({ message: "Account deleted successfully" });
+  } catch (error) {
+    console.error("DeleteMe error:", error.message);
+    return res.status(500).json({ message: "Server error" });
+  }
+};
+
+
 module.exports = {
   registerUser,
   loginUser,
   getMe,
   updateProfile,
   updatePassword,
+  deleteMe,
 };
