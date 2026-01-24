@@ -1,6 +1,7 @@
 const QuizAttempt = require("../models/QuizAttempt");
 const User = require("../models/User");
-const aiService = require("../services/aiService");
+const mlService = require("../services/mlService");
+
 
 // GET /api/dashboard/summary (protected)
 exports.getDashboardSummary = async (req, res) => {
@@ -48,22 +49,31 @@ exports.getDashboardSummary = async (req, res) => {
     // 3) Try AI recommendations, fallback if AI not available
     let todayRecommendations = [];
     try {
-      const aiRec = await aiService.getDailyRecommendations({
-        student_id: user.studentId,
-        faculty: user.faculty,
-        class_level: user.level,
-        recent_attempts: recentAttempts.map((a) => ({
-          subject: a.subject,
-          topic: a.topic,
-          score: a.scorePercentage,
-        })),
-        weak_areas: weakAreas,
-      });
+      const aiRec = await mlService.dailyRecommendations({
+  student_id: user._id.toString(),
+  // your mlService mapper expects lastAttempts with scorePercentage
+  lastAttempts: recentAttempts.map((a) => ({
+    subject: a.subject,
+    topic: a.topic,
+    scorePercentage: a.scorePercentage,
+  })),
+  // optional: help mapper infer things
+  streak: user.streak || 0,
+  points: user.points || 0,
+});
 
       // Expecting AI to return a list; if not, fallback
-      if (Array.isArray(aiRec?.recommendations)) {
-        todayRecommendations = aiRec.recommendations;
-      }
+      if (Array.isArray(aiRec?.today_recommendations)) {
+  todayRecommendations = aiRec.today_recommendations.map((r) => ({
+    title: r.action,
+    minutes: r.priority === "High" ? 25 : r.priority === "Medium" ? 15 : 10,
+    questions: r.priority === "High" ? 15 : r.priority === "Medium" ? 10 : 5,
+    subject: "General",
+    topic: "General",
+    note: r.description,
+  }));
+}
+
     } catch (_) {}
 
     if (todayRecommendations.length === 0) {
@@ -94,7 +104,7 @@ exports.getDashboardSummary = async (req, res) => {
       }
     }
 
-    const gameLevel = Math.floor((user.points || 0) / 500) + 1;
+    const gameLevel = user.calculateGameLevel();
     const progressToNextLevel = ((user.points || 0) % 500) / 5; // percentage (0-100)
 
     return res.json({
