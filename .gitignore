@@ -2,5 +2,7 @@ node_modules/
 .env
 .DS_Store
 uploads/
-.env
+__pycache__/
+*.pyc
 ai_service/venv/
+venv/
