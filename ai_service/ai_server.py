@@ -3,6 +3,7 @@ from flask_cors import CORS
 import pickle
 import numpy as np
 import pandas as pd
+import os
 from datetime import datetime
 
 app = Flask(__name__)
@@ -327,7 +328,9 @@ if __name__ == '__main__':
     print("  POST /personalized-plan - Get personalized study plan")
     print("  GET  /gamification-status - Get points, badges, level")
     print("  POST /daily-recommendations - Get daily suggestions")
-    print("\nRunning on: http://localhost:5000")
     print("=" * 60 + "\n")
-    
-    app.run(host='0.0.0.0', port=5001, debug=True)
+
+
+PORT = int(os.environ.get("AI_PORT", "5001"))
+print(f"\nRunning on: http://localhost:{PORT}")
+app.run(host="0.0.0.0", port=PORT, debug=True)
