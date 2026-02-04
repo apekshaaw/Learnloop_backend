@@ -1,11 +1,8 @@
-// services/aiCoachService.js
 const User = require("../models/User");
 const QuizAttempt = require("../models/QuizAttempt");
-const { generateJSON } = require("./geminiService"); // ✅ Gemini 1.5 Flash
+const { generateJSON } = require("./geminiService"); 
 
-// ------------------------------
-// helpers
-// ------------------------------
+
 const startOfDay = (d) => {
   const x = new Date(d);
   x.setHours(0, 0, 0, 0);
@@ -147,9 +144,7 @@ const makeDay = (day, title, focus, quiz) => ({
   quiz,
 });
 
-// ------------------------------
-// compute progress stats from QuizAttempt
-// ------------------------------
+
 const getProgressStats = async (userId) => {
   const attempts = await QuizAttempt.find({ user: userId })
     .sort({ createdAt: -1 })
@@ -200,9 +195,7 @@ const getProgressStats = async (userId) => {
   };
 };
 
-// ------------------------------
-// build 7-day plan (fallback / structure baseline)
-// ------------------------------
+
 const buildSevenDayPlan = ({ level, faculty, scienceStream, weakestSubject }) => {
   const defaultByFaculty = () => {
     if (faculty === "Science") {
@@ -228,9 +221,7 @@ const buildSevenDayPlan = ({ level, faculty, scienceStream, weakestSubject }) =>
   ];
 };
 
-// ------------------------------
-// build weakness fix mode output
-// ------------------------------
+
 const buildWeaknessFix = ({ weakestSubject, weakestScore, level, streakAtRisk }) => {
   const limit = pickLimit({ weaknessScore: weakestScore || 0, atRiskStreakSave: streakAtRisk });
 
@@ -264,9 +255,7 @@ const buildWeaknessFix = ({ weakestSubject, weakestScore, level, streakAtRisk })
   };
 };
 
-// ------------------------------
-// build motivation/streak coach
-// ------------------------------
+
 const buildMotivation = ({ streak, lastActiveDate }) => {
   const s = streak || 0;
   const now = new Date();
@@ -294,9 +283,7 @@ const buildMotivation = ({ streak, lastActiveDate }) => {
   return { prompt, streakReminder, atRisk };
 };
 
-// ------------------------------
-// recommend quiz
-// ------------------------------
+
 const recommendQuiz = ({ level, progress, streakInfo, message, faculty, scienceStream }) => {
   const subjectHint = extractSubjectHint(message);
 
@@ -328,9 +315,7 @@ const recommendQuiz = ({ level, progress, streakInfo, message, faculty, scienceS
   return { subject, level, limit, reason };
 };
 
-// ------------------------------
-// ✅ Gemini: prompts + validators
-// ------------------------------
+
 const safeString = (v, fallback = "") => (typeof v === "string" ? v : fallback);
 
 const sanitizeSevenDayPlan = ({ planFromAI, fallbackPlan, level }) => {
@@ -396,9 +381,7 @@ User message:
 "${message}"`;
 };
 
-// ------------------------------
-// main service
-// ------------------------------
+
 exports.coach = async ({ userId, message = "", mode = "auto" }) => {
   if (!userId) {
     return {

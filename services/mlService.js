@@ -1,11 +1,8 @@
-// services/mlService.js
 const axios = require("axios");
 
 const AI_BASE = process.env.AI_SERVICE_URL || "http://localhost:5001";
 
-/* ----------------------------------------
-   Core AI caller (UNCHANGED)
------------------------------------------ */
+
 async function callAI(path, payload = null, method = "post") {
   try {
     const url = `${AI_BASE}${path}`;
@@ -28,9 +25,7 @@ async function callAI(path, payload = null, method = "post") {
   }
 }
 
-/* ----------------------------------------
-   Helpers
------------------------------------------ */
+
 function clampNum(n, min, max) {
   const x = Number(n);
   if (!Number.isFinite(x)) return null;
@@ -38,9 +33,7 @@ function clampNum(n, min, max) {
 }
 
 function resolveStudentId(payload) {
-  // supports:
-  // - user object (auth/me)
-  // - dashboard payload (student_id)
+
   return (
     payload?.student_id ||
     payload?.studentId ||
@@ -79,8 +72,7 @@ function extractTopics(lastAttempts) {
 function inferWeakSubjects(lastAttempts) {
   if (!Array.isArray(lastAttempts) || lastAttempts.length === 0) return [];
 
-  // avg by subject, take lowest 1–3 if below thresholds
-  const agg = new Map(); // subject -> {sum,count}
+  const agg = new Map(); 
   for (const a of lastAttempts) {
     const subject = (a?.subject || "").trim();
     const score = Number(a?.scorePercentage);
@@ -104,15 +96,6 @@ function inferWeakSubjects(lastAttempts) {
   return weak;
 }
 
-/**
- * ✅ MAIN FIX:
- * Your frontend sends dashboard-shaped payload (avgScore, lastAttempts, points, streak, etc.)
- * Your Flask models expect these keys:
- * - predict-performance: grade_11_percentage, attendance_rate, study_hours_per_day
- * - check-risk: + motivation_level, exam_anxiety_level
- * - personalized-plan: student_id, grade_11_percentage, weak_subjects, study_hours_per_day, exam_anxiety_level
- * - daily-recommendations: student_id, recent_quiz_scores, topics_covered_this_week
- */
 function normalizeTimeSlot(v, fallback = "Morning") {
   if (!v) return fallback;
   const s = String(v).trim().toLowerCase();
@@ -222,36 +205,24 @@ function mapDashboardPayloadToFlaskInput(body = {}) {
   };
 }
 
-/**
- * If caller already sends Flask-shaped payload, keep it.
- * Otherwise map from dashboard payload.
- */
 function ensureFlaskInput(body) {
   const mapped = mapDashboardPayloadToFlaskInput(body || {});
   if (!body || typeof body !== "object") return mapped;
 
-  // explicit values from caller win
   return { ...mapped, ...body };
 }
 
-/* ----------------------------------------
-   ✅ FIXED endpoint wrappers (auto-map)
------------------------------------------ */
+
 module.exports = {
   health: () => callAI("/health", null, "get"),
 
-  // POST /predict-performance expects: grade_11_percentage, attendance_rate, study_hours_per_day
   predictPerformance: (body) => callAI("/predict-performance", ensureFlaskInput(body)),
 
-  // POST /check-risk expects: + motivation_level, exam_anxiety_level
   checkRisk: (body) => callAI("/check-risk", ensureFlaskInput(body)),
 
-  // POST /personalized-plan expects: student_id + weak_subjects + study fields
   personalizedPlan: (body) => callAI("/personalized-plan", ensureFlaskInput(body)),
 
-  // ✅ Flask route exists: GET /gamification-status?student_id=...
   gamificationStatus: (student_id) => callAI("/gamification-status", { student_id }, "get"),
 
-  // POST /daily-recommendations expects: student_id, recent_quiz_scores, topics_covered_this_week
   dailyRecommendations: (body) => callAI("/daily-recommendations", ensureFlaskInput(body)),
 };

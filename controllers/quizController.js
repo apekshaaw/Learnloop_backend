@@ -1,33 +1,25 @@
-// controllers/quizController.js
 const Question = require("../models/Question");
 const QuizAttempt = require("../models/QuizAttempt");
 const User = require("../models/User");
-const AIQuiz = require("../models/AIQuiz"); // ✅ USE YOUR EXISTING MODEL
+const AIQuiz = require("../models/AIQuiz"); 
 const mongoose = require("mongoose");
-const { generateJSON } = require("../services/geminiService"); // ✅ GEMINI (replaces OpenAI)
+const { generateJSON } = require("../services/geminiService"); 
 
-// Helper: simple points logic
 const calculatePoints = (scorePercentage) => {
   if (scorePercentage >= 80) return 20;
   if (scorePercentage >= 60) return 10;
   return 5;
 };
 
-// ------------------------------
-// CONFIG (tweak anytime)
-// ------------------------------
+
 const ALLOWED_LIMITS = new Set([5, 10, 15]);
 const DEFAULT_LIMIT = 10;
 
-// How many recent attempts to look back to avoid repeats
 const RECENT_ATTEMPTS_LOOKBACK = 10;
 
-// Hard cap: how many recent question IDs we keep in memory to exclude
 const RECENT_QUESTION_ID_CAP = 200;
 
-// ------------------------------
-// Date helpers (no mutation bugs)
-// ------------------------------
+
 const startOfDay = (d) => {
   const x = new Date(d);
   x.setHours(0, 0, 0, 0);
@@ -40,9 +32,7 @@ const daysBetween = (a, b) => {
   return Math.floor((A - B) / (1000 * 60 * 60 * 24));
 };
 
-// ------------------------------
-// Achievements helpers
-// ------------------------------
+
 const unlock = async (user, key) => {
   user.achievements = user.achievements || [];
   const already = user.achievements.some((a) => a.key === key);
@@ -67,9 +57,6 @@ const calcSubjectAvg = async (userId, subject) => {
   return { count, avg };
 };
 
-// ------------------------------
-// Shared gamification apply (used by BOTH seeded + AI)
-// ------------------------------
 const applyGamification = async ({
   userId,
   scorePercentage,
@@ -94,7 +81,6 @@ const applyGamification = async ({
     } else if (diffDays === 1) {
       newStreak = (user.streak || 0) + 1;
     } else if (diffDays === 2) {
-      // missed exactly 1 full day -> allow SAVE if quiz is 5 questions
       if (totalQuestions === 5 && (user.streak || 0) > 0) {
         newStreak = (user.streak || 0) + 1;
 
@@ -113,7 +99,6 @@ const applyGamification = async ({
   user.streak = newStreak;
   user.lastActiveDate = new Date();
 
-  // achievements
   const totalAttempts = await QuizAttempt.countDocuments({ user: userId });
 
   if (totalAttempts === 1) await unlock(user, "FIRST_QUIZ");
@@ -143,9 +128,6 @@ const applyGamification = async ({
   return { user, pointsToAdd };
 };
 
-// =====================================================
-// ✅ SEEDED QUESTION BANK (UNCHANGED)
-// =====================================================
 
 const addQuestion = async (req, res) => {
   try {
@@ -366,7 +348,6 @@ const getProgress = async (req, res) => {
 
     const attempts = await QuizAttempt.find({ user: userId }).sort("-createdAt");
 
-    // ---- Overall (unchanged shape) ----
     const totalQuizzes = attempts.length;
 
     const avgScore =

@@ -1,4 +1,3 @@
-// routes/debugRoutes.js
 const router = require("express").Router();
 const { generateJSON } = require("../services/geminiService");
 

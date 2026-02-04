@@ -1,23 +1,28 @@
-// controllers/authController.js
 const jwt = require("jsonwebtoken");
+const bcrypt = require("bcryptjs");
 const User = require("../models/User");
 
-// Generate JWT
+const SignupOtp = require("../models/SignupOtp");
+
+const { sendEmail } = require("../utils/sendEmail");
+
 const generateToken = (id) => {
   return jwt.sign({ id }, process.env.JWT_SECRET, {
-    expiresIn: process.env.JWT_EXPIRES_IN || "7d",
+    expiresIn: process.env.JWT_EXPIRES_IN || "30d",
   });
 };
+
+const PASSWORD_REGEX = /^(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{6,}$/;
 
 const buildUserResponse = (user) => ({
   _id: user._id,
   name: user.name,
   email: user.email,
 
-  // content filtering
+  emailVerified: user.emailVerified,
+
   level: user.level,
 
-  // gamification
   points: user.points,
   streak: user.streak,
   lastActiveDate: user.lastActiveDate,
@@ -32,16 +37,16 @@ const buildUserResponse = (user) => ({
   academicProfile: user.academicProfile,
   learningPreferences: user.learningPreferences,
 
-  // AI fields (optional)
+  // AI fields 
   faculty: user.faculty,
   preferredLearningTime: user.preferredLearningTime,
   learningStyle: user.learningStyle,
 });
 
+// helper: generate 6-digit OTP
+const generateOtp = () => String(Math.floor(100000 + Math.random() * 900000));
 
-// -------------------- REGISTER --------------------
-// @route   POST /api/auth/register
-// @access  Public
+
 const registerUser = async (req, res) => {
   try {
     const { name, email, password, confirmPassword, level } = req.body;
@@ -50,44 +55,180 @@ const registerUser = async (req, res) => {
       return res.status(400).json({ message: "Please fill all required fields" });
     }
 
-    if (password.length < 6) {
-      return res
-        .status(400)
-        .json({ message: "Password must be at least 6 characters long" });
-    }
+    const normalizedEmail = email.toLowerCase().trim();
 
     if (password !== confirmPassword) {
-      return res
-        .status(400)
-        .json({ message: "Password and confirm password do not match" });
+      return res.status(400).json({ message: "Password and confirm password do not match" });
     }
 
-    const existingUser = await User.findOne({ email: email.toLowerCase().trim() });
+   
+    if (!PASSWORD_REGEX.test(password)) {
+      return res.status(400).json({
+        message:
+          "Password must be 6+ characters and include 1 uppercase letter, 1 number, and 1 special character",
+      });
+    }
+
+    const existingUser = await User.findOne({ email: normalizedEmail });
     if (existingUser) {
       return res.status(400).json({ message: "User already exists" });
     }
 
-    const user = await User.create({
-      name: name.trim(),
-      email: email.toLowerCase().trim(),
-      password,
-      level: typeof level === "string" && level.trim() !== "" ? level.trim() : null,
+    const otp = generateOtp();
+    const otpHash = await bcrypt.hash(otp, 10);
+    const expiresAt = new Date(Date.now() + 10 * 60 * 1000); 
+
+    await SignupOtp.findOneAndUpdate(
+      { email: normalizedEmail },
+      {
+        email: normalizedEmail,
+        otpHash,
+        expiresAt,
+        attempts: 0,
+        lastSentAt: new Date(),
+      },
+      { upsert: true, new: true }
+    );
+
+    await sendEmail({
+      to: normalizedEmail,
+      subject: "Your LearnLoop verification code",
+      text: `Your LearnLoop verification code is: ${otp}\nThis code expires in 10 minutes.`,
+      html: `
+        <div style="font-family: Arial, sans-serif; line-height: 1.6;">
+          <h2 style="margin:0 0 10px;">Verify your email</h2>
+          <p style="margin:0 0 10px;">Your LearnLoop verification code is:</p>
+          <div style="font-size:28px;font-weight:800;letter-spacing:4px;margin:12px 0;">${otp}</div>
+          <p style="margin:0;">This code expires in <b>10 minutes</b>.</p>
+        </div>
+      `,
     });
 
-    return res.status(201).json({
-      message: "User registered successfully",
-      user: buildUserResponse(user),
-      token: generateToken(user._id),
+    return res.status(200).json({
+      message: "OTP sent to your email",
+      email: normalizedEmail,
     });
   } catch (error) {
-    console.error("Register error:", error.message);
+    console.error("Register(Send OTP) error:", error.message);
     return res.status(500).json({ message: "Server error" });
   }
 };
 
-// -------------------- LOGIN --------------------
-// @route   POST /api/auth/login
-// @access  Public
+
+const verifySignupOtp = async (req, res) => {
+  try {
+    const { name, email, password, confirmPassword, level, otp } = req.body;
+
+    if (!name || !email || !password || !confirmPassword || !otp) {
+      return res.status(400).json({ message: "Please fill all required fields" });
+    }
+
+    const normalizedEmail = email.toLowerCase().trim();
+
+    if (password !== confirmPassword) {
+      return res.status(400).json({ message: "Password and confirm password do not match" });
+    }
+
+    if (!PASSWORD_REGEX.test(password)) {
+      return res.status(400).json({
+        message:
+          "Password must be 6+ characters and include 1 uppercase letter, 1 number, and 1 special character",
+      });
+    }
+
+    const existingUser = await User.findOne({ email: normalizedEmail });
+    if (existingUser) {
+      return res.status(400).json({ message: "User already exists" });
+    }
+
+    const otpDoc = await SignupOtp.findOne({ email: normalizedEmail });
+    if (!otpDoc) {
+      return res.status(400).json({ message: "OTP not found. Please request a new code." });
+    }
+
+    if (otpDoc.expiresAt < new Date()) {
+      return res.status(400).json({ message: "OTP expired. Please request a new code." });
+    }
+
+    if (otpDoc.attempts >= 5) {
+      return res.status(429).json({ message: "Too many attempts. Please resend OTP." });
+    }
+
+    const isOtpValid = await bcrypt.compare(String(otp).trim(), otpDoc.otpHash);
+    if (!isOtpValid) {
+      otpDoc.attempts += 1;
+      await otpDoc.save();
+      return res.status(400).json({ message: "Invalid OTP" });
+    }
+
+    const user = await User.create({
+      name: name.trim(),
+      email: normalizedEmail,
+      password,
+      level: typeof level === "string" && level.trim() !== "" ? level.trim() : null,
+      emailVerified: true,
+    });
+
+    await SignupOtp.deleteOne({ email: normalizedEmail });
+
+    return res.status(201).json({
+      message: "Email verified. Account created successfully",
+      user: buildUserResponse(user),
+      token: generateToken(user._id),
+    });
+  } catch (error) {
+    console.error("Verify OTP error:", error.message);
+    return res.status(500).json({ message: "Server error" });
+  }
+};
+
+
+const resendSignupOtp = async (req, res) => {
+  try {
+    const { email } = req.body;
+    if (!email) return res.status(400).json({ message: "Email is required" });
+
+    const normalizedEmail = email.toLowerCase().trim();
+
+    const existing = await SignupOtp.findOne({ email: normalizedEmail });
+    if (existing?.lastSentAt) {
+      const seconds = (Date.now() - new Date(existing.lastSentAt).getTime()) / 1000;
+      if (seconds < 20) {
+        return res.status(429).json({ message: "Please wait a moment before resending." });
+      }
+    }
+
+    const otp = generateOtp();
+    const otpHash = await bcrypt.hash(otp, 10);
+    const expiresAt = new Date(Date.now() + 10 * 60 * 1000);
+
+    await SignupOtp.findOneAndUpdate(
+      { email: normalizedEmail },
+      { email: normalizedEmail, otpHash, expiresAt, attempts: 0, lastSentAt: new Date() },
+      { upsert: true, new: true }
+    );
+
+    await sendEmail({
+      to: normalizedEmail,
+      subject: "Your LearnLoop verification code (Resent)",
+      text: `Your LearnLoop verification code is: ${otp}\nThis code expires in 10 minutes.`,
+      html: `
+        <div style="font-family: Arial, sans-serif; line-height: 1.6;">
+          <h2 style="margin:0 0 10px;">Your new verification code</h2>
+          <div style="font-size:28px;font-weight:800;letter-spacing:4px;margin:12px 0;">${otp}</div>
+          <p style="margin:0;">This code expires in <b>10 minutes</b>.</p>
+        </div>
+      `,
+    });
+
+    return res.status(200).json({ message: "OTP resent to your email" });
+  } catch (error) {
+    console.error("Resend OTP error:", error.message);
+    return res.status(500).json({ message: "Server error" });
+  }
+};
+
+
 const loginUser = async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -114,9 +255,7 @@ const loginUser = async (req, res) => {
   }
 };
 
-// -------------------- GET ME --------------------
-// @route   GET /api/auth/me
-// @access  Private
+
 const getMe = async (req, res) => {
   try {
     const userId = req.user.id || req.user._id;
@@ -130,7 +269,6 @@ const getMe = async (req, res) => {
     return res.status(500).json({ message: "Server error" });
   }
 };
-
 
 const updateProfile = async (req, res) => {
   try {
@@ -146,7 +284,6 @@ const updateProfile = async (req, res) => {
       academicProfile,
       learningPreferences,
 
-      // optional AI-alignment fields
       faculty,
       preferredLearningTime,
       learningStyle,
@@ -155,10 +292,8 @@ const updateProfile = async (req, res) => {
     const user = await User.findById(userId);
     if (!user) return res.status(404).json({ message: "User not found" });
 
-    // Name
     if (typeof name === "string" && name.trim() !== "") user.name = name.trim();
 
-    // Email uniqueness
     if (typeof email === "string" && email.trim() !== "") {
       const normalizedEmail = email.toLowerCase().trim();
       if (normalizedEmail !== user.email) {
@@ -170,15 +305,12 @@ const updateProfile = async (req, res) => {
       }
     }
 
-    // Profile image (allow clear)
     if (profileImage !== undefined) user.profileImage = profileImage;
 
-    // Onboarding completed
     if (typeof onboardingCompleted === "boolean") {
       user.onboardingCompleted = onboardingCompleted;
     }
 
-    // Academic Profile
     if (academicProfile && typeof academicProfile === "object") {
       if (academicProfile.grade) user.academicProfile.grade = academicProfile.grade;
       if (academicProfile.faculty) user.academicProfile.faculty = academicProfile.faculty;
@@ -187,12 +319,10 @@ const updateProfile = async (req, res) => {
         user.academicProfile.schoolName = academicProfile.schoolName;
       }
 
-      // Keep top-level fields aligned for quiz filtering + AI dashboard
       if (academicProfile.grade) user.level = `Class ${academicProfile.grade}`;
       if (academicProfile.faculty) user.faculty = academicProfile.faculty;
     }
 
-    // Learning Preferences
     if (learningPreferences && typeof learningPreferences === "object") {
       if (learningPreferences.studyPreference)
         user.learningPreferences.studyPreference = learningPreferences.studyPreference;
@@ -203,18 +333,16 @@ const updateProfile = async (req, res) => {
       if (learningPreferences.challenge)
         user.learningPreferences.challenge = learningPreferences.challenge;
 
-      // Align with AI fields (optional)
       if (learningPreferences.studyTime) user.preferredLearningTime = learningPreferences.studyTime;
 
       if (learningPreferences.studyPreference) {
         user.learningStyle =
           learningPreferences.studyPreference === "Practice"
             ? "Kinesthetic"
-            : learningPreferences.studyPreference; // Visual / Reading/Writing
+            : learningPreferences.studyPreference;
       }
     }
 
-    // Allow direct overrides too (optional)
     if (typeof level === "string" && level.trim() !== "") user.level = level.trim();
     if (typeof faculty === "string" && faculty.trim() !== "") user.faculty = faculty.trim();
     if (typeof preferredLearningTime === "string" && preferredLearningTime.trim() !== "")
@@ -234,9 +362,7 @@ const updateProfile = async (req, res) => {
   }
 };
 
-// -------------------- CHANGE PASSWORD --------------------
-// @route   PUT /api/auth/change-password
-// @access  Private
+
 const updatePassword = async (req, res) => {
   try {
     const userId = req.user.id || req.user._id;
@@ -246,15 +372,16 @@ const updatePassword = async (req, res) => {
       return res.status(400).json({ message: "Please fill all password fields" });
     }
 
-    if (newPassword.length < 6) {
-      return res.status(400).json({
-        message: "New password must be at least 6 characters long",
-      });
-    }
-
     if (newPassword !== confirmNewPassword) {
       return res.status(400).json({
         message: "New password and confirm password do not match",
+      });
+    }
+
+    if (!PASSWORD_REGEX.test(newPassword)) {
+      return res.status(400).json({
+        message:
+          "New password must be 6+ characters and include 1 uppercase letter, 1 number, and 1 special character",
       });
     }
 
@@ -276,9 +403,7 @@ const updatePassword = async (req, res) => {
   }
 };
 
-// -------------------- DELETE ACCOUNT (ME) --------------------
-// @route   DELETE /api/auth/me
-// @access  Private
+
 const deleteMe = async (req, res) => {
   try {
     const userId = req.user.id || req.user._id;
@@ -305,10 +430,11 @@ const deleteMe = async (req, res) => {
   }
 };
 
-
 module.exports = {
-  registerUser,
-  loginUser,
+  registerUser,      
+  verifySignupOtp,   
+  resendSignupOtp,  
+  loginUser,         
   getMe,
   updateProfile,
   updatePassword,

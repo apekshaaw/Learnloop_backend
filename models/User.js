@@ -1,12 +1,9 @@
-// models/User.js
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
 
 const userSchema = new mongoose.Schema(
   {
-    // =========================
-    // Core Auth Fields
-    // =========================
+
     name: {
       type: String,
       required: [true, "Name is required"],
@@ -19,18 +16,24 @@ const userSchema = new mongoose.Schema(
       lowercase: true,
       trim: true,
     },
+
+    emailVerified: {
+      type: Boolean,
+      default: false,
+    },
+
     password: {
       type: String,
       required: [true, "Password is required"],
       minlength: 6,
+      match: [
+        /^(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{6,}$/,
+        "Password must be at least 6 characters and include 1 uppercase letter, 1 number, and 1 special character",
+      ],
     },
 
-    // =========================
-    // LearnLoop Gamification (basic)
-    // NOTE: `level` here is Class Level ("Class 11"/"Class 12") used for content filtering.
-    // =========================
     level: {
-      type: String, // e.g. "Class 11", "Class 12"
+      type: String, 
       default: null,
     },
     points: {
@@ -50,30 +53,26 @@ const userSchema = new mongoose.Schema(
       default: null,
     },
 
-    // ============================================
-    // ONBOARDING FIELDS (Claude/Thesis Flow)
-    // ============================================
     onboardingCompleted: {
       type: Boolean,
       default: false,
     },
 
     academicProfile: {
-  grade: { type: String, enum: ["11", "12"], default: null },
-  faculty: {
-    type: String,
-    enum: ["Science", "Management", "Humanities"],
-    default: null,
-  },
-  scienceStream: {
-    type: String,
-    enum: ["Biology", "Computer Science"],
-    default: null,
-  },
-  board: { type: String, enum: ["NEB", "Other"], default: "NEB" },
-  schoolName: { type: String, trim: true, default: "" },
-},
-
+      grade: { type: String, enum: ["11", "12"], default: null },
+      faculty: {
+        type: String,
+        enum: ["Science", "Management", "Humanities"],
+        default: null,
+      },
+      scienceStream: {
+        type: String,
+        enum: ["Biology", "Computer Science"],
+        default: null,
+      },
+      board: { type: String, enum: ["NEB", "Other"], default: "NEB" },
+      schoolName: { type: String, trim: true, default: "" },
+    },
 
     learningPreferences: {
       studyPreference: {
@@ -98,26 +97,20 @@ const userSchema = new mongoose.Schema(
       },
     },
 
-    // ============================================
-    // AI-RELATED FIELDS (kept as-is)
-    // ============================================
     studentId: {
       type: String,
       unique: true,
       default: function () {
-        // Generates IDs like S001, S002, S003...
         return (
           "S" + String(Math.floor(Math.random() * 10000)).padStart(4, "0")
         );
       },
     },
 
-        // =========================
-    // Gamification (Phase 1 polish)
-    // =========================
+
     achievements: [
       {
-        key: { type: String, required: true }, // e.g. "FIRST_QUIZ"
+        key: { type: String, required: true }, 
         unlockedAt: { type: Date, default: Date.now },
       },
     ],
@@ -127,8 +120,6 @@ const userSchema = new mongoose.Schema(
       totalUsed: { type: Number, default: 0 },
     },
 
-
-    // Academic Performance
     grade11Percentage: {
       type: Number,
       min: 0,
@@ -148,7 +139,6 @@ const userSchema = new mongoose.Schema(
       default: 80,
     },
 
-    // Study Behavior
     studyHoursPerDay: {
       type: Number,
       min: 0,
@@ -166,7 +156,6 @@ const userSchema = new mongoose.Schema(
       default: "Visual",
     },
 
-    // Psychological Factors
     motivationLevel: {
       type: String,
       enum: ["Low", "Medium", "High"],
@@ -178,8 +167,7 @@ const userSchema = new mongoose.Schema(
       default: "Medium",
     },
 
-    // Subjects & Proficiency
-    // NOTE: Removed duplicate faculty field - it now lives in academicProfile.faculty
+
     weakSubjects: [
       {
         type: String,
@@ -193,7 +181,6 @@ const userSchema = new mongoose.Schema(
       },
     ],
 
-    // Subject Proficiency Levels
     englishProficiency: {
       type: String,
       enum: ["Low", "Medium", "High"],
@@ -210,7 +197,6 @@ const userSchema = new mongoose.Schema(
       default: "Medium",
     },
 
-    // Support Systems
     peerStudyGroup: {
       type: Boolean,
       default: false,
@@ -220,7 +206,6 @@ const userSchema = new mongoose.Schema(
       default: false,
     },
 
-    // Technology Access
     deviceAccess: {
       type: String,
       enum: [
@@ -238,14 +223,12 @@ const userSchema = new mongoose.Schema(
       default: "Average",
     },
 
-    // Career & Goals
     careerAspiration: {
       type: String,
       trim: true,
       default: "",
     },
 
-    // AI-Generated Predictions
     aiPredictions: {
       predictedGrade12: { type: Number, default: null },
       riskLevel: {
@@ -268,12 +251,10 @@ userSchema.pre("save", async function (next) {
   next();
 });
 
-// Compare passwords
 userSchema.methods.matchPassword = async function (enteredPassword) {
   return bcrypt.compare(enteredPassword, this.password);
 };
 
-// Update AI predictions
 userSchema.methods.updateAIPredictions = function (predictions) {
   this.aiPredictions = {
     ...predictions,
@@ -282,7 +263,6 @@ userSchema.methods.updateAIPredictions = function (predictions) {
   return this.save();
 };
 
-// Gamification level computed from points (do NOT store in `level`)
 userSchema.methods.calculateGameLevel = function () {
   return Math.floor((this.points || 0) / 500) + 1;
 };

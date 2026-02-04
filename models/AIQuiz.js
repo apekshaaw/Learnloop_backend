@@ -1,28 +1,25 @@
-// models/AIQuiz.js
 const mongoose = require("mongoose");
 
 const aiQuizSchema = new mongoose.Schema(
   {
     user: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
 
-    level: { type: String, required: true }, // "Class 11" | "Class 12"
+    level: { type: String, required: true }, 
     subject: { type: String, required: true },
-    limit: { type: Number, required: true }, // 5/10/15
+    limit: { type: Number, required: true }, 
 
-    // store the AI-generated questions with correct answers
     questions: [
       {
-        qid: { type: String, required: true }, // stable id e.g. "Q1"
+        qid: { type: String, required: true }, 
         questionText: { type: String, required: true },
         options: { type: [String], required: true },
         correctOptionIndex: { type: Number, required: true },
         topic: { type: String, default: "" },
-        difficulty: { type: String, default: "Medium" }, // Easy/Medium/Hard
-        explanation: { type: String, default: "" }, // for later “Explain Mistakes”
+        difficulty: { type: String, default: "Medium" },
+        explanation: { type: String, default: "" }, 
       },
     ],
 
-    // status
     isSubmitted: { type: Boolean, default: false },
   },
   { timestamps: true }

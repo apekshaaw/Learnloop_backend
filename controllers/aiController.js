@@ -1,14 +1,10 @@
-// controllers/aiController.js
-const aiService = require("../services/aiService"); // Flask passthrough (optional)
+const aiService = require("../services/aiService"); 
 const aiCoachService = require("../services/aiCoachService");
 
-// ---------- helpers ----------
 function detectIntent(message = "") {
   const m = String(message || "").trim().toLowerCase();
 
-  // Tutor intent examples:
-  // "teach me algebra", "teach me trigonometry", "teach me integration"
-  // "explain algebra", "help me learn algebra"
+
   const tutor =
     m.startsWith("teach me ") ||
     m.startsWith("teach ") ||
@@ -17,8 +13,7 @@ function detectIntent(message = "") {
     m.includes("help me learn") ||
     m.includes("teach me algebra");
 
-  // Plan intent examples:
-  // "7 day plan", "7-day plan", "study plan"
+
   const plan =
     m.includes("7 day") ||
     m.includes("7-day") ||
@@ -43,24 +38,21 @@ exports.aiHealthCheck = async (req, res) => {
   }
 };
 
-// POST /api/ai/coach
 exports.aiCoach = async (req, res) => {
   try {
     const userId = req.user?._id;
     const { message = "", mode = "auto" } = req.body || {};
 
-    // ✅ Decide mode from user message when mode=auto
     const intent = detectIntent(message);
-    const resolvedMode = mode === "auto" ? intent : mode; // tutor | plan | coach | (manual override)
+    const resolvedMode = mode === "auto" ? intent : mode; 
 
     const result = await aiCoachService.coach({
       userId,
       message,
       mode: resolvedMode,
-      intent, // optional extra info (safe to ignore if service doesn't use it)
+      intent, 
     });
 
-    // Ensure frontend gets: res.data.data
     return res.json({
       success: true,
       data: result.data,

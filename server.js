@@ -18,7 +18,13 @@ const app = express();
 // ✅ Debug env check (temporary)
 console.log("GEMINI_API_KEY present?", Boolean(process.env.GEMINI_API_KEY));
 console.log("GEMINI_MODEL =", process.env.GEMINI_MODEL);
-console.log("AI_SERVICE_URL =", process.env.AI_SERVICE_URL); 
+console.log("SMTP_HOST present?", Boolean(process.env.SMTP_HOST));
+console.log("SMTP_PORT =", process.env.SMTP_PORT);
+console.log("SMTP_USER present?", Boolean(process.env.SMTP_USER));
+console.log("SMTP_PASS present?", Boolean(process.env.SMTP_PASS));
+console.log("SMTP_FROM =", process.env.SMTP_FROM);
+
+
 
 // CORS Configuration - Allow frontend to connect
 app.use(

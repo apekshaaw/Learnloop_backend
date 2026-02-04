@@ -10,7 +10,6 @@ print("=" * 60)
 print("LEARNLOOP AI MODEL TRAINING")
 print("=" * 60)
 
-# Load datasets
 print("\n📁 Loading datasets...")
 students = pd.read_csv('../data/raw/students.csv')
 progress = pd.read_csv('../data/raw/progress.csv')
@@ -22,9 +21,6 @@ print(f"✓ Loaded {len(progress)} progress records")
 print(f"✓ Loaded {len(sessions)} learning sessions")
 print(f"✓ Loaded {len(gamification)} gamification profiles")
 
-# ============================================
-# MODEL 1: Performance Prediction
-# ============================================
 print("\n🎯 Training Model 1: Performance Prediction...")
 
 # Prepare features
@@ -54,18 +50,15 @@ with open('models/performance_predictor.pkl', 'wb') as f:
     pickle.dump(performance_model, f)
 print("✓ Saved: performance_predictor.pkl")
 
-# ============================================
-# MODEL 2: Risk Detection (At-Risk Students)
-# ============================================
+
 print("\n⚠️  Training Model 2: At-Risk Student Detection...")
 
-# Create risk labels (1 = at risk, 0 = safe)
+
 students['at_risk'] = (
     (students['grade_11_percentage'] < 65) & 
     (students['attendance_rate'] < 80)
 ).astype(int)
 
-# Encode categorical variables
 le_motivation = LabelEncoder()
 le_anxiety = LabelEncoder()
 
@@ -97,24 +90,19 @@ with open('models/anxiety_encoder.pkl', 'wb') as f:
     pickle.dump(le_anxiety, f)
 print("✓ Saved: risk_detector.pkl")
 
-# ============================================
-# MODEL 3: Study Time Recommender
-# ============================================
+
 print("\n⏰ Creating Model 3: Study Time Recommendations...")
 
-# Calculate best study time for each student
 study_recommendations = {}
 
 for student_id in sessions['student_id'].unique():
     student_sessions = sessions[sessions['student_id'] == student_id]
     
-    # Group by time of day
     student_sessions['hour'] = pd.to_datetime(
         student_sessions['session_time'], 
         format='%H:%M'
     ).dt.hour
     
-    # Calculate average scores by time period
     morning = student_sessions[student_sessions['hour'].between(6, 11)]['quiz_score'].mean()
     afternoon = student_sessions[student_sessions['hour'].between(12, 17)]['quiz_score'].mean()
     evening = student_sessions[student_sessions['hour'].between(18, 21)]['quiz_score'].mean()
@@ -127,7 +115,6 @@ for student_id in sessions['student_id'].unique():
         'Night (10+ PM)': night
     }
     
-    # Get best time (ignore NaN)
     times = {k: v for k, v in times.items() if not pd.isna(v)}
     if times:
         best_time = max(times, key=times.get)
@@ -137,31 +124,24 @@ for student_id in sessions['student_id'].unique():
             'average_score': round(best_score, 1)
         }
 
-# Save recommendations
 with open('models/study_time_recommendations.pkl', 'wb') as f:
     pickle.dump(study_recommendations, f)
 print(f"✓ Saved study recommendations for {len(study_recommendations)} students")
 
-# ============================================
-# CREATE LOOKUP DATA FOR QUICK ACCESS
-# ============================================
+
 print("\n📊 Creating lookup tables...")
 
-# Student profiles lookup
 student_lookup = students.to_dict('records')
 with open('models/student_profiles.pkl', 'wb') as f:
     pickle.dump(student_lookup, f)
 
-# Gamification lookup
 gamification_lookup = gamification.set_index('student_id').to_dict('index')
 with open('models/gamification_data.pkl', 'wb') as f:
     pickle.dump(gamification_lookup, f)
 
 print("✓ Saved lookup tables")
 
-# ============================================
-# SUMMARY
-# ============================================
+
 print("\n" + "=" * 60)
 print("✅ AI TRAINING COMPLETE!")
 print("=" * 60)

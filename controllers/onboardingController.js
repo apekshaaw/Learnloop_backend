@@ -1,18 +1,16 @@
 const User = require("../models/User");
 const aiService = require("../services/aiService");
 
-// PUT /api/onboarding/academic
 exports.updateAcademicProfile = async (req, res) => {
   try {
     const userId = req.user._id;
 
-    const { grade, faculty, board, schoolName, scienceStream } = req.body; // ✅ NEW
+    const { grade, faculty, board, schoolName, scienceStream } = req.body; 
 
     if (!grade || !faculty || !board) {
       return res.status(400).json({ message: "grade, faculty, and board are required" });
     }
 
-    // ✅ If Science, scienceStream is required and must be valid
     if (faculty === "Science") {
       if (!scienceStream || !["Biology", "Computer Science"].includes(scienceStream)) {
         return res.status(400).json({
@@ -29,14 +27,11 @@ exports.updateAcademicProfile = async (req, res) => {
       faculty,
       board,
       schoolName: schoolName || "",
-      // ✅ store only for Science, else clear it
       scienceStream: faculty === "Science" ? scienceStream : null,
     };
 
-    // Optional: also map to your existing AI fields for consistency
     user.faculty = faculty;
 
-    // Map grade -> existing `level` string used by quiz filters
     user.level = grade === "11" ? "Class 11" : "Class 12";
 
     await user.save();
@@ -51,7 +46,6 @@ exports.updateAcademicProfile = async (req, res) => {
   }
 };
 
-// PUT /api/onboarding/preferences
 exports.updateLearningPreferences = async (req, res) => {
   try {
     const userId = req.user._id;
@@ -66,10 +60,8 @@ exports.updateLearningPreferences = async (req, res) => {
 
     user.learningPreferences = { studyPreference, studyTime, challenge };
 
-    // Optional mapping to your AI fields
     user.preferredLearningTime = studyTime;
 
-    // Map preference to learningStyle enum you already have
     if (studyPreference === "Practice") user.learningStyle = "Kinesthetic";
     else user.learningStyle = studyPreference;
 
@@ -86,7 +78,6 @@ exports.updateLearningPreferences = async (req, res) => {
   }
 };
 
-// POST /api/onboarding/complete
 exports.completeOnboarding = async (req, res) => {
   try {
     const userId = req.user._id;
@@ -100,7 +91,6 @@ exports.completeOnboarding = async (req, res) => {
       });
     }
 
-    // ✅ Extra safety: if Science, must have scienceStream saved
     if (user.academicProfile?.faculty === "Science" && !user.academicProfile?.scienceStream) {
       return res.status(400).json({
         message: "Please choose Biology or Computer Science before finishing onboarding",
@@ -128,7 +118,6 @@ exports.completeOnboarding = async (req, res) => {
         lastUpdated: new Date(),
       };
     } catch (_) {
-      // ignore AI failures in MVP
     }
 
     await user.save();

@@ -3,7 +3,6 @@ const User = require("../models/User");
 const mlService = require("../services/mlService");
 
 
-// GET /api/dashboard/summary (protected)
 exports.getDashboardSummary = async (req, res) => {
   try {
     const userId = req.user._id;
@@ -11,7 +10,6 @@ exports.getDashboardSummary = async (req, res) => {
     const user = await User.findById(userId);
     if (!user) return res.status(404).json({ message: "User not found" });
 
-    // If not onboarded, frontend should redirect to onboarding
     if (!user.onboardingCompleted) {
       return res.json({
         needsOnboarding: true,
@@ -19,7 +17,6 @@ exports.getDashboardSummary = async (req, res) => {
       });
     }
 
-    // 1) Compute weak areas from attempts (MVP)
     const weakAreasAgg = await QuizAttempt.aggregate([
       { $match: { user: userId } },
       {
@@ -40,29 +37,24 @@ exports.getDashboardSummary = async (req, res) => {
       attempts: w.count,
     }));
 
-    // 2) Recent attempts snapshot for AI (optional)
     const recentAttempts = await QuizAttempt.find({ user: userId })
       .sort("-createdAt")
       .limit(10)
       .select("subject topic scorePercentage createdAt");
 
-    // 3) Try AI recommendations, fallback if AI not available
     let todayRecommendations = [];
     try {
       const aiRec = await mlService.dailyRecommendations({
   student_id: user._id.toString(),
-  // your mlService mapper expects lastAttempts with scorePercentage
   lastAttempts: recentAttempts.map((a) => ({
     subject: a.subject,
     topic: a.topic,
     scorePercentage: a.scorePercentage,
   })),
-  // optional: help mapper infer things
   streak: user.streak || 0,
   points: user.points || 0,
 });
 
-      // Expecting AI to return a list; if not, fallback
       if (Array.isArray(aiRec?.today_recommendations)) {
   todayRecommendations = aiRec.today_recommendations.map((r) => ({
     title: r.action,
@@ -77,7 +69,6 @@ exports.getDashboardSummary = async (req, res) => {
     } catch (_) {}
 
     if (todayRecommendations.length === 0) {
-      // fallback: recommend practicing the weakest topic
       const topWeak = weakAreas[0];
       if (topWeak) {
         todayRecommendations = [
@@ -105,13 +96,13 @@ exports.getDashboardSummary = async (req, res) => {
     }
 
     const gameLevel = user.calculateGameLevel();
-    const progressToNextLevel = ((user.points || 0) % 500) / 5; // percentage (0-100)
+    const progressToNextLevel = ((user.points || 0) % 500) / 5; 
 
     return res.json({
       needsOnboarding: false,
       user: {
         name: user.name,
-        level: user.level, // Class 11/12
+        level: user.level,
         points: user.points || 0,
         streak: user.streak || 0,
         gameLevel,

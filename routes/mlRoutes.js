@@ -1,12 +1,9 @@
 const router = require("express").Router();
 const ctrl = require("../controllers/mlController");
 
-// ✅ correct path (you have /middleware/authMiddleware.js)
 const auth = require("../middleware/authMiddleware");
 
-// ✅ support both export styles:
-// - module.exports = protectFn
-// - module.exports = { protect }
+
 const protect = typeof auth === "function" ? auth : auth.protect;
 
 if (!protect) {
@@ -15,7 +12,6 @@ if (!protect) {
   );
 }
 
-// ✅ protect everything below this line
 router.use(protect);
 
 router.get("/health", ctrl.aiHealth);

@@ -1,9 +1,11 @@
-// routes/authRoutes.js
 const express = require("express");
 const router = express.Router();
 
 const {
-  registerUser,
+  registerUser,    
+  verifySignupOtp,   
+  resendSignupOtp,   
+
   loginUser,
   getMe,
   updateProfile,
@@ -13,15 +15,15 @@ const {
 
 const { protect } = require("../middleware/authMiddleware");
 
-// Public routes
 router.post("/register", registerUser);
+router.post("/verify-otp", verifySignupOtp);
+router.post("/resend-otp", resendSignupOtp);
+
 router.post("/login", loginUser);
 
-// Protected routes
 router.get("/me", protect, getMe);
 router.put("/profile", protect, updateProfile);
 router.put("/change-password", protect, updatePassword);
 router.delete("/me", protect, deleteMe);
-
 
 module.exports = router;
