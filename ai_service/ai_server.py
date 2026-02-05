@@ -333,7 +333,7 @@ def daily_recommendations():
                 recommendations.append({
                     'priority': 'Medium',
                     'action': f'Practice new topic: {next_topic}',
-                    'description': f'Try {next_topic} today — it will expand your coverage'
+                    'description': f'Try {next_topic} today - it will expand your coverage'
                 })
             else:
                 recommendations.append({
